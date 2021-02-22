@@ -1,0 +1,1941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Namelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Namelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 18</value>
+  </data>
+  <data name="Namelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="Namelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Namelabel.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="&gt;&gt;Namelabel.Name" xml:space="preserve">
+    <value>Namelabel</value>
+  </data>
+  <data name="&gt;&gt;Namelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Namelabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Namelabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="NametextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NametextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="NametextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="NametextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NametextBox.Name" xml:space="preserve">
+    <value>NametextBox</value>
+  </data>
+  <data name="&gt;&gt;NametextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NametextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NametextBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ColorcheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColorcheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ColorcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="ColorcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ColorcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="ColorcheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ColorcheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;ColorcheckBox.Name" xml:space="preserve">
+    <value>ColorcheckBox</value>
+  </data>
+  <data name="&gt;&gt;ColorcheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorcheckBox.Parent" xml:space="preserve">
+    <value>ColorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;ColorcheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ColorcomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ColorcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="ColorcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ColorcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="ColorcomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ColorcomboBox.Name" xml:space="preserve">
+    <value>ColorcomboBox</value>
+  </data>
+  <data name="&gt;&gt;ColorcomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorcomboBox.Parent" xml:space="preserve">
+    <value>ColorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;ColorcomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Colorlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Colorlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="Colorlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="Colorlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Colorlabel.Text" xml:space="preserve">
+    <value>颜色等级</value>
+  </data>
+  <data name="&gt;&gt;Colorlabel.Name" xml:space="preserve">
+    <value>Colorlabel</value>
+  </data>
+  <data name="&gt;&gt;Colorlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colorlabel.Parent" xml:space="preserve">
+    <value>ColorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;Colorlabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ColorgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 42</value>
+  </data>
+  <data name="ColorgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ColorgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ColorgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="ColorgroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ColorgroupBox.Text" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="&gt;&gt;ColorgroupBox.Name" xml:space="preserve">
+    <value>ColorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;ColorgroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorgroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ColorgroupBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="FlawcheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FlawcheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FlawcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="FlawcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="FlawcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="FlawcheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="FlawcheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;FlawcheckBox.Name" xml:space="preserve">
+    <value>FlawcheckBox</value>
+  </data>
+  <data name="&gt;&gt;FlawcheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawcheckBox.Parent" xml:space="preserve">
+    <value>FlawgroupBox</value>
+  </data>
+  <data name="&gt;&gt;FlawcheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FlawcomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FlawcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="FlawcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="FlawcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="FlawcomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;FlawcomboBox.Name" xml:space="preserve">
+    <value>FlawcomboBox</value>
+  </data>
+  <data name="&gt;&gt;FlawcomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawcomboBox.Parent" xml:space="preserve">
+    <value>FlawgroupBox</value>
+  </data>
+  <data name="&gt;&gt;FlawcomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Flawlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Flawlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="Flawlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="Flawlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Flawlabel.Text" xml:space="preserve">
+    <value>瑕疵等级</value>
+  </data>
+  <data name="&gt;&gt;Flawlabel.Name" xml:space="preserve">
+    <value>Flawlabel</value>
+  </data>
+  <data name="&gt;&gt;Flawlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Flawlabel.Parent" xml:space="preserve">
+    <value>FlawgroupBox</value>
+  </data>
+  <data name="&gt;&gt;Flawlabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FlawgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 42</value>
+  </data>
+  <data name="FlawgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="FlawgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="FlawgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="FlawgroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="FlawgroupBox.Text" xml:space="preserve">
+    <value>瑕疵</value>
+  </data>
+  <data name="&gt;&gt;FlawgroupBox.Name" xml:space="preserve">
+    <value>FlawgroupBox</value>
+  </data>
+  <data name="&gt;&gt;FlawgroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawgroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FlawgroupBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ShapecheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ShapecheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ShapecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="ShapecheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ShapecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="ShapecheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ShapecheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;ShapecheckBox.Name" xml:space="preserve">
+    <value>ShapecheckBox</value>
+  </data>
+  <data name="&gt;&gt;ShapecheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShapecheckBox.Parent" xml:space="preserve">
+    <value>ShapegroupBox</value>
+  </data>
+  <data name="&gt;&gt;ShapecheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ShapecomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ShapecomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="ShapecomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ShapecomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="ShapecomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ShapecomboBox.Name" xml:space="preserve">
+    <value>ShapecomboBox</value>
+  </data>
+  <data name="&gt;&gt;ShapecomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShapecomboBox.Parent" xml:space="preserve">
+    <value>ShapegroupBox</value>
+  </data>
+  <data name="&gt;&gt;ShapecomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Shapelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Shapelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="Shapelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="Shapelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Shapelabel.Text" xml:space="preserve">
+    <value>形状等级</value>
+  </data>
+  <data name="&gt;&gt;Shapelabel.Name" xml:space="preserve">
+    <value>Shapelabel</value>
+  </data>
+  <data name="&gt;&gt;Shapelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Shapelabel.Parent" xml:space="preserve">
+    <value>ShapegroupBox</value>
+  </data>
+  <data name="&gt;&gt;Shapelabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ShapegroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 42</value>
+  </data>
+  <data name="ShapegroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ShapegroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ShapegroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="ShapegroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ShapegroupBox.Text" xml:space="preserve">
+    <value>形状</value>
+  </data>
+  <data name="&gt;&gt;ShapegroupBox.Name" xml:space="preserve">
+    <value>ShapegroupBox</value>
+  </data>
+  <data name="&gt;&gt;ShapegroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShapegroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShapegroupBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="DensitycheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DensitycheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DensitycheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="DensitycheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="DensitycheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="DensitycheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DensitycheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;DensitycheckBox.Name" xml:space="preserve">
+    <value>DensitycheckBox</value>
+  </data>
+  <data name="&gt;&gt;DensitycheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DensitycheckBox.Parent" xml:space="preserve">
+    <value>DensitygroupBox</value>
+  </data>
+  <data name="&gt;&gt;DensitycheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DensitycomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DensitycomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="DensitycomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="DensitycomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="DensitycomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DensitycomboBox.Name" xml:space="preserve">
+    <value>DensitycomboBox</value>
+  </data>
+  <data name="&gt;&gt;DensitycomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DensitycomboBox.Parent" xml:space="preserve">
+    <value>DensitygroupBox</value>
+  </data>
+  <data name="&gt;&gt;DensitycomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Densitylabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Densitylabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="Densitylabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="Densitylabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Densitylabel.Text" xml:space="preserve">
+    <value>密度等级</value>
+  </data>
+  <data name="&gt;&gt;Densitylabel.Name" xml:space="preserve">
+    <value>Densitylabel</value>
+  </data>
+  <data name="&gt;&gt;Densitylabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Densitylabel.Parent" xml:space="preserve">
+    <value>DensitygroupBox</value>
+  </data>
+  <data name="&gt;&gt;Densitylabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DensitygroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 154</value>
+  </data>
+  <data name="DensitygroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="DensitygroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="DensitygroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="DensitygroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DensitygroupBox.Text" xml:space="preserve">
+    <value>密度</value>
+  </data>
+  <data name="&gt;&gt;DensitygroupBox.Name" xml:space="preserve">
+    <value>DensitygroupBox</value>
+  </data>
+  <data name="&gt;&gt;DensitygroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DensitygroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DensitygroupBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="RigiditycheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RigiditycheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RigiditycheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="RigiditycheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="RigiditycheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="RigiditycheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RigiditycheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;RigiditycheckBox.Name" xml:space="preserve">
+    <value>RigiditycheckBox</value>
+  </data>
+  <data name="&gt;&gt;RigiditycheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RigiditycheckBox.Parent" xml:space="preserve">
+    <value>RigiditygroupBox</value>
+  </data>
+  <data name="&gt;&gt;RigiditycheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RigiditycomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RigiditycomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="RigiditycomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="RigiditycomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="RigiditycomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RigiditycomboBox.Name" xml:space="preserve">
+    <value>RigiditycomboBox</value>
+  </data>
+  <data name="&gt;&gt;RigiditycomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RigiditycomboBox.Parent" xml:space="preserve">
+    <value>RigiditygroupBox</value>
+  </data>
+  <data name="&gt;&gt;RigiditycomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Rigiditylabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Rigiditylabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="Rigiditylabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="Rigiditylabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Rigiditylabel.Text" xml:space="preserve">
+    <value>硬度等级</value>
+  </data>
+  <data name="&gt;&gt;Rigiditylabel.Name" xml:space="preserve">
+    <value>Rigiditylabel</value>
+  </data>
+  <data name="&gt;&gt;Rigiditylabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Rigiditylabel.Parent" xml:space="preserve">
+    <value>RigiditygroupBox</value>
+  </data>
+  <data name="&gt;&gt;Rigiditylabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RigiditygroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 484</value>
+  </data>
+  <data name="RigiditygroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="RigiditygroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="RigiditygroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="RigiditygroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="RigiditygroupBox.Text" xml:space="preserve">
+    <value>硬度</value>
+  </data>
+  <data name="&gt;&gt;RigiditygroupBox.Name" xml:space="preserve">
+    <value>RigiditygroupBox</value>
+  </data>
+  <data name="&gt;&gt;RigiditygroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RigiditygroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RigiditygroupBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="SugarcheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SugarcheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SugarcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="SugarcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SugarcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="SugarcheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SugarcheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;SugarcheckBox.Name" xml:space="preserve">
+    <value>SugarcheckBox</value>
+  </data>
+  <data name="&gt;&gt;SugarcheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SugarcheckBox.Parent" xml:space="preserve">
+    <value>SugargroupBox</value>
+  </data>
+  <data name="&gt;&gt;SugarcheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SugarcomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SugarcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="SugarcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SugarcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="SugarcomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SugarcomboBox.Name" xml:space="preserve">
+    <value>SugarcomboBox</value>
+  </data>
+  <data name="&gt;&gt;SugarcomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SugarcomboBox.Parent" xml:space="preserve">
+    <value>SugargroupBox</value>
+  </data>
+  <data name="&gt;&gt;SugarcomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Sugarlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sugarlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="Sugarlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="Sugarlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Sugarlabel.Text" xml:space="preserve">
+    <value>糖度等级</value>
+  </data>
+  <data name="&gt;&gt;Sugarlabel.Name" xml:space="preserve">
+    <value>Sugarlabel</value>
+  </data>
+  <data name="&gt;&gt;Sugarlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sugarlabel.Parent" xml:space="preserve">
+    <value>SugargroupBox</value>
+  </data>
+  <data name="&gt;&gt;Sugarlabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SugargroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 263</value>
+  </data>
+  <data name="SugargroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SugargroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SugargroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="SugargroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SugargroupBox.Text" xml:space="preserve">
+    <value>糖度</value>
+  </data>
+  <data name="&gt;&gt;SugargroupBox.Name" xml:space="preserve">
+    <value>SugargroupBox</value>
+  </data>
+  <data name="&gt;&gt;SugargroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SugargroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SugargroupBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="OKbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 544</value>
+  </data>
+  <data name="OKbutton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="OKbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 33</value>
+  </data>
+  <data name="OKbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="OKbutton.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.Name" xml:space="preserve">
+    <value>OKbutton</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Cancelbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 544</value>
+  </data>
+  <data name="Cancelbutton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Cancelbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 33</value>
+  </data>
+  <data name="Cancelbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Cancelbutton.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.Name" xml:space="preserve">
+    <value>Cancelbutton</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BruisecheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BruisecheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BruisecheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BruisecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="BruisecheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BruisecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="BruisecheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BruisecheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;BruisecheckBox.Name" xml:space="preserve">
+    <value>BruisecheckBox</value>
+  </data>
+  <data name="&gt;&gt;BruisecheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BruisecheckBox.Parent" xml:space="preserve">
+    <value>BruisegroupBox</value>
+  </data>
+  <data name="&gt;&gt;BruisecheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BruisecomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BruisecomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="BruisecomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BruisecomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="BruisecomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BruisecomboBox.Name" xml:space="preserve">
+    <value>BruisecomboBox</value>
+  </data>
+  <data name="&gt;&gt;BruisecomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BruisecomboBox.Parent" xml:space="preserve">
+    <value>BruisegroupBox</value>
+  </data>
+  <data name="&gt;&gt;BruisecomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>擦伤等级</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>BruisegroupBox</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BruisegroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 154</value>
+  </data>
+  <data name="BruisegroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BruisegroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BruisegroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="BruisegroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BruisegroupBox.Text" xml:space="preserve">
+    <value>擦伤</value>
+  </data>
+  <data name="&gt;&gt;BruisegroupBox.Name" xml:space="preserve">
+    <value>BruisegroupBox</value>
+  </data>
+  <data name="&gt;&gt;BruisegroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BruisegroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BruisegroupBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="RotcheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RotcheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RotcheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RotcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="RotcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="RotcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="RotcheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RotcheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;RotcheckBox.Name" xml:space="preserve">
+    <value>RotcheckBox</value>
+  </data>
+  <data name="&gt;&gt;RotcheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RotcheckBox.Parent" xml:space="preserve">
+    <value>RotgroupBox</value>
+  </data>
+  <data name="&gt;&gt;RotcheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RotcomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RotcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="RotcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="RotcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="RotcomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RotcomboBox.Name" xml:space="preserve">
+    <value>RotcomboBox</value>
+  </data>
+  <data name="&gt;&gt;RotcomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RotcomboBox.Parent" xml:space="preserve">
+    <value>RotgroupBox</value>
+  </data>
+  <data name="&gt;&gt;RotcomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>腐烂等级</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>RotgroupBox</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RotgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 154</value>
+  </data>
+  <data name="RotgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="RotgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="RotgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="RotgroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="RotgroupBox.Text" xml:space="preserve">
+    <value>腐烂</value>
+  </data>
+  <data name="&gt;&gt;RotgroupBox.Name" xml:space="preserve">
+    <value>RotgroupBox</value>
+  </data>
+  <data name="&gt;&gt;RotgroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RotgroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RotgroupBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="AciditycheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AciditycheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AciditycheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AciditycheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="AciditycheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="AciditycheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="AciditycheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AciditycheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;AciditycheckBox.Name" xml:space="preserve">
+    <value>AciditycheckBox</value>
+  </data>
+  <data name="&gt;&gt;AciditycheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AciditycheckBox.Parent" xml:space="preserve">
+    <value>AciditygroupBox</value>
+  </data>
+  <data name="&gt;&gt;AciditycheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AciditycomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AciditycomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="AciditycomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="AciditycomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="AciditycomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AciditycomboBox.Name" xml:space="preserve">
+    <value>AciditycomboBox</value>
+  </data>
+  <data name="&gt;&gt;AciditycomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AciditycomboBox.Parent" xml:space="preserve">
+    <value>AciditygroupBox</value>
+  </data>
+  <data name="&gt;&gt;AciditycomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>酸度等级</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>AciditygroupBox</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AciditygroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 263</value>
+  </data>
+  <data name="AciditygroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="AciditygroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="AciditygroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="AciditygroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="AciditygroupBox.Text" xml:space="preserve">
+    <value>酸度</value>
+  </data>
+  <data name="&gt;&gt;AciditygroupBox.Name" xml:space="preserve">
+    <value>AciditygroupBox</value>
+  </data>
+  <data name="&gt;&gt;AciditygroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AciditygroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AciditygroupBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="HollowcheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HollowcheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HollowcheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HollowcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="HollowcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="HollowcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="HollowcheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="HollowcheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;HollowcheckBox.Name" xml:space="preserve">
+    <value>HollowcheckBox</value>
+  </data>
+  <data name="&gt;&gt;HollowcheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HollowcheckBox.Parent" xml:space="preserve">
+    <value>HollowgroupBox</value>
+  </data>
+  <data name="&gt;&gt;HollowcheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="HollowcomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HollowcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="HollowcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="HollowcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="HollowcomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;HollowcomboBox.Name" xml:space="preserve">
+    <value>HollowcomboBox</value>
+  </data>
+  <data name="&gt;&gt;HollowcomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HollowcomboBox.Parent" xml:space="preserve">
+    <value>HollowgroupBox</value>
+  </data>
+  <data name="&gt;&gt;HollowcomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>硬度等级</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>HollowgroupBox</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="HollowgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 263</value>
+  </data>
+  <data name="HollowgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="HollowgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="HollowgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="HollowgroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="HollowgroupBox.Text" xml:space="preserve">
+    <value>硬度</value>
+  </data>
+  <data name="&gt;&gt;HollowgroupBox.Name" xml:space="preserve">
+    <value>HollowgroupBox</value>
+  </data>
+  <data name="&gt;&gt;HollowgroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HollowgroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HollowgroupBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SkincheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SkincheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SkincheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SkincheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="SkincheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SkincheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="SkincheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SkincheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;SkincheckBox.Name" xml:space="preserve">
+    <value>SkincheckBox</value>
+  </data>
+  <data name="&gt;&gt;SkincheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SkincheckBox.Parent" xml:space="preserve">
+    <value>SkingroupBox</value>
+  </data>
+  <data name="&gt;&gt;SkincheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SkincomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SkincomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="SkincomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SkincomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="SkincomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SkincomboBox.Name" xml:space="preserve">
+    <value>SkincomboBox</value>
+  </data>
+  <data name="&gt;&gt;SkincomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SkincomboBox.Parent" xml:space="preserve">
+    <value>SkingroupBox</value>
+  </data>
+  <data name="&gt;&gt;SkincomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>干物质等级</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>SkingroupBox</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SkingroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 375</value>
+  </data>
+  <data name="SkingroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SkingroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SkingroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="SkingroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="SkingroupBox.Text" xml:space="preserve">
+    <value>干物质</value>
+  </data>
+  <data name="&gt;&gt;SkingroupBox.Name" xml:space="preserve">
+    <value>SkingroupBox</value>
+  </data>
+  <data name="&gt;&gt;SkingroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SkingroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SkingroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BrowncheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BrowncheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BrowncheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BrowncheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="BrowncheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BrowncheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="BrowncheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BrowncheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;BrowncheckBox.Name" xml:space="preserve">
+    <value>BrowncheckBox</value>
+  </data>
+  <data name="&gt;&gt;BrowncheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowncheckBox.Parent" xml:space="preserve">
+    <value>BrowngroupBox</value>
+  </data>
+  <data name="&gt;&gt;BrowncheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BrowncomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BrowncomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="BrowncomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BrowncomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="BrowncomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BrowncomboBox.Name" xml:space="preserve">
+    <value>BrowncomboBox</value>
+  </data>
+  <data name="&gt;&gt;BrowncomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowncomboBox.Parent" xml:space="preserve">
+    <value>BrowngroupBox</value>
+  </data>
+  <data name="&gt;&gt;BrowncomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>褐变等级</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>BrowngroupBox</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BrowngroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 375</value>
+  </data>
+  <data name="BrowngroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BrowngroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="BrowngroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="BrowngroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="BrowngroupBox.Text" xml:space="preserve">
+    <value>褐变</value>
+  </data>
+  <data name="&gt;&gt;BrowngroupBox.Name" xml:space="preserve">
+    <value>BrowngroupBox</value>
+  </data>
+  <data name="&gt;&gt;BrowngroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowngroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BrowngroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TangxincheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TangxincheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TangxincheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TangxincheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="TangxincheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TangxincheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="TangxincheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TangxincheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;TangxincheckBox.Name" xml:space="preserve">
+    <value>TangxincheckBox</value>
+  </data>
+  <data name="&gt;&gt;TangxincheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TangxincheckBox.Parent" xml:space="preserve">
+    <value>TangxingroupBox</value>
+  </data>
+  <data name="&gt;&gt;TangxincheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TangxincomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TangxincomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="TangxincomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TangxincomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="TangxincomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TangxincomboBox.Name" xml:space="preserve">
+    <value>TangxincomboBox</value>
+  </data>
+  <data name="&gt;&gt;TangxincomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TangxincomboBox.Parent" xml:space="preserve">
+    <value>TangxingroupBox</value>
+  </data>
+  <data name="&gt;&gt;TangxincomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>糖心等级</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>TangxingroupBox</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TangxingroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 375</value>
+  </data>
+  <data name="TangxingroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TangxingroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TangxingroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="TangxingroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="TangxingroupBox.Text" xml:space="preserve">
+    <value>糖心</value>
+  </data>
+  <data name="&gt;&gt;TangxingroupBox.Name" xml:space="preserve">
+    <value>TangxingroupBox</value>
+  </data>
+  <data name="&gt;&gt;TangxingroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TangxingroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TangxingroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="WatercheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WatercheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="WatercheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WatercheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="WatercheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="WatercheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="WatercheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="WatercheckBox.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="&gt;&gt;WatercheckBox.Name" xml:space="preserve">
+    <value>WatercheckBox</value>
+  </data>
+  <data name="&gt;&gt;WatercheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WatercheckBox.Parent" xml:space="preserve">
+    <value>WatergroupBox</value>
+  </data>
+  <data name="&gt;&gt;WatercheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="WatercomboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="WatercomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 57</value>
+  </data>
+  <data name="WatercomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="WatercomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="WatercomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;WatercomboBox.Name" xml:space="preserve">
+    <value>WatercomboBox</value>
+  </data>
+  <data name="&gt;&gt;WatercomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WatercomboBox.Parent" xml:space="preserve">
+    <value>WatergroupBox</value>
+  </data>
+  <data name="&gt;&gt;WatercomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>含水率等级</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>WatergroupBox</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WatergroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 484</value>
+  </data>
+  <data name="WatergroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="WatergroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="WatergroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 102</value>
+  </data>
+  <data name="WatergroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="WatergroupBox.Text" xml:space="preserve">
+    <value>含水率</value>
+  </data>
+  <data name="&gt;&gt;WatergroupBox.Name" xml:space="preserve">
+    <value>WatergroupBox</value>
+  </data>
+  <data name="&gt;&gt;WatergroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WatergroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WatergroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>700, 600</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>品质参数选择</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>QualitySetForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

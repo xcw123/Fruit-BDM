@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 43</value>
+  </data>
+  <data name="AlarmThresholdtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 40</value>
+  </data>
+  <data name="AlarmThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="AlarmThresholdlabel.Text" xml:space="preserve">
+    <value>Umbral</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Alarma de Salida</value>
+  </data>
+  <data name="FruitTypeslabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="FruitTypeslabel.Text" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="FruitTypescomboBox.Items" xml:space="preserve">
+    <value>Pera</value>
+  </data>
+  <data name="FruitTypescomboBox.Items1" xml:space="preserve">
+    <value>Dátiles</value>
+  </data>
+  <data name="FruitTypescomboBox.Items2" xml:space="preserve">
+    <value>Melaza</value>
+  </data>
+  <data name="FruitTypescomboBox.Items3" xml:space="preserve">
+    <value>Pomelo</value>
+  </data>
+  <data name="FruitTypescomboBox.Items4" xml:space="preserve">
+    <value>Limón</value>
+  </data>
+  <data name="FruitTypescomboBox.Items5" xml:space="preserve">
+    <value>Manzana</value>
+  </data>
+  <data name="FruitTypescomboBox.Items6" xml:space="preserve">
+    <value>Naranja</value>
+  </data>
+  <data name="FruitTypescomboBox.Items7" xml:space="preserve">
+    <value>Granada</value>
+  </data>
+  <data name="FruitTypescomboBox.Items8" xml:space="preserve">
+    <value>Bambú</value>
+  </data>
+  <data name="FruitTypescomboBox.Items9" xml:space="preserve">
+    <value>Patata</value>
+  </data>
+  <data name="FruitTypescomboBox.Items10" xml:space="preserve">
+    <value>Pimienta</value>
+  </data>
+  <data name="FruitTypescomboBox.Items11" xml:space="preserve">
+    <value>Tomate</value>
+  </data>
+  <data name="FruitTypescomboBox.Items12" xml:space="preserve">
+    <value>Durazno</value>
+  </data>
+  <data name="FruitTypescomboBox.Items13" xml:space="preserve">
+    <value>Cebolla</value>
+  </data>
+  <data name="FruitTypescomboBox.Items14" xml:space="preserve">
+    <value>Kiwi</value>
+  </data>
+  <data name="FruitTypescomboBox.Items15" xml:space="preserve">
+    <value>Fruto seco</value>
+  </data>
+  <data name="FruitTypescomboBox.Items16" xml:space="preserve">
+    <value>Tomate</value>
+  </data>
+  <data name="FruitTypescomboBox.Items17" xml:space="preserve">
+    <value>Fruta elíptica</value>
+  </data>
+  <data name="FruitTypescomboBox.Items18" xml:space="preserve">
+    <value>Fruta redonda</value>
+  </data>
+  <data name="FruitTypescomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 40</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Fruta</value>
+  </data>
+  <data name="AutoWeightbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 496</value>
+  </data>
+  <data name="AutoWeightbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="AutoWeightbutton.Text" xml:space="preserve">
+    <value>Generar automaticamente</value>
+  </data>
+  <data name="Weightlabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 505</value>
+  </data>
+  <data name="Weightlabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="Weightlabel2.Text" xml:space="preserve">
+    <value>Peso objetivo 2</value>
+  </data>
+  <data name="Unitlabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 505</value>
+  </data>
+  <data name="Unitlabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Unitlabel2.Text" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="WeightnumericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 502</value>
+  </data>
+  <data name="Unitlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 505</value>
+  </data>
+  <data name="Unitlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="Unitlabel1.Text" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="Weightlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="Weightlabel1.Text" xml:space="preserve">
+    <value>Peso objetivo 1</value>
+  </data>
+  <data name="WeightnumericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 502</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAABFDYW50aWRhZCBvYmpl
+        dGl2b/////8F+////xRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9y
+        BXN0YXRlAQAAAAkHBwMAAAAK/8D//wAAAAAAAAIAAAkGAAAAAfn////7////CgAAAAAAAAAAGgABAAEF
+        BgAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3Rl
+        bS5EcmF3aW5nLkZvbnRTdHlsZQMAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AwAAAAMAAAAG
+        CAAAAAblrovkvZMAABBBBff///8YU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAQAAAAd2YWx1ZV9fAAgD
+        AAAAAAAAAAX2////G1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAEAAAAHdmFsdWVfXwAIAwAAAAMA
+        AAAL
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAA1QZXNvIHByb21lZGlv
+        /////wX7////FFN5c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3Rh
+        dGUBAAAACQcHAwAAAArA////AAAAAAAAAgAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEAAQUGAAAA
+        E1N5c3RlbS5EcmF3aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRy
+        YXdpbmcuRm9udFN0eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAA
+        BuWui+S9kwAAEEEF9////xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAMAAAAA
+        AAAABfb///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgDAAAAAwAAAAs=
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAABNDb25maWd1cmFjacOz
+        biBwZXNv/////wX7////FFN5c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29s
+        b3IFc3RhdGUBAAAACQcHAwAAAArA/8D/AAAAAAAAAgAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEA
+        AQUGAAAAE1N5c3RlbS5EcmF3aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lz
+        dGVtLkRyYXdpbmcuRm9udFN0eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAA
+        AAYIAAAABuWui+S9kwAAEEEF9////xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18A
+        CAMAAAAAAAAABfb///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgDAAAA
+        AwAAAAs=
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items3" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAABFDYW50aWRhZCBvYmpl
+        dGl2b/////8F+////xRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9y
+        BXN0YXRlAQAAAAkHBwMAAAAK/8D//wAAAAAAAAIAAAkGAAAAAfn////7////CgAAAAAAAAAAGgABAAEF
+        BgAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3Rl
+        bS5EcmF3aW5nLkZvbnRTdHlsZQMAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AwAAAAMAAAAG
+        CAAAAAblrovkvZMAABBBBff///8YU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAQAAAAd2YWx1ZV9fAAgD
+        AAAAAAAAAAX2////G1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAEAAAAHdmFsdWVfXwAIAwAAAAMA
+        AAAL
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items4" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAA1QZXNvIHByb21lZGlv
+        /////wX7////FFN5c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3Rh
+        dGUBAAAACQcHAwAAAArA////AAAAAAAAAgAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEAAQUGAAAA
+        E1N5c3RlbS5EcmF3aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRy
+        YXdpbmcuRm9udFN0eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAA
+        BuWui+S9kwAAEEEF9////xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAMAAAAA
+        AAAABfb///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgDAAAAAwAAAAs=
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items5" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAABNDb25maWd1cmFjacOz
+        biBwZXNv/////wX7////FFN5c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29s
+        b3IFc3RhdGUBAAAACQcHAwAAAArA/8D/AAAAAAAAAgAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEA
+        AQUGAAAAE1N5c3RlbS5EcmF3aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lz
+        dGVtLkRyYXdpbmcuRm9udFN0eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAA
+        AAYIAAAABuWui+S9kwAAEEEF9////xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18A
+        CAMAAAAAAAAABfb///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgDAAAA
+        AwAAAAs=
+</value>
+  </data>
+  <data name="GradeSizelistViewExName.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="GradeSizelistViewExMiniSize.Text" xml:space="preserve">
+    <value>Tamaño Min (mm)</value>
+  </data>
+  <data name="GradeSizelistViewExTargetNumber.Text" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="GradeSizelistViewExTargetWeight.Text" xml:space="preserve">
+    <value>Peso objetivo(gr)</value>
+  </data>
+  <data name="GradeSizelistViewExMinWeight.Text" xml:space="preserve">
+    <value>Peso mínimo(gr)</value>
+  </data>
+  <data name="GradeSizelistViewExMinVolume.Text" xml:space="preserve">
+    <value>Volumen Min(mm3)</value>
+  </data>
+  <data name="GradeSizelistViewExMinArea.Text" xml:space="preserve">
+    <value>Área Min (mm2)</value>
+  </data>
+  <data name="GradeNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 239</value>
+  </data>
+  <data name="GradeNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="GradeNumlabel.Text" xml:space="preserve">
+    <value>Num Categoría</value>
+  </data>
+  <data name="GradeNumcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 235</value>
+  </data>
+  <data name="LabelNametextBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 159</value>
+  </data>
+  <data name="LabelNamelabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="LabelNamelabel4.Text" xml:space="preserve">
+    <value>Etiquetador 4</value>
+  </data>
+  <data name="LabelNametextBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="LabelNamelabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="LabelNamelabel3.Text" xml:space="preserve">
+    <value>Etiquetador 3</value>
+  </data>
+  <data name="LabelNametextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 75</value>
+  </data>
+  <data name="LabelNamelabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="LabelNamelabel2.Text" xml:space="preserve">
+    <value>Etiquetador 2</value>
+  </data>
+  <data name="LabelNametextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="LabelNamelabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="LabelNamelabel1.Text" xml:space="preserve">
+    <value>Etiquetador 1</value>
+  </data>
+  <data name="LabelNamegroupBox.Text" xml:space="preserve">
+    <value>Etiquetador</value>
+  </data>
+  <data name="ExitLabelTyperadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
+  </data>
+  <data name="ExitLabelTyperadioButton.Text" xml:space="preserve">
+    <value>Salida</value>
+  </data>
+  <data name="GradeLabelTyperadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="GradeLabelTyperadioButton.Text" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="NoLabelTyperadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 21</value>
+  </data>
+  <data name="NoLabelTyperadioButton.Text" xml:space="preserve">
+    <value>Sin Etiquetado</value>
+  </data>
+  <data name="LabelTypegroupBox.Text" xml:space="preserve">
+    <value>Método de Etiquetado</value>
+  </data>
+  <data name="NumradioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="NumradioButton.Text" xml:space="preserve">
+    <value>num</value>
+  </data>
+  <data name="GramradioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 21</value>
+  </data>
+  <data name="GramradioButton.Text" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="WeightUnitsgroupBox.Text" xml:space="preserve">
+    <value>Unidad por Caja</value>
+  </data>
+  <data name="VolumeradioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 21</value>
+  </data>
+  <data name="VolumeradioButton.Text" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="ArearadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 21</value>
+  </data>
+  <data name="ArearadioButton.Text" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="DiameterradioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="DiameterradioButton.Text" xml:space="preserve">
+    <value>Diámetro</value>
+  </data>
+  <data name="WeightcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 51</value>
+  </data>
+  <data name="WeightcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="WeightcheckBox.Text" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="SizecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 21</value>
+  </data>
+  <data name="SizecheckBox.Text" xml:space="preserve">
+    <value>Tamaño</value>
+  </data>
+  <data name="SortingStandardgroupBox.Text" xml:space="preserve">
+    <value>Estándar Clasificación</value>
+  </data>
+  <data name="SizeGrade.Text" xml:space="preserve">
+    <value>Ajustes de Tamaño(Peso)</value>
+  </data>
+  <data name="OKbutton.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="Cancelbutton.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ajustes de Tamaño</value>
+  </data>
+</root>

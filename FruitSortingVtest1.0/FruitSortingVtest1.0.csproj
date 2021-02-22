@@ -1,0 +1,982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57675A92-3941-49F7-88CA-E499DCA6A4AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FruitSortingVtest1</RootNamespace>
+    <AssemblyName>FruitSorting_5.0</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;REALEASE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>品质.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6FCC3178CB51F6DEB69019DB698D78F1DD80B348</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>FruitSortingVtest1.0_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GlacialList, Version=1.0.5008.20102, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\GlacialList.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.LCC11">
+      <HintPath>Dll\Interop.LCC11.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Iocomp.Instrumentation.WF40.Common, Version=4.0.4.13215, Culture=neutral, PublicKeyToken=096a9279a87304f1" />
+    <Reference Include="Iocomp.Instrumentation.WF40.Plot, Version=4.0.4.13282, Culture=neutral, PublicKeyToken=096a9279a87304f1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Iocomp.Instrumentation.WF40.Plot.dll</HintPath>
+    </Reference>
+    <Reference Include="ListViewEx, Version=1.0.5976.17502, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\ListViewEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>Dll\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OFFICE, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>Dll\OFFICE.DLL</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine">
+      <HintPath>Lib\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TransParentListBox, Version=1.0.5037.21388, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TransParentListBox.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AciditySetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoSizeFormClass.cs" />
+    <Compile Include="BootFlashBurnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BootFlashBurnForm.Designer.cs">
+      <DependentUpon>BootFlashBurnForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BroadcastServer.cs" />
+    <Compile Include="BrownSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BruiseSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChannelExitDriverPinReset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChannelExitDriverPinReset.Designer.cs">
+      <DependentUpon>ChannelExitDriverPinReset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelExit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChannelRange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CircleShape.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CircleShape.Designer.cs">
+      <DependentUpon>CircleShape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientInfoForm.designer.cs">
+      <DependentUpon>ClientInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientInfoUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientInfoUpdateForm.designer.cs">
+      <DependentUpon>ClientInfoUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColorSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountDownForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountDownForm.Designer.cs">
+      <DependentUpon>CountDownForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CTcpClient.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CustomCheckedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DatabaseSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseSetForm.designer.cs">
+      <DependentUpon>DatabaseSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataDownloadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataDownloadForm.Designer.cs">
+      <DependentUpon>DataDownloadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataValidateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataValidateForm.Designer.cs">
+      <DependentUpon>DataValidateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\BarGraphClass.cs" />
+    <Compile Include="DB\BusinessFacade.cs" />
+    <Compile Include="DB\DataAccess.cs" />
+    <Compile Include="DB\DataBaseOperation.cs" />
+    <Compile Include="DB\DataInterface.cs" />
+    <Compile Include="DB\DrawGraphProtocol.cs" />
+    <Compile Include="DB\FileOperate.cs" />
+    <Compile Include="DB\FruitProcessingInfo.cs" />
+    <Compile Include="DB\FunctionInterface.cs" />
+    <Compile Include="DB\PieGraphClass.cs" />
+    <Compile Include="DB\PrintOperate.cs" />
+    <Compile Include="DB\PrintProtocol.cs" />
+    <Compile Include="DB\SqlLog.cs" />
+    <Compile Include="DensitySetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DESEncrypt.cs" />
+    <Compile Include="DeviceRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeviceRegisterForm.Designer.cs">
+      <DependentUpon>DeviceRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoubleBufferListViewClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ElectromagnetictestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElectromagnetictestForm.Designer.cs">
+      <DependentUpon>ElectromagnetictestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EndProcessingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndProcessingForm.Designer.cs">
+      <DependentUpon>EndProcessingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelReportFunc.cs" />
+    <Compile Include="ExCtrls\comboItem.cs" />
+    <Compile Include="ExitSwitchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExitSwitchForm.Designer.cs">
+      <DependentUpon>ExitSwitchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlawSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlawSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FruitParamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FruitParamForm.Designer.cs">
+      <DependentUpon>FruitParamForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FruitSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GradeSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GradeSetForm.Designer.cs">
+      <DependentUpon>GradeSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HollowSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HttpHelper.cs" />
+    <Compile Include="InnerQualityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InnerQualityForm.Designer.cs">
+      <DependentUpon>InnerQualityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InnerQualitySetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPMOperationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPMOperationForm.Designer.cs">
+      <DependentUpon>IPMOperationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageContainer.cs" />
+    <Compile Include="LanguageSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LanguageSelectForm.Designer.cs">
+      <DependentUpon>LanguageSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadConfigNewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadConfigNewForm.Designer.cs">
+      <DependentUpon>LoadConfigNewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxForm.Designer.cs">
+      <DependentUpon>MessageBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxManager.cs" />
+    <Compile Include="MyWebClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProcessInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessInfoForm.designer.cs">
+      <DependentUpon>ProcessInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressBoxForm.Designer.cs">
+      <DependentUpon>ProgressBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QualGradeSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QualGradeSetForm.Designer.cs">
+      <DependentUpon>QualGradeSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QualityParamSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QualityParamSetForm.Designer.cs">
+      <DependentUpon>QualityParamSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QualitySetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QualitySetForm.Designer.cs">
+      <DependentUpon>QualitySetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RigiditySetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RotSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveConfigForm.Designer.cs">
+      <DependentUpon>SaveConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeparationEfficiencyChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeparationEfficiencyChartForm.Designer.cs">
+      <DependentUpon>SeparationEfficiencyChartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeparationLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeparationLogForm.Designer.cs">
+      <DependentUpon>SeparationLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShapeSetFormcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShapeSetFormNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkinSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpotDetectTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpotDetectTestForm.Designer.cs">
+      <DependentUpon>SpotDetectTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticsInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticsInfoForm.designer.cs">
+      <DependentUpon>StatisticsInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticsInfoForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticsInfoForm1.designer.cs">
+      <DependentUpon>StatisticsInfoForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticsInfoForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticsInfoForm2.designer.cs">
+      <DependentUpon>StatisticsInfoForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticsInfoForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticsInfoForm3.designer.cs">
+      <DependentUpon>StatisticsInfoForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticsInfoForm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticsInfoForm4.designer.cs">
+      <DependentUpon>StatisticsInfoForm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SugarSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemStruct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commonfunction.cs" />
+    <Compile Include="CTcpServer.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalDataInterface.cs" />
+    <Compile Include="Interface.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectSetForm.Designer.cs">
+      <DependentUpon>ProjectSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TangxinSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestCupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestCupForm.Designer.cs">
+      <DependentUpon>TestCupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValidateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidateForm.Designer.cs">
+      <DependentUpon>ValidateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VolveTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VolveTestForm.Designer.cs">
+      <DependentUpon>VolveTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaterSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaveCaptureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaveCaptureForm.Designer.cs">
+      <DependentUpon>WaveCaptureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WeightSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BootFlashBurnForm.en.resx">
+      <DependentUpon>BootFlashBurnForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BootFlashBurnForm.es.resx">
+      <DependentUpon>BootFlashBurnForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BootFlashBurnForm.resx">
+      <DependentUpon>BootFlashBurnForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChannelExitDriverPinReset.en.resx">
+      <DependentUpon>ChannelExitDriverPinReset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChannelExitDriverPinReset.es.resx">
+      <DependentUpon>ChannelExitDriverPinReset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChannelExitDriverPinReset.resx">
+      <DependentUpon>ChannelExitDriverPinReset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CircleShape.resx">
+      <DependentUpon>CircleShape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientInfoForm.en.resx">
+      <DependentUpon>ClientInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientInfoForm.es.resx">
+      <DependentUpon>ClientInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientInfoForm.resx">
+      <DependentUpon>ClientInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientInfoUpdateForm.en.resx">
+      <DependentUpon>ClientInfoUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientInfoUpdateForm.es.resx">
+      <DependentUpon>ClientInfoUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientInfoUpdateForm.resx">
+      <DependentUpon>ClientInfoUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountDownForm.resx">
+      <DependentUpon>CountDownForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseSetForm.en.resx">
+      <DependentUpon>DatabaseSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseSetForm.es.resx">
+      <DependentUpon>DatabaseSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabaseSetForm.resx">
+      <DependentUpon>DatabaseSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataDownloadForm.en.resx">
+      <DependentUpon>DataDownloadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataDownloadForm.resx">
+      <DependentUpon>DataDownloadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataValidateForm.en.resx">
+      <DependentUpon>DataValidateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataValidateForm.resx">
+      <DependentUpon>DataValidateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeviceRegisterForm.en.resx">
+      <DependentUpon>DeviceRegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeviceRegisterForm.resx">
+      <DependentUpon>DeviceRegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectromagnetictestForm.en.resx">
+      <DependentUpon>ElectromagnetictestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectromagnetictestForm.es.resx">
+      <DependentUpon>ElectromagnetictestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElectromagnetictestForm.resx">
+      <DependentUpon>ElectromagnetictestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndProcessingForm.en.resx">
+      <DependentUpon>EndProcessingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndProcessingForm.es.resx">
+      <DependentUpon>EndProcessingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndProcessingForm.resx">
+      <DependentUpon>EndProcessingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExitSwitchForm.en.resx">
+      <DependentUpon>ExitSwitchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExitSwitchForm.es.resx">
+      <DependentUpon>ExitSwitchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExitSwitchForm.resx">
+      <DependentUpon>ExitSwitchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExitSwitchForm.ro-RO.resx">
+      <DependentUpon>ExitSwitchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FruitParamForm.en.resx">
+      <DependentUpon>FruitParamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FruitParamForm.es.resx">
+      <DependentUpon>FruitParamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FruitParamForm.resx">
+      <DependentUpon>FruitParamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradeSetForm.en.resx">
+      <DependentUpon>GradeSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradeSetForm.es.resx">
+      <DependentUpon>GradeSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradeSetForm.resx">
+      <DependentUpon>GradeSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InnerQualityForm.en.resx">
+      <DependentUpon>InnerQualityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InnerQualityForm.resx">
+      <DependentUpon>InnerQualityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPMOperationForm.en.resx">
+      <DependentUpon>IPMOperationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPMOperationForm.es.resx">
+      <DependentUpon>IPMOperationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPMOperationForm.resx">
+      <DependentUpon>IPMOperationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageSelectForm.en.resx">
+      <DependentUpon>LanguageSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageSelectForm.es.resx">
+      <DependentUpon>LanguageSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageSelectForm.resx">
+      <DependentUpon>LanguageSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadConfigNewForm.en.resx">
+      <DependentUpon>LoadConfigNewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadConfigNewForm.es.resx">
+      <DependentUpon>LoadConfigNewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadConfigNewForm.resx">
+      <DependentUpon>LoadConfigNewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.en.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.es.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxForm.resx">
+      <DependentUpon>MessageBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessInfoForm.en.resx">
+      <DependentUpon>ProcessInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessInfoForm.es.resx">
+      <DependentUpon>ProcessInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessInfoForm.resx">
+      <DependentUpon>ProcessInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBoxForm.resx">
+      <DependentUpon>ProgressBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectSetForm.en.resx">
+      <DependentUpon>ProjectSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectSetForm.es.resx">
+      <DependentUpon>ProjectSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectSetForm.resx">
+      <DependentUpon>ProjectSetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QualGradeSetForm.en.resx">
+      <DependentUpon>QualGradeSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QualGradeSetForm.es.resx">
+      <DependentUpon>QualGradeSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QualGradeSetForm.resx">
+      <DependentUpon>QualGradeSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QualityParamSetForm.en.resx">
+      <DependentUpon>QualityParamSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QualityParamSetForm.es.resx">
+      <DependentUpon>QualityParamSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QualityParamSetForm.resx">
+      <DependentUpon>QualityParamSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QualitySetForm.en.resx">
+      <DependentUpon>QualitySetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QualitySetForm.es.resx">
+      <DependentUpon>QualitySetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QualitySetForm.resx">
+      <DependentUpon>QualitySetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveConfigForm.en.resx">
+      <DependentUpon>SaveConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveConfigForm.es.resx">
+      <DependentUpon>SaveConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveConfigForm.resx">
+      <DependentUpon>SaveConfigForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeparationEfficiencyChartForm.en.resx">
+      <DependentUpon>SeparationEfficiencyChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeparationEfficiencyChartForm.es.resx">
+      <DependentUpon>SeparationEfficiencyChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeparationEfficiencyChartForm.resx">
+      <DependentUpon>SeparationEfficiencyChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeparationLogForm.en.resx">
+      <DependentUpon>SeparationLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeparationLogForm.es.resx">
+      <DependentUpon>SeparationLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeparationLogForm.resx">
+      <DependentUpon>SeparationLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.en.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.es.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpotDetectTestForm.en.resx">
+      <DependentUpon>SpotDetectTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpotDetectTestForm.es.resx">
+      <DependentUpon>SpotDetectTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpotDetectTestForm.resx">
+      <DependentUpon>SpotDetectTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm.en.resx">
+      <DependentUpon>StatisticsInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm.es.resx">
+      <DependentUpon>StatisticsInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm.resx">
+      <DependentUpon>StatisticsInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm1.en.resx">
+      <DependentUpon>StatisticsInfoForm1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm1.es.resx">
+      <DependentUpon>StatisticsInfoForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm1.resx">
+      <DependentUpon>StatisticsInfoForm1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm2.en.resx">
+      <DependentUpon>StatisticsInfoForm2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm2.es.resx">
+      <DependentUpon>StatisticsInfoForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm2.resx">
+      <DependentUpon>StatisticsInfoForm2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm3.en.resx">
+      <DependentUpon>StatisticsInfoForm3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm3.es.resx">
+      <DependentUpon>StatisticsInfoForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm3.resx">
+      <DependentUpon>StatisticsInfoForm3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm4.en.resx">
+      <DependentUpon>StatisticsInfoForm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm4.es.resx">
+      <DependentUpon>StatisticsInfoForm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsInfoForm4.resx">
+      <DependentUpon>StatisticsInfoForm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestCupForm.en.resx">
+      <DependentUpon>TestCupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestCupForm.es.resx">
+      <DependentUpon>TestCupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestCupForm.resx">
+      <DependentUpon>TestCupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidateForm.en.resx">
+      <DependentUpon>ValidateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidateForm.es.resx">
+      <DependentUpon>ValidateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidateForm.resx">
+      <DependentUpon>ValidateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolveTestForm.en.resx">
+      <DependentUpon>VolveTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolveTestForm.es.resx">
+      <DependentUpon>VolveTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolveTestForm.resx">
+      <DependentUpon>VolveTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaveCaptureForm.en.resx">
+      <DependentUpon>WaveCaptureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaveCaptureForm.es.resx">
+      <DependentUpon>WaveCaptureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaveCaptureForm.resx">
+      <DependentUpon>WaveCaptureForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="FruitSortingVtest1.0_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\品质.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\等级.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\水果.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\保存.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\加工.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\统计.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\结束加工.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\打印.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\帮助.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\载入.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bmp\绿萌3.bmp" />
+    <None Include="bmp\DiameterLineShow1.png" />
+    <None Include="bmp\启动界面.png" />
+    <None Include="bmp\DiameterLineShow2.png" />
+    <None Include="bin\Release\Logo\MyLogo.png" />
+    <None Include="bmp\fileexport.png" />
+    <None Include="bmp\delete.jpg" />
+    <None Include="bin\Release\Logo\MyLogo40201.png" />
+    <None Include="bin\Release\Logo\MyLogo30201.png" />
+    <Content Include="bmp\程序进入.png" />
+    <Content Include="bmp\绿萌.png" />
+    <Content Include="bmp\绿萌1.png" />
+    <Content Include="bmp\绿萌2.png" />
+    <Content Include="bmp\绿萌3.png" />
+    <None Include="Icon\分选.ico" />
+    <None Include="Icon\分选日志.ico" />
+    <None Include="Icon\Reemoon.png" />
+    <Content Include="Logo\MyLogo.bmp" />
+    <Content Include="Logo\MyLogo.png" />
+    <None Include="Resources\Image1.bmp" />
+    <Content Include="品质.ico" />
+    <EmbeddedResource Include="bmp\H.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bmp\Y.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="bmp\绿萌2.bmp" />
+    <None Include="bmp\程序进入.bmp" />
+    <None Include="bmp\DiameterLineShow.png" />
+    <Content Include="Icon\OrangeIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

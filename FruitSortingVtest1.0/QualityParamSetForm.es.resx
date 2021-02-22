@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="nTagInfoHtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1018, 875</value>
+  </data>
+  <data name="nTagInfoYtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>771, 875</value>
+  </data>
+  <data name="nTagInfoHlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>851, 878</value>
+  </data>
+  <data name="nTagInfoHlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 17</value>
+  </data>
+  <data name="nTagInfoHlabel.Text" xml:space="preserve">
+    <value>Etiqueta H rango de valor:</value>
+  </data>
+  <data name="nTagInfoYlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 878</value>
+  </data>
+  <data name="nTagInfoYlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="nTagInfoYlabel.Text" xml:space="preserve">
+    <value>Etiqueta Y rango de valor:</value>
+  </data>
+  <data name="TagDemarcatecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 878</value>
+  </data>
+  <data name="SaveSrcImagebutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 7.5pt</value>
+  </data>
+  <data name="SaveSrcImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 866</value>
+  </data>
+  <data name="SaveSrcImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 33</value>
+  </data>
+  <data name="SaveSrcImagebutton.Text" xml:space="preserve">
+    <value>Guardar Imagen Original</value>
+  </data>
+  <data name="TagDemarcatelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1506, 878</value>
+  </data>
+  <data name="TagDemarcatelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 17</value>
+  </data>
+  <data name="TagDemarcatelabel.Text" xml:space="preserve">
+    <value>Valor color promedio de etiqueta:</value>
+  </data>
+  <data name="TagDemarcatebutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 7.5pt</value>
+  </data>
+  <data name="TagDemarcatebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 866</value>
+  </data>
+  <data name="TagDemarcatebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="TagDemarcatebutton.Text" xml:space="preserve">
+    <value>Demarcado Etiqueta</value>
+  </data>
+  <data name="ColorResultlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1098, 878</value>
+  </data>
+  <data name="ColorResultlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="ColorResultlabel.Text" xml:space="preserve">
+    <value>Resultado Color:</value>
+  </data>
+  <data name="ColorAvgThresholdlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1373, 878</value>
+  </data>
+  <data name="ColorAvgThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 17</value>
+  </data>
+  <data name="ColorAvgThresholdlabel.Text" xml:space="preserve">
+    <value>Valor umbral medio:</value>
+  </data>
+  <data name="ColorIntervallabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1285, 878</value>
+  </data>
+  <data name="ColorIntervallabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="ColorIntervallabel.Text" xml:space="preserve">
+    <value>Rango color:</value>
+  </data>
+  <data name="NewColorlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="NewColorlabel.Text" xml:space="preserve">
+    <value>Nuevo color</value>
+  </data>
+  <data name="ColorNametextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="ColorNumnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 34</value>
+  </data>
+  <data name="ColorNumnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="ColorlistViewExName.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ColorlistViewExName.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="ColorlistViewExAverage.Text" xml:space="preserve">
+    <value>Promedio</value>
+  </data>
+  <data name="ColorlistViewExAverage.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="ColorlistViewEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>499, 178</value>
+  </data>
+  <data name="ColorPercentlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1208, 878</value>
+  </data>
+  <data name="ColorPercentlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="ColorPercentlabel.Text" xml:space="preserve">
+    <value>Porcentaje:</value>
+  </data>
+  <data name="SaveImagebutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 7.5pt</value>
+  </data>
+  <data name="SaveImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 866</value>
+  </data>
+  <data name="SaveImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 33</value>
+  </data>
+  <data name="SaveImagebutton.Text" xml:space="preserve">
+    <value>Guardar Imagen</value>
+  </data>
+  <data name="ColorAreaTestbutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 7.5pt</value>
+  </data>
+  <data name="ColorAreaTestbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 866</value>
+  </data>
+  <data name="ColorAreaTestbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="ColorAreaTestbutton.Text" xml:space="preserve">
+    <value>Intervalo de Color</value>
+  </data>
+  <data name="GetImagebutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 7.5pt</value>
+  </data>
+  <data name="GetImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 866</value>
+  </data>
+  <data name="GetImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="GetImagebutton.Text" xml:space="preserve">
+    <value>Obtener Imagen</value>
+  </data>
+  <data name="MinGraynumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>641, 158</value>
+  </data>
+  <data name="MinGraylabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 164</value>
+  </data>
+  <data name="MinGraylabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="MinGraylabel.Text" xml:space="preserve">
+    <value>Contraste brillo</value>
+  </data>
+  <data name="ImageTypecomboBox.Items" xml:space="preserve">
+    <value>Mapa UV</value>
+  </data>
+  <data name="ImageTypecomboBox.Items1" xml:space="preserve">
+    <value>Mapa Hue</value>
+  </data>
+  <data name="ImageTypecomboBox.Items2" xml:space="preserve">
+    <value>Mapa Escala de Grises</value>
+  </data>
+  <data name="AverageradioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="AverageradioButton.Text" xml:space="preserve">
+    <value>Promedio</value>
+  </data>
+  <data name="PercentageradioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 21</value>
+  </data>
+  <data name="PercentageradioButton.Text" xml:space="preserve">
+    <value>Porcentaje</value>
+  </data>
+  <data name="ColorSettabPage.Text" xml:space="preserve">
+    <value>Ajustes de Color</value>
+  </data>
+  <data name="columnHeader28.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="columnHeader29.Text" xml:space="preserve">
+    <value>Diámetro Max/Min</value>
+  </data>
+  <data name="Shapelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="Shapelabel.Text" xml:space="preserve">
+    <value>Forma</value>
+  </data>
+  <data name="ShapecomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 15</value>
+  </data>
+  <data name="Islabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="Islabel.Text" xml:space="preserve">
+    <value>Para</value>
+  </data>
+  <data name="ShapeParamgroupBox.Text" xml:space="preserve">
+    <value>Parámetro Forma</value>
+  </data>
+  <data name="ShapeSettabPage.Text" xml:space="preserve">
+    <value>Ajustes Forma</value>
+  </data>
+  <data name="FlawSaveSrcImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 814</value>
+  </data>
+  <data name="FlawSaveSrcImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 33</value>
+  </data>
+  <data name="FlawSaveSrcImagebutton.Text" xml:space="preserve">
+    <value>Guardar Imagen Original</value>
+  </data>
+  <data name="FlawNumtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 819</value>
+  </data>
+  <data name="FlawNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>665, 822</value>
+  </data>
+  <data name="FlawNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="FlawNumlabel.Text" xml:space="preserve">
+    <value>Cantidad defecto</value>
+  </data>
+  <data name="FlawArealabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 822</value>
+  </data>
+  <data name="FlawArealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 17</value>
+  </data>
+  <data name="FlawArealabel1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="FlawAreatextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>554, 819</value>
+  </data>
+  <data name="FlawArealabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 822</value>
+  </data>
+  <data name="FlawArealabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="FlawArealabel.Text" xml:space="preserve">
+    <value>Ärea defecto</value>
+  </data>
+  <data name="FlawSaveImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 814</value>
+  </data>
+  <data name="FlawSaveImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="FlawSaveImagebutton.Text" xml:space="preserve">
+    <value> Guardar imagen</value>
+  </data>
+  <data name="FlawGetImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 33</value>
+  </data>
+  <data name="FlawGetImagebutton.Text" xml:space="preserve">
+    <value>Obtener Imagen</value>
+  </data>
+  <data name="columnHeader9.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="columnHeader10.Text" xml:space="preserve">
+    <value>Área Defecto (%)</value>
+  </data>
+  <data name="columnHeader11.Text" xml:space="preserve">
+    <value>Número Defecto</value>
+  </data>
+  <data name="Flawlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="Flawlabel.Text" xml:space="preserve">
+    <value>Defecto</value>
+  </data>
+  <data name="FlawcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="FlawSettabPage.Text" xml:space="preserve">
+    <value>Ajustes Defectos</value>
+  </data>
+  <data name="BruiseNumtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 818</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 821</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Cantidad contusión</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 821</value>
+  </data>
+  <data name="BruiseAreatextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 818</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 821</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Ärea contusión</value>
+  </data>
+  <data name="BruiseSaveImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 813</value>
+  </data>
+  <data name="BruiseSaveImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="BruiseSaveImagebutton.Text" xml:space="preserve">
+    <value>Guardar imagen</value>
+  </data>
+  <data name="BruiseGetImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 33</value>
+  </data>
+  <data name="BruiseGetImagebutton.Text" xml:space="preserve">
+    <value>Adquisición imagen</value>
+  </data>
+  <data name="columnHeader22.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader23.Text" xml:space="preserve">
+    <value>Ärea contusión（%）</value>
+  </data>
+  <data name="columnHeader24.Text" xml:space="preserve">
+    <value>Cantidad contusión</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Contusión</value>
+  </data>
+  <data name="BruisecomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="BruiseSettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Contusión</value>
+  </data>
+  <data name="RotNumtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>593, 818</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 821</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 17</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Cantidad podrido</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 821</value>
+  </data>
+  <data name="RotAreatextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 818</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 821</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Ärea podrido</value>
+  </data>
+  <data name="RotSaveImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 813</value>
+  </data>
+  <data name="RotSaveImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="RotSaveImagebutton.Text" xml:space="preserve">
+    <value>Guardar imagen</value>
+  </data>
+  <data name="RotGetImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 813</value>
+  </data>
+  <data name="RotGetImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 33</value>
+  </data>
+  <data name="RotGetImagebutton.Text" xml:space="preserve">
+    <value>Adquisición imagen</value>
+  </data>
+  <data name="columnHeader25.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader26.Text" xml:space="preserve">
+    <value>Ärea podrido（%）</value>
+  </data>
+  <data name="columnHeader27.Text" xml:space="preserve">
+    <value>Cantidad podrido</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Podrido</value>
+  </data>
+  <data name="RotcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 16</value>
+  </data>
+  <data name="RotSettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Podrido</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>Densidad</value>
+  </data>
+  <data name="Densitylabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="Densitylabel.Text" xml:space="preserve">
+    <value>Densidad</value>
+  </data>
+  <data name="DensitycomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="DensitySettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Densidad</value>
+  </data>
+  <data name="columnHeader7.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader8.Text" xml:space="preserve">
+    <value>Grado Brix</value>
+  </data>
+  <data name="Sugarlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="Sugarlabel.Text" xml:space="preserve">
+    <value>Grado Brix</value>
+  </data>
+  <data name="SugarcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="SugarSettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Brix</value>
+  </data>
+  <data name="columnHeader12.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader13.Text" xml:space="preserve">
+    <value>Grado Acidez</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Grado Acidez</value>
+  </data>
+  <data name="AciditycomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 17</value>
+  </data>
+  <data name="AciditySettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Acidez</value>
+  </data>
+  <data name="columnHeader14.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader15.Text" xml:space="preserve">
+    <value>Dureza</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Dureza</value>
+  </data>
+  <data name="HollowcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="HollowSettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Dureza</value>
+  </data>
+  <data name="columnHeader16.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader17.Text" xml:space="preserve">
+    <value>Materia seca</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Materia Seca</value>
+  </data>
+  <data name="SkincomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="SkinSettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Materia Seca</value>
+  </data>
+  <data name="columnHeader18.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader19.Text" xml:space="preserve">
+    <value>Pardeamiento</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Pardeamiento</value>
+  </data>
+  <data name="BrowncomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 17</value>
+  </data>
+  <data name="BrownSettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Pardeamiento</value>
+  </data>
+  <data name="columnHeader20.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader21.Text" xml:space="preserve">
+    <value>Vitrescencia</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Vitrescencia</value>
+  </data>
+  <data name="TangxincomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="TangxinSettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Vitrescencia</value>
+  </data>
+  <data name="columnHeader5.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader6.Text" xml:space="preserve">
+    <value>Dureza</value>
+  </data>
+  <data name="Rigiditylabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="Rigiditylabel.Text" xml:space="preserve">
+    <value>Dureza</value>
+  </data>
+  <data name="RigiditycomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="RigiditySettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Dureza</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Nombre clase</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Contenido humedad</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Contenido humedad</value>
+  </data>
+  <data name="WatercomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 17</value>
+  </data>
+  <data name="WaterSettabPage.Text" xml:space="preserve">
+    <value>Configuración parámetros Contenido humedad</value>
+  </data>
+  <data name="OKbutton.Text" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="Lanelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 17</value>
+  </data>
+  <data name="Lanelabel.Text" xml:space="preserve">
+    <value>Línea</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ajustes Parámetros de Calidad</value>
+  </data>
+</root>

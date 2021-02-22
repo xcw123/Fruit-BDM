@@ -1,0 +1,1974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SystemStructPage.Text" xml:space="preserve">
+    <value>Estructura Sistema</value>
+  </data>
+  <data name="ChannelRangePage.Text" xml:space="preserve">
+    <value>Rango de Linea</value>
+  </data>
+  <data name="ChannelExittabPage.Text" xml:space="preserve">
+    <value>Línea de Salida</value>
+  </data>
+  <data name="WeightSettabPage.Text" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="FlawSettabPage.Text" xml:space="preserve">
+    <value>Configuración defecto</value>
+  </data>
+  <data name="FruitSetPage.Text" xml:space="preserve">
+    <value>InfoFruta</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 16</value>
+  </data>
+  <data name="label61.Text" xml:space="preserve">
+    <value>Retardo de cámara</value>
+  </data>
+  <data name="groupBox26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="groupBox26.Text" xml:space="preserve">
+    <value>Tipo de sistema</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1121, 507</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 16</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Piezas</value>
+  </data>
+  <data name="columnHeader8.Text" xml:space="preserve">
+    <value>Tipo de parámetro</value>
+  </data>
+  <data name="SampleNumbertextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 504</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>942, 507</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Número de Muestra</value>
+  </data>
+  <data name="SampleOutletcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>877, 503</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>773, 507</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 16</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Salida de Muestra</value>
+  </data>
+  <data name="ImgAndUltrasonicnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>534, 316</value>
+  </data>
+  <data name="ImgAndUVnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 316</value>
+  </data>
+  <data name="SystemStructEffectbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1033, 695</value>
+  </data>
+  <data name="SystemStructEffectbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 31</value>
+  </data>
+  <data name="SystemStructEffectbutton.Text" xml:space="preserve">
+    <value>Enviar Data</value>
+  </data>
+  <data name="ShowgroupBox.Text" xml:space="preserve">
+    <value>Opciones de Clasificación</value>
+  </data>
+  <data name="MultiFreqcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 90</value>
+  </data>
+  <data name="MultiFreqcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 36</value>
+  </data>
+  <data name="MultiFreqcheckBox.Text" xml:space="preserve">
+    <value>Frecuencia
+doble</value>
+  </data>
+  <data name="WifiBroadcastcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 49</value>
+  </data>
+  <data name="WifiBroadcastcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="WifiBroadcastcheckBox.Text" xml:space="preserve">
+    <value>Wifi</value>
+  </data>
+  <data name="TangxincheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 298</value>
+  </data>
+  <data name="TangxincheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 20</value>
+  </data>
+  <data name="TangxincheckBox.Text" xml:space="preserve">
+    <value>Vitrescencia</value>
+  </data>
+  <data name="BrowncheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 258</value>
+  </data>
+  <data name="BrowncheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="BrowncheckBox.Text" xml:space="preserve">
+    <value>Pardeamiento</value>
+  </data>
+  <data name="SkincheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 218</value>
+  </data>
+  <data name="SkincheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="SkincheckBox.Text" xml:space="preserve">
+    <value>Piel plana</value>
+  </data>
+  <data name="HollowcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 178</value>
+  </data>
+  <data name="HollowcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="HollowcheckBox.Text" xml:space="preserve">
+    <value>Hueco</value>
+  </data>
+  <data name="AciditycheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 138</value>
+  </data>
+  <data name="AciditycheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="AciditycheckBox.Text" xml:space="preserve">
+    <value>Acidez</value>
+  </data>
+  <data name="WatercheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 138</value>
+  </data>
+  <data name="WatercheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 20</value>
+  </data>
+  <data name="WatercheckBox.Text" xml:space="preserve">
+    <value>Contenido de humedad</value>
+  </data>
+  <data name="RotcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 138</value>
+  </data>
+  <data name="RotcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 20</value>
+  </data>
+  <data name="RotcheckBox.Text" xml:space="preserve">
+    <value>Descomposición</value>
+  </data>
+  <data name="BruisecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 98</value>
+  </data>
+  <data name="BruisecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="BruisecheckBox.Text" xml:space="preserve">
+    <value>Contusión</value>
+  </data>
+  <data name="UltrasoniccheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 49</value>
+  </data>
+  <data name="UltrasoniccheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
+  </data>
+  <data name="UltrasoniccheckBox.Text" xml:space="preserve">
+    <value>Ultrasonido</value>
+  </data>
+  <data name="InternalcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 49</value>
+  </data>
+  <data name="InternalcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="InternalcheckBox.Text" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="UVVisioncheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 49</value>
+  </data>
+  <data name="UVVisioncheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="UVVisioncheckBox.Text" xml:space="preserve">
+    <value>UV</value>
+  </data>
+  <data name="WeighcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 49</value>
+  </data>
+  <data name="WeighcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="WeighcheckBox.Text" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="ProjectedAreacheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 258</value>
+  </data>
+  <data name="ProjectedAreacheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="ProjectedAreacheckBox.Text" xml:space="preserve">
+    <value>área proyectada</value>
+  </data>
+  <data name="SugarcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 98</value>
+  </data>
+  <data name="SugarcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="SugarcheckBox.Text" xml:space="preserve">
+    <value>grados Brix</value>
+  </data>
+  <data name="CIRVisioncheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 49</value>
+  </data>
+  <data name="CIRVisioncheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 21</value>
+  </data>
+  <data name="CIRVisioncheckBox.Text" xml:space="preserve">
+    <value>CIR</value>
+  </data>
+  <data name="HardnesscheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 98</value>
+  </data>
+  <data name="HardnesscheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="HardnesscheckBox.Text" xml:space="preserve">
+    <value>Dureza</value>
+  </data>
+  <data name="VolumecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 218</value>
+  </data>
+  <data name="VolumecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="VolumecheckBox.Text" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="ShapecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 138</value>
+  </data>
+  <data name="ShapecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="ShapecheckBox.Text" xml:space="preserve">
+    <value>Forma</value>
+  </data>
+  <data name="FlawcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 178</value>
+  </data>
+  <data name="FlawcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="FlawcheckBox.Text" xml:space="preserve">
+    <value>Defecto</value>
+  </data>
+  <data name="DensitycheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 98</value>
+  </data>
+  <data name="DensitycheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="DensitycheckBox.Text" xml:space="preserve">
+    <value>Densidad</value>
+  </data>
+  <data name="ColorcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 98</value>
+  </data>
+  <data name="ColorcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="ColorcheckBox.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ExitNumcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 502</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 506</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Ajustes Distribución</value>
+  </data>
+  <data name="ExitNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 16</value>
+  </data>
+  <data name="ExitNumlabel.Text" xml:space="preserve">
+    <value>Número Salida</value>
+  </data>
+  <data name="ResolutiongroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 28</value>
+  </data>
+  <data name="ResolutiongroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 255</value>
+  </data>
+  <data name="ResolutiongroupBox.Text" xml:space="preserve">
+    <value>Ajustes Cámara</value>
+  </data>
+  <data name="PacketSizenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 112</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 115</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Paquete de datos:</value>
+  </data>
+  <data name="CameraTypecomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 48</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 52</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Tipo de Cámara:</value>
+  </data>
+  <data name="Heightlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 181</value>
+  </data>
+  <data name="Heightlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 16</value>
+  </data>
+  <data name="Heightlabel.Text" xml:space="preserve">
+    <value>Alto:</value>
+  </data>
+  <data name="HeightnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 178</value>
+  </data>
+  <data name="Widthlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 181</value>
+  </data>
+  <data name="Widthlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="Widthlabel.Text" xml:space="preserve">
+    <value>Ancho:</value>
+  </data>
+  <data name="WidthnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 178</value>
+  </data>
+  <data name="ImgAndSugarnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 316</value>
+  </data>
+  <data name="ImgAndWeighnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 316</value>
+  </data>
+  <data name="ChannelnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 316</value>
+  </data>
+  <data name="SubSysNocolumnHeader1.Text" xml:space="preserve">
+    <value>ID Subsistema</value>
+  </data>
+  <data name="ChannelNumcolumnHeader.Text" xml:space="preserve">
+    <value>Número de Lineas</value>
+  </data>
+  <data name="ImgAndUVcolumnHeader.Text" xml:space="preserve">
+    <value>D a Sistema UV</value>
+  </data>
+  <data name="ImgAndWeighcolumnHeader.Text" xml:space="preserve">
+    <value>D a Sistema P</value>
+  </data>
+  <data name="ImgAndSugarcolumnHeader.Text" xml:space="preserve">
+    <value>D a Sistema IQ</value>
+  </data>
+  <data name="ImgAndUltrasoniccolumnHeader.Text" xml:space="preserve">
+    <value>D a Sistema UI</value>
+  </data>
+  <data name="IQSEnableFlagscolumnHeader.Text" xml:space="preserve">
+    <value>Calidad Interna</value>
+  </data>
+  <data name="SubSysNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 358</value>
+  </data>
+  <data name="SubSysNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 16</value>
+  </data>
+  <data name="SubSysNumlabel.Text" xml:space="preserve">
+    <value>Cantidad Subsistemas</value>
+  </data>
+  <data name="SubSysNumcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 355</value>
+  </data>
+  <data name="SubSysNumcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 24</value>
+  </data>
+  <data name="ImageOffsetgroupBox.Text" xml:space="preserve">
+    <value>Desviación de imagen</value>
+  </data>
+  <data name="groupBox27.Text" xml:space="preserve">
+    <value>Calibración Multicámara</value>
+  </data>
+  <data name="checkBoxShutterAdjust.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, -2</value>
+  </data>
+  <data name="checkBoxShutterAdjust.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="checkBoxShutterAdjust.Text" xml:space="preserve">
+    <value>Interruptor de calibración</value>
+  </data>
+  <data name="EvenShowcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 11</value>
+  </data>
+  <data name="EvenShowcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="EvenShowcheckBox.Text" xml:space="preserve">
+    <value>FrecuenciaDoble</value>
+  </data>
+  <data name="CameraLocationcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 9</value>
+  </data>
+  <data name="CameraLocationlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 13</value>
+  </data>
+  <data name="CameraLocationlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="CameraLocationlabel.Text" xml:space="preserve">
+    <value>Posición:</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>Diagrama de Diámetro</value>
+  </data>
+  <data name="DiameterLineShowpictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 17</value>
+  </data>
+  <data name="VerticalDialabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 118</value>
+  </data>
+  <data name="VerticalDialabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="VerticalDialabel.Text" xml:space="preserve">
+    <value>Dia Vertical</value>
+  </data>
+  <data name="EquatorialDialabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 99</value>
+  </data>
+  <data name="EquatorialDialabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="EquatorialDialabel.Text" xml:space="preserve">
+    <value>Dia Ecuatorial</value>
+  </data>
+  <data name="MaxDialabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 61</value>
+  </data>
+  <data name="MaxDialabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 16</value>
+  </data>
+  <data name="MaxDialabel.Text" xml:space="preserve">
+    <value>Dia Max</value>
+  </data>
+  <data name="SymmetryDialabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 80</value>
+  </data>
+  <data name="SymmetryDialabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 16</value>
+  </data>
+  <data name="SymmetryDialabel.Text" xml:space="preserve">
+    <value>Dia Simetría</value>
+  </data>
+  <data name="MinDialabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 42</value>
+  </data>
+  <data name="MinDialabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 16</value>
+  </data>
+  <data name="MinDialabel.Text" xml:space="preserve">
+    <value>Dia Min</value>
+  </data>
+  <data name="ChannelRangeEffectbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1054, 687</value>
+  </data>
+  <data name="ChannelRangeEffectbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="ChannelRangeEffectbutton.Text" xml:space="preserve">
+    <value>Enviar Data</value>
+  </data>
+  <data name="ImageCorrectgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>703, 230</value>
+  </data>
+  <data name="ImageCorrectgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 130</value>
+  </data>
+  <data name="ImageCorrectioncheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 20</value>
+  </data>
+  <data name="ImageCorrectioncheckBox.Text" xml:space="preserve">
+    <value>Corrección de Imagen</value>
+  </data>
+  <data name="SaveImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 687</value>
+  </data>
+  <data name="SaveImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 31</value>
+  </data>
+  <data name="SaveImagebutton.Text" xml:space="preserve">
+    <value>Guardar Imagen</value>
+  </data>
+  <data name="groupBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 561</value>
+  </data>
+  <data name="groupBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 120</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Radio Pixel</value>
+  </data>
+  <data name="Computebutton.Text" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="RealLengthlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 16</value>
+  </data>
+  <data name="RealLengthlabel.Text" xml:space="preserve">
+    <value>Distancia (mm)</value>
+  </data>
+  <data name="ChannelRangeCupgroupBox.Text" xml:space="preserve">
+    <value>Área de Imagen</value>
+  </data>
+  <data name="ChannelRangeCupNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="ChannelRangeCupNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="ChannelRangeCupNumlabel.Text" xml:space="preserve">
+    <value>Número de Imagenes</value>
+  </data>
+  <data name="CupSeleclabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 101</value>
+  </data>
+  <data name="CupSeleclabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 32</value>
+  </data>
+  <data name="CupSeleclabel.Text" xml:space="preserve">
+    <value>Selección de 
+operación(área)</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Parámetros Aritméticos</value>
+  </data>
+  <data name="DetectWhiteThnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 90</value>
+  </data>
+  <data name="DetectWhiteThnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="label72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 90</value>
+  </data>
+  <data name="label72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 16</value>
+  </data>
+  <data name="label72.Text" xml:space="preserve">
+    <value>Umbral de separación</value>
+  </data>
+  <data name="NIRDetectionThresholdnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 161</value>
+  </data>
+  <data name="NIRDetectionThresholdnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 22</value>
+  </data>
+  <data name="NIRDetectionThresholdlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 163</value>
+  </data>
+  <data name="NIRDetectionThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 16</value>
+  </data>
+  <data name="NIRDetectionThresholdlabel.Text" xml:space="preserve">
+    <value>Valor límite separación fruto NIR</value>
+  </data>
+  <data name="SeedPointRangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 168</value>
+  </data>
+  <data name="SeedPointRangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 16</value>
+  </data>
+  <data name="SeedPointRangelabel.Text" xml:space="preserve">
+    <value>Intervalo de semilla</value>
+  </data>
+  <data name="OutRangeThresholdlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 163</value>
+  </data>
+  <data name="OutRangeThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 16</value>
+  </data>
+  <data name="OutRangeThresholdlabel.Text" xml:space="preserve">
+    <value>Ïndice ajuste transgresión</value>
+  </data>
+  <data name="SeedPointRangenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 161</value>
+  </data>
+  <data name="OutRangeThresholdnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 163</value>
+  </data>
+  <data name="OutRangeThresholdnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 22</value>
+  </data>
+  <data name="OverlapThresholdnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 127</value>
+  </data>
+  <data name="OverlapThresholdnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="OverlapThresholdlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 130</value>
+  </data>
+  <data name="OverlapThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="OverlapThresholdlabel.Text" xml:space="preserve">
+    <value>Umbral de Contacto</value>
+  </data>
+  <data name="DetectionThresholdnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 47</value>
+  </data>
+  <data name="DetectionThresholdnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="DetectionThresholdlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="DetectionThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="DetectionThresholdlabel.Text" xml:space="preserve">
+    <value>Umbral de Extracción</value>
+  </data>
+  <data name="DefaultThreshlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 163</value>
+  </data>
+  <data name="DefaultThreshlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 16</value>
+  </data>
+  <data name="DefaultThreshlabel.Text" xml:space="preserve">
+    <value>Valores por defecto</value>
+  </data>
+  <data name="DefaultThreshtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 163</value>
+  </data>
+  <data name="groupBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 162</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>Otros Coeficientes de Cámara</value>
+  </data>
+  <data name="GammanumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 49</value>
+  </data>
+  <data name="GammanumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 22</value>
+  </data>
+  <data name="label73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
+  </data>
+  <data name="TriggerDelaynumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 123</value>
+  </data>
+  <data name="TriggerDelaynumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 114</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 51</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Retardo Gatillador µs</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 53</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Obturador</value>
+  </data>
+  <data name="ShutternumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 86</value>
+  </data>
+  <data name="ShutternumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 22</value>
+  </data>
+  <data name="AutoWhiteBalancecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, -5</value>
+  </data>
+  <data name="AutoWhiteBalancecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="AutoWhiteBalancecheckBox.Text" xml:space="preserve">
+    <value>Balance de Blanco 
+Automático</value>
+  </data>
+  <data name="AutoWBGetCoeffbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 31</value>
+  </data>
+  <data name="AutoWBGetCoeffbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 25</value>
+  </data>
+  <data name="AutoWBGetCoeffbutton.Text" xml:space="preserve">
+    <value>Coef Ganancia</value>
+  </data>
+  <data name="AutoWBCoeffBtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 128</value>
+  </data>
+  <data name="AutoWBCoeffGtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 93</value>
+  </data>
+  <data name="AutoWBCoeffRtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 58</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 36</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Ingreso Valores</value>
+  </data>
+  <data name="SemiAutoWhiteBalancecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, -5</value>
+  </data>
+  <data name="SemiAutoWhiteBalancecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="SemiAutoWhiteBalancecheckBox.Text" xml:space="preserve">
+    <value>Balance de Blanco 
+Semiautomático</value>
+  </data>
+  <data name="AutoWBStandardBlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 131</value>
+  </data>
+  <data name="AutoWBStandardBlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="AutoWBStandardBlabel.Text" xml:space="preserve">
+    <value>Valor B</value>
+  </data>
+  <data name="AutoWBStandardBnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 129</value>
+  </data>
+  <data name="AutoWBStandardGnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 94</value>
+  </data>
+  <data name="AutoWBStandardGlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 96</value>
+  </data>
+  <data name="AutoWBStandardGlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="AutoWBStandardGlabel.Text" xml:space="preserve">
+    <value>Valor G</value>
+  </data>
+  <data name="AutoWBStandardRlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 61</value>
+  </data>
+  <data name="AutoWBStandardRlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="AutoWBStandardRlabel.Text" xml:space="preserve">
+    <value>Valor R</value>
+  </data>
+  <data name="AutoWBStandardRnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 59</value>
+  </data>
+  <data name="WhiteBalancegroupBox.Text" xml:space="preserve">
+    <value>Balance de Blanco</value>
+  </data>
+  <data name="WhiteBalanceBlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 134</value>
+  </data>
+  <data name="WhiteBalanceBlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="WhiteBalanceBlabel.Text" xml:space="preserve">
+    <value>Valor B</value>
+  </data>
+  <data name="WhiteBalanceBnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 131</value>
+  </data>
+  <data name="WhiteBalanceGnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 95</value>
+  </data>
+  <data name="WhiteBalanceGlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 98</value>
+  </data>
+  <data name="WhiteBalanceGlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="WhiteBalanceGlabel.Text" xml:space="preserve">
+    <value>Valor G</value>
+  </data>
+  <data name="WhiteBalanceRlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 62</value>
+  </data>
+  <data name="WhiteBalanceRlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="WhiteBalanceRlabel.Text" xml:space="preserve">
+    <value>Valor R</value>
+  </data>
+  <data name="WhiteBalanceRnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 59</value>
+  </data>
+  <data name="ImageInfogroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 523</value>
+  </data>
+  <data name="ImageInfogroupBox.Text" xml:space="preserve">
+    <value>Línea 1</value>
+  </data>
+  <data name="MinDRatiolabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 16</value>
+  </data>
+  <data name="MinDRatiolabel.Text" xml:space="preserve">
+    <value>Elongación Oblato</value>
+  </data>
+  <data name="MinDRatiotextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 184</value>
+  </data>
+  <data name="MinDRatiotextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="DAvglabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 113</value>
+  </data>
+  <data name="DAvglabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 16</value>
+  </data>
+  <data name="DAvglabel.Text" xml:space="preserve">
+    <value>Dia Promedio</value>
+  </data>
+  <data name="DAvgtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 110</value>
+  </data>
+  <data name="DAvgtextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="Gradelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 483</value>
+  </data>
+  <data name="Gradelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 16</value>
+  </data>
+  <data name="Gradelabel.Text" xml:space="preserve">
+    <value>Clases</value>
+  </data>
+  <data name="Volumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 446</value>
+  </data>
+  <data name="Volumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="Volumlabel.Text" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="FlawNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 409</value>
+  </data>
+  <data name="FlawNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="FlawNumlabel.Text" xml:space="preserve">
+    <value>Num Defecto</value>
+  </data>
+  <data name="GradetextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 480</value>
+  </data>
+  <data name="GradetextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="VolumtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 443</value>
+  </data>
+  <data name="VolumtextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="FlawNumtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 406</value>
+  </data>
+  <data name="FlawNumtextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="FlawArealabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 372</value>
+  </data>
+  <data name="FlawArealabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 16</value>
+  </data>
+  <data name="FlawArealabel.Text" xml:space="preserve">
+    <value>Área Defecto</value>
+  </data>
+  <data name="FlawAreatextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 369</value>
+  </data>
+  <data name="FlawAreatextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="ProjectArealabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 335</value>
+  </data>
+  <data name="ProjectArealabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="ProjectArealabel.Text" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="ProjectAreatextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 332</value>
+  </data>
+  <data name="ProjectAreatextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="ColorRatiolabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 298</value>
+  </data>
+  <data name="ColorRatiolabel3.Text" xml:space="preserve">
+    <value>Color 3 %</value>
+  </data>
+  <data name="ColorRatiotextBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 295</value>
+  </data>
+  <data name="ColorRatiotextBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="ColorRatiolabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 261</value>
+  </data>
+  <data name="ColorRatiolabel2.Text" xml:space="preserve">
+    <value>Color 2 %</value>
+  </data>
+  <data name="ColorRatiotextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 258</value>
+  </data>
+  <data name="ColorRatiotextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="ColorRatiolabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 224</value>
+  </data>
+  <data name="ColorRatiolabel1.Text" xml:space="preserve">
+    <value>Color 1 %</value>
+  </data>
+  <data name="ColorRatiotextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 221</value>
+  </data>
+  <data name="ColorRatiotextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="TransDiaRatiolabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 150</value>
+  </data>
+  <data name="TransDiaRatiolabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="TransDiaRatiolabel.Text" xml:space="preserve">
+    <value>Elongación</value>
+  </data>
+  <data name="TransDiaRatiotextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 147</value>
+  </data>
+  <data name="TransDiaRatiotextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="MinDiameterlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 76</value>
+  </data>
+  <data name="MinDiameterlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 16</value>
+  </data>
+  <data name="MinDiameterlabel.Text" xml:space="preserve">
+    <value>Dia Min</value>
+  </data>
+  <data name="MinDiametertextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 73</value>
+  </data>
+  <data name="MinDiametertextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="MaxDiameterlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="MaxDiameterlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 16</value>
+  </data>
+  <data name="MaxDiameterlabel.Text" xml:space="preserve">
+    <value>Dia Max</value>
+  </data>
+  <data name="MaxDiametertextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 36</value>
+  </data>
+  <data name="MaxDiametertextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="ShowBlobcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 11</value>
+  </data>
+  <data name="ShowBlobcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="ShowBlobcheckBox.Text" xml:space="preserve">
+    <value>Blob</value>
+  </data>
+  <data name="ContinuousSamplecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>659, 11</value>
+  </data>
+  <data name="ContinuousSamplecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="ContinuousSamplecheckBox.Text" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="CameracomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 9</value>
+  </data>
+  <data name="Cameralabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 13</value>
+  </data>
+  <data name="Cameralabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 16</value>
+  </data>
+  <data name="Cameralabel.Text" xml:space="preserve">
+    <value>Cámara:</value>
+  </data>
+  <data name="ChannelRangeChannelcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 9</value>
+  </data>
+  <data name="ChannelRangeChannellabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="ChannelRangeChannellabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="ChannelRangeChannellabel.Text" xml:space="preserve">
+    <value>Línea:</value>
+  </data>
+  <data name="ChannelExitEffectbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1038, 695</value>
+  </data>
+  <data name="ChannelExitEffectbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="ChannelExitEffectbutton.Text" xml:space="preserve">
+    <value>Efecto inmediato</value>
+  </data>
+  <data name="Outletlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="Outletlabel.Text" xml:space="preserve">
+    <value>Salida</value>
+  </data>
+  <data name="Labellabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="Labellabel.Text" xml:space="preserve">
+    <value>Etiquetadora</value>
+  </data>
+  <data name="PincomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 101</value>
+  </data>
+  <data name="InterfacecomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 101</value>
+  </data>
+  <data name="DrivernumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 102</value>
+  </data>
+  <data name="OffsetnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 102</value>
+  </data>
+  <data name="DistancenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 102</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Salida</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Distancia</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Duración</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>ID Controlador</value>
+  </data>
+  <data name="columnHeader5.Text" xml:space="preserve">
+    <value>Conector</value>
+  </data>
+  <data name="columnHeader6.Text" xml:space="preserve">
+    <value>ID Pin</value>
+  </data>
+  <data name="ChannelSeleclabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="ChannelSeleclabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="ChannelSeleclabel.Text" xml:space="preserve">
+    <value>Línea:</value>
+  </data>
+  <data name="ChannelSeleccomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 26</value>
+  </data>
+  <data name="ExitMotorDriverPinEffectbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1016, 18</value>
+  </data>
+  <data name="ExitMotorDriverPinEffectbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="ExitMotorDriverPinEffectbutton.Text" xml:space="preserve">
+    <value>Enviar Data</value>
+  </data>
+  <data name="MotorPincomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 92</value>
+  </data>
+  <data name="MotorInterfacecomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 92</value>
+  </data>
+  <data name="columnHeader7.Text" xml:space="preserve">
+    <value>Salida</value>
+  </data>
+  <data name="columnHeader10.Text" xml:space="preserve">
+    <value>ID Controlador</value>
+  </data>
+  <data name="columnHeader11.Text" xml:space="preserve">
+    <value>Conector</value>
+  </data>
+  <data name="columnHeader12.Text" xml:space="preserve">
+    <value>ID Pin</value>
+  </data>
+  <data name="columnHeader21.Text" xml:space="preserve">
+    <value>Extensión de tiempo</value>
+  </data>
+  <data name="columnHeader22.Text" xml:space="preserve">
+    <value>Duración:</value>
+  </data>
+  <data name="ElecPlusenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="LabelPlusenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 22</value>
+  </data>
+  <data name="ElecPluselabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="ElecPluselabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="ElecPluselabel.Text" xml:space="preserve">
+    <value>Pulso Solenoide</value>
+  </data>
+  <data name="LabelPluselabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 25</value>
+  </data>
+  <data name="LabelPluselabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 16</value>
+  </data>
+  <data name="LabelPluselabel.Text" xml:space="preserve">
+    <value>Pulso Etiquetado</value>
+  </data>
+  <data name="StopContinuouslabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>846, 702</value>
+  </data>
+  <data name="StopContinuouslabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 16</value>
+  </data>
+  <data name="StopContinuouslabel.Text" xml:space="preserve">
+    <value>Stop rastreo</value>
+  </data>
+  <data name="CupFaultlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 25</value>
+  </data>
+  <data name="CupFaultlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="CupFaultlabel.Text" xml:space="preserve">
+    <value>Taza fallo</value>
+  </data>
+  <data name="CupNormal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 25</value>
+  </data>
+  <data name="CupNormal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 16</value>
+  </data>
+  <data name="CupNormal.Text" xml:space="preserve">
+    <value>Taza normal</value>
+  </data>
+  <data name="WeightEffectbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1022, 694</value>
+  </data>
+  <data name="WeightEffectbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="WeightEffectbutton.Text" xml:space="preserve">
+    <value>Efecto inmediato</value>
+  </data>
+  <data name="ClearDatabutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 645</value>
+  </data>
+  <data name="ClearDatabutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="ClearDatabutton.Text" xml:space="preserve">
+    <value>Borrado datos</value>
+  </data>
+  <data name="TrackDatabutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 645</value>
+  </data>
+  <data name="TrackDatabutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="TrackDatabutton.Text" xml:space="preserve">
+    <value>Rastreo datos</value>
+  </data>
+  <data name="WaveCapturebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 31</value>
+  </data>
+  <data name="WaveCapturebutton.Text" xml:space="preserve">
+    <value>Captura forma de onda</value>
+  </data>
+  <data name="WagonNumcolumnHeader.Text" xml:space="preserve">
+    <value>Taza ID</value>
+  </data>
+  <data name="FruitWeightcolumnHeader.Text" xml:space="preserve">
+    <value>Peso fruto</value>
+  </data>
+  <data name="WagonWeightcolumnHeader.Text" xml:space="preserve">
+    <value>Peso taza</value>
+  </data>
+  <data name="AverageWeightlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 97</value>
+  </data>
+  <data name="AverageWeightlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 16</value>
+  </data>
+  <data name="AverageWeightlabel.Text" xml:space="preserve">
+    <value>Peso Promedio</value>
+  </data>
+  <data name="Zerobutton.Text" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="Thresholdlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 29</value>
+  </data>
+  <data name="Thresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="Thresholdlabel.Text" xml:space="preserve">
+    <value>Umbral</value>
+  </data>
+  <data name="CurrentWeightlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="CurrentWeightlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 16</value>
+  </data>
+  <data name="CurrentWeightlabel.Text" xml:space="preserve">
+    <value>Peso Actual</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Radio G-AD (AD1)</value>
+  </data>
+  <data name="GAD1ADtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="GAD1ZeronumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 105</value>
+  </data>
+  <data name="GAD1Zerobutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 101</value>
+  </data>
+  <data name="GAD1Zerobutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 31</value>
+  </data>
+  <data name="GAD1Zerobutton.Text" xml:space="preserve">
+    <value>Limpiar Datos</value>
+  </data>
+  <data name="GAD1Calibratbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 58</value>
+  </data>
+  <data name="GAD1Calibratbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 31</value>
+  </data>
+  <data name="GAD1Calibratbutton.Text" xml:space="preserve">
+    <value>Calibración</value>
+  </data>
+  <data name="GAD1ADlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 29</value>
+  </data>
+  <data name="GAD1ADlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 16</value>
+  </data>
+  <data name="GAD1ADlabel.Text" xml:space="preserve">
+    <value>AD valor</value>
+  </data>
+  <data name="GAD1Weightlabellabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 16</value>
+  </data>
+  <data name="GAD1Weightlabellabel.Text" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="GAD0groupBox.Text" xml:space="preserve">
+    <value>Radio G-AD (AD0)</value>
+  </data>
+  <data name="GAD0CalibrattextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 62</value>
+  </data>
+  <data name="GAD0ADtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 25</value>
+  </data>
+  <data name="GAD0ZeronumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 102</value>
+  </data>
+  <data name="GAD0Zerobutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 98</value>
+  </data>
+  <data name="GAD0Zerobutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 31</value>
+  </data>
+  <data name="GAD0Zerobutton.Text" xml:space="preserve">
+    <value>Limpiar Datos</value>
+  </data>
+  <data name="GAD0Calibratbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 58</value>
+  </data>
+  <data name="GAD0Calibratbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 31</value>
+  </data>
+  <data name="GAD0Calibratbutton.Text" xml:space="preserve">
+    <value>Calibración</value>
+  </data>
+  <data name="GAD0ADlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 28</value>
+  </data>
+  <data name="GAD0ADlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 16</value>
+  </data>
+  <data name="GAD0ADlabel.Text" xml:space="preserve">
+    <value>AD valor</value>
+  </data>
+  <data name="GAD0WeightnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 25</value>
+  </data>
+  <data name="GAD0Weightlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 28</value>
+  </data>
+  <data name="GAD0Weightlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 16</value>
+  </data>
+  <data name="GAD0Weightlabel.Text" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="CorrectionCoefflabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 98</value>
+  </data>
+  <data name="CorrectionCoefflabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 16</value>
+  </data>
+  <data name="CorrectionCoefflabel.Text" xml:space="preserve">
+    <value>Coeficiente de Corrección</value>
+  </data>
+  <data name="WeightChannelcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 46</value>
+  </data>
+  <data name="WeightChannellabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 49</value>
+  </data>
+  <data name="WeightChannellabel.Text" xml:space="preserve">
+    <value>Línea</value>
+  </data>
+  <data name="CupAverageWeighttextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 410</value>
+  </data>
+  <data name="CupAverageWeightlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 413</value>
+  </data>
+  <data name="CupAverageWeightlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 16</value>
+  </data>
+  <data name="CupAverageWeightlabel.Text" xml:space="preserve">
+    <value>Peso Copas</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 370</value>
+  </data>
+  <data name="TotalCupNumnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 326</value>
+  </data>
+  <data name="CupNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 328</value>
+  </data>
+  <data name="CupNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="CupNumlabel.Text" xml:space="preserve">
+    <value>Total Copas</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 284</value>
+  </data>
+  <data name="BaseCupNumnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 238</value>
+  </data>
+  <data name="DatumCupNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 240</value>
+  </data>
+  <data name="DatumCupNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 16</value>
+  </data>
+  <data name="DatumCupNumlabel.Text" xml:space="preserve">
+    <value>Calibración Copa</value>
+  </data>
+  <data name="CupBreakageThresholdnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 195</value>
+  </data>
+  <data name="CupDamageThresholdlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 197</value>
+  </data>
+  <data name="CupDamageThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="CupDamageThresholdlabel.Text" xml:space="preserve">
+    <value>Copa Dañada</value>
+  </data>
+  <data name="CupDeviationThresholdnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 152</value>
+  </data>
+  <data name="CupToleranceThresholdlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 154</value>
+  </data>
+  <data name="CupToleranceThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 16</value>
+  </data>
+  <data name="CupToleranceThresholdlabel.Text" xml:space="preserve">
+    <value>Diferencia Copa</value>
+  </data>
+  <data name="MinGradeThresholdnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 109</value>
+  </data>
+  <data name="MiniLevelThresholdlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 111</value>
+  </data>
+  <data name="MiniLevelThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 16</value>
+  </data>
+  <data name="MiniLevelThresholdlabel.Text" xml:space="preserve">
+    <value>Peso Mínimo</value>
+  </data>
+  <data name="FilterCoeffnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 66</value>
+  </data>
+  <data name="FilterCoefflabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 68</value>
+  </data>
+  <data name="FilterCoefflabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="FilterCoefflabel.Text" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="SingnalSourcecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 15</value>
+  </data>
+  <data name="SingnalSourcecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 20</value>
+  </data>
+  <data name="SingnalSourcecheckBox.Text" xml:space="preserve">
+    <value>Simulación de Funcionamiento</value>
+  </data>
+  <data name="TestFruitCupcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 41</value>
+  </data>
+  <data name="TestFruitCupcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="TestFruitCupcheckBox.Text" xml:space="preserve">
+    <value>Test Copa</value>
+  </data>
+  <data name="Resetbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 17</value>
+  </data>
+  <data name="Resetbutton.Text" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="WorkingModeltextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 23</value>
+  </data>
+  <data name="WorkingModelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 26</value>
+  </data>
+  <data name="WorkingModelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="WorkingModelabel.Text" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="FlawEffectbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 576</value>
+  </data>
+  <data name="FlawEffectbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="FlawEffectbutton.Text" xml:space="preserve">
+    <value>tomar efecto inmediatamente</value>
+  </data>
+  <data name="MatchParagroupBox.Text" xml:space="preserve">
+    <value>parámetro de coincidencia</value>
+  </data>
+  <data name="AreaOffsetlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 106</value>
+  </data>
+  <data name="AreaOffsetlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="AreaOffsetlabel.Text" xml:space="preserve">
+    <value>desviación área</value>
+  </data>
+  <data name="AreaOffsetnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 103</value>
+  </data>
+  <data name="AngleOffsetnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 67</value>
+  </data>
+  <data name="AngleOffsetlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 69</value>
+  </data>
+  <data name="AngleOffsetlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 16</value>
+  </data>
+  <data name="AngleOffsetlabel.Text" xml:space="preserve">
+    <value>ángulo desviación</value>
+  </data>
+  <data name="VerOffsetlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 33</value>
+  </data>
+  <data name="VerOffsetlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 16</value>
+  </data>
+  <data name="VerOffsetlabel.Text" xml:space="preserve">
+    <value>desviación vertical</value>
+  </data>
+  <data name="VerOffsetnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 31</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>El parámetro de fruta rayada</value>
+  </data>
+  <data name="AreaRatioThreshgroupBox.Text" xml:space="preserve">
+    <value>umbral proporcional</value>
+  </data>
+  <data name="AreaRatioThreshlabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 138</value>
+  </data>
+  <data name="AreaRatioThreshlabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="AreaRatioThreshlabel4.Text" xml:space="preserve">
+    <value>valor 4</value>
+  </data>
+  <data name="AreaRatioThreshlabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 101</value>
+  </data>
+  <data name="AreaRatioThreshlabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="AreaRatioThreshlabel3.Text" xml:space="preserve">
+    <value>valor 3</value>
+  </data>
+  <data name="AreaRatioThreshlabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 65</value>
+  </data>
+  <data name="AreaRatioThreshlabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="AreaRatioThreshlabel2.Text" xml:space="preserve">
+    <value>valor 2</value>
+  </data>
+  <data name="AreaRatioThreshnumericUpDown4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 135</value>
+  </data>
+  <data name="AreaRatioThreshnumericUpDown3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 99</value>
+  </data>
+  <data name="AreaRatioThreshnumericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 64</value>
+  </data>
+  <data name="AreaRatioThreshlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 30</value>
+  </data>
+  <data name="AreaRatioThreshlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="AreaRatioThreshlabel1.Text" xml:space="preserve">
+    <value>valor 1</value>
+  </data>
+  <data name="AreaRatioThreshnumericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 28</value>
+  </data>
+  <data name="GreyThreshgroupBox.Text" xml:space="preserve">
+    <value>umbral de grados grises</value>
+  </data>
+  <data name="GreyThreshlabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 138</value>
+  </data>
+  <data name="GreyThreshlabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="GreyThreshlabel4.Text" xml:space="preserve">
+    <value>valor 4</value>
+  </data>
+  <data name="GreyThreshlabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 101</value>
+  </data>
+  <data name="GreyThreshlabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="GreyThreshlabel3.Text" xml:space="preserve">
+    <value>valor 3</value>
+  </data>
+  <data name="GreyThreshlabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 65</value>
+  </data>
+  <data name="GreyThreshlabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="GreyThreshlabel2.Text" xml:space="preserve">
+    <value>valor 2</value>
+  </data>
+  <data name="GreyThreshnumericUpDown4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 135</value>
+  </data>
+  <data name="GreyThreshnumericUpDown3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 99</value>
+  </data>
+  <data name="GreyThreshnumericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 64</value>
+  </data>
+  <data name="GreyThreshlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 30</value>
+  </data>
+  <data name="GreyThreshlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="GreyThreshlabel1.Text" xml:space="preserve">
+    <value>valor 1</value>
+  </data>
+  <data name="GreyThreshnumericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 28</value>
+  </data>
+  <data name="LevelNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="LevelNumlabel.Text" xml:space="preserve">
+    <value>número de capas</value>
+  </data>
+  <data name="LevelNumcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 82</value>
+  </data>
+  <data name="LevelNumLabelcolumnHeader.Text" xml:space="preserve">
+    <value>capas</value>
+  </data>
+  <data name="ThresholdcolumnHeader.Text" xml:space="preserve">
+    <value>umbral</value>
+  </data>
+  <data name="GreenFruitAreaThreshlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 16</value>
+  </data>
+  <data name="GreenFruitAreaThreshlabel.Text" xml:space="preserve">
+    <value>Umbral de área válida de fruta verde</value>
+  </data>
+  <data name="HthresholdGlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 16</value>
+  </data>
+  <data name="HthresholdGlabel.Text" xml:space="preserve">
+    <value>Umbral del componente H de fruta verde</value>
+  </data>
+  <data name="BlueBinDiilateTimeslabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 16</value>
+  </data>
+  <data name="BlueBinDiilateTimeslabel.Text" xml:space="preserve">
+    <value>el número expandido de la imagen binaria obtenida por el componente pixel azul</value>
+  </data>
+  <data name="YUVBinDilateTimeslabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 16</value>
+  </data>
+  <data name="YUVBinDilateTimeslabel.Text" xml:space="preserve">
+    <value>el número de imágenes expandidas después de que se procesó el umbral YUV</value>
+  </data>
+  <data name="LayerBumForEdgeSpotlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 16</value>
+  </data>
+  <data name="LayerBumForEdgeSpotlabel.Text" xml:space="preserve">
+    <value>Seleccione la imagen de segundo valor en la primera capa</value>
+  </data>
+  <data name="ErodeTimesForEfctlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 16</value>
+  </data>
+  <data name="ErodeTimesForEfctlabel.Text" xml:space="preserve">
+    <value>Obtenga la cantidad de corrosión del contorno</value>
+  </data>
+  <data name="MakeBlueBinThreshlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 16</value>
+  </data>
+  <data name="MakeBlueBinThreshlabel.Text" xml:space="preserve">
+    <value>El componente azul genera un umbral de imagen binario</value>
+  </data>
+  <data name="LightAreaToZeroThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 16</value>
+  </data>
+  <data name="LightAreaToZeroThresholdlabel.Text" xml:space="preserve">
+    <value>umbral 0 para exceso de región</value>
+  </data>
+  <data name="SpotBlueCenterGaplabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 16</value>
+  </data>
+  <data name="SpotBlueCenterGaplabel.Text" xml:space="preserve">
+    <value>umbral de distancia entre el punto marcado y el punto actual</value>
+  </data>
+  <data name="SpotGreyCenterGaplabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 16</value>
+  </data>
+  <data name="SpotGreyCenterGaplabel.Text" xml:space="preserve">
+    <value>Detección de grados grises del umbral de distancia del centro</value>
+  </data>
+  <data name="FlawArealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="FlawArealabel1.Text" xml:space="preserve">
+    <value>umbral area defecto</value>
+  </data>
+  <data name="FruitTypeGridViewTopLeftHeadCelllabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="FruitTypeGridViewTopLeftHeadCelllabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="FruitTypeGridViewTopLeftHeadCelllabel.Text" xml:space="preserve">
+    <value>TipoFruta</value>
+  </data>
+  <data name="FruitEffectbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1054, 702</value>
+  </data>
+  <data name="FruitEffectbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 27</value>
+  </data>
+  <data name="FruitEffectbutton.Text" xml:space="preserve">
+    <value>Efecto inmediato</value>
+  </data>
+  <data name="Column17.HeaderText" xml:space="preserve">
+    <value>Densidad(kg/m3)</value>
+  </data>
+  <data name="LoadConfigbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 760</value>
+  </data>
+  <data name="LoadConfigbutton.Text" xml:space="preserve">
+    <value>Cargar</value>
+  </data>
+  <data name="SaveConfigbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>951, 760</value>
+  </data>
+  <data name="SaveConfigbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 31</value>
+  </data>
+  <data name="SaveConfigbutton.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Cancelbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1080, 760</value>
+  </data>
+  <data name="Cancelbutton.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="VolveTestcontextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 48</value>
+  </data>
+  <data name="Start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="Start.Text" xml:space="preserve">
+    <value>Válvulas solenoides</value>
+  </data>
+  <data name="Stop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="Stop.Text" xml:space="preserve">
+    <value>Detener la prueba</value>
+  </data>
+  <data name="Lanelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 771</value>
+  </data>
+  <data name="Lanelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="Lanelabel.Text" xml:space="preserve">
+    <value>Línea</value>
+  </data>
+  <data name="MotoTestcontextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 26</value>
+  </data>
+  <data name="TesttoolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="TesttoolStripMenuItem.Text" xml:space="preserve">
+    <value>Prueba de campo</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 760</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Guardar parámetro</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ajustes Servicio</value>
+  </data>
+</root>

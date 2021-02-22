@@ -1,0 +1,1791 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 44</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 17</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AlarmThresholdtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 40</value>
+  </data>
+  <data name="AlarmThresholdtextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 23</value>
+  </data>
+  <data name="AlarmThresholdtextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AlarmThresholdtextBox.Text" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AlarmThresholdtextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AlarmThresholdtextBox.Name" xml:space="preserve">
+    <value>AlarmThresholdtextBox</value>
+  </data>
+  <data name="&gt;&gt;AlarmThresholdtextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlarmThresholdtextBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;AlarmThresholdtextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AlarmThresholdlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AlarmThresholdlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 43</value>
+  </data>
+  <data name="AlarmThresholdlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="AlarmThresholdlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AlarmThresholdlabel.Text" xml:space="preserve">
+    <value>比率阈值</value>
+  </data>
+  <data name="&gt;&gt;AlarmThresholdlabel.Name" xml:space="preserve">
+    <value>AlarmThresholdlabel</value>
+  </data>
+  <data name="&gt;&gt;AlarmThresholdlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlarmThresholdlabel.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;AlarmThresholdlabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 120</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 94</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>出口报警</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PackingnumericUpDown.AccessibleDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PackingnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 293</value>
+  </data>
+  <data name="PackingnumericUpDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PackingnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="PackingnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="PackingnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="PackingnumericUpDown.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PackingnumericUpDown.Name" xml:space="preserve">
+    <value>PackingnumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;PackingnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PackingnumericUpDown.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;PackingnumericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MinnumericUpDown.AccessibleDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MinnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 293</value>
+  </data>
+  <data name="MinnumericUpDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="MinnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 23</value>
+  </data>
+  <data name="MinnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="MinnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="MinnumericUpDown.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;MinnumericUpDown.Name" xml:space="preserve">
+    <value>MinnumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;MinnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MinnumericUpDown.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;MinnumericUpDown.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GradeNametextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 293</value>
+  </data>
+  <data name="GradeNametextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GradeNametextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="GradeNametextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="GradeNametextBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GradeNametextBox.Name" xml:space="preserve">
+    <value>GradeNametextBox</value>
+  </data>
+  <data name="&gt;&gt;GradeNametextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeNametextBox.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;GradeNametextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="FruitTypeslabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FruitTypeslabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 43</value>
+  </data>
+  <data name="FruitTypeslabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="FruitTypeslabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="FruitTypeslabel.Text" xml:space="preserve">
+    <value>种类</value>
+  </data>
+  <data name="&gt;&gt;FruitTypeslabel.Name" xml:space="preserve">
+    <value>FruitTypeslabel</value>
+  </data>
+  <data name="&gt;&gt;FruitTypeslabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FruitTypeslabel.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;FruitTypeslabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FruitTypescomboBox.Items" xml:space="preserve">
+    <value>梨</value>
+  </data>
+  <data name="FruitTypescomboBox.Items1" xml:space="preserve">
+    <value>红枣</value>
+  </data>
+  <data name="FruitTypescomboBox.Items2" xml:space="preserve">
+    <value>蜜桔</value>
+  </data>
+  <data name="FruitTypescomboBox.Items3" xml:space="preserve">
+    <value>蜜柚</value>
+  </data>
+  <data name="FruitTypescomboBox.Items4" xml:space="preserve">
+    <value>柠檬</value>
+  </data>
+  <data name="FruitTypescomboBox.Items5" xml:space="preserve">
+    <value>苹果</value>
+  </data>
+  <data name="FruitTypescomboBox.Items6" xml:space="preserve">
+    <value>脐橙</value>
+  </data>
+  <data name="FruitTypescomboBox.Items7" xml:space="preserve">
+    <value>石榴</value>
+  </data>
+  <data name="FruitTypescomboBox.Items8" xml:space="preserve">
+    <value>山竹</value>
+  </data>
+  <data name="FruitTypescomboBox.Items9" xml:space="preserve">
+    <value>土豆</value>
+  </data>
+  <data name="FruitTypescomboBox.Items10" xml:space="preserve">
+    <value>甜椒</value>
+  </data>
+  <data name="FruitTypescomboBox.Items11" xml:space="preserve">
+    <value>甜柿</value>
+  </data>
+  <data name="FruitTypescomboBox.Items12" xml:space="preserve">
+    <value>桃子</value>
+  </data>
+  <data name="FruitTypescomboBox.Items13" xml:space="preserve">
+    <value>洋葱</value>
+  </data>
+  <data name="FruitTypescomboBox.Items14" xml:space="preserve">
+    <value>猕猴桃</value>
+  </data>
+  <data name="FruitTypescomboBox.Items15" xml:space="preserve">
+    <value>圣女果</value>
+  </data>
+  <data name="FruitTypescomboBox.Items16" xml:space="preserve">
+    <value>西红柿</value>
+  </data>
+  <data name="FruitTypescomboBox.Items17" xml:space="preserve">
+    <value>椭圆形水果</value>
+  </data>
+  <data name="FruitTypescomboBox.Items18" xml:space="preserve">
+    <value>扁圆形水果</value>
+  </data>
+  <data name="FruitTypescomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 40</value>
+  </data>
+  <data name="FruitTypescomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="FruitTypescomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 25</value>
+  </data>
+  <data name="FruitTypescomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;FruitTypescomboBox.Name" xml:space="preserve">
+    <value>FruitTypescomboBox</value>
+  </data>
+  <data name="&gt;&gt;FruitTypescomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FruitTypescomboBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;FruitTypescomboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 18</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 95</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>水果</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="AutoWeightbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 496</value>
+  </data>
+  <data name="AutoWeightbutton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="AutoWeightbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 33</value>
+  </data>
+  <data name="AutoWeightbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="AutoWeightbutton.Text" xml:space="preserve">
+    <value>自动生成</value>
+  </data>
+  <data name="AutoWeightbutton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;AutoWeightbutton.Name" xml:space="preserve">
+    <value>AutoWeightbutton</value>
+  </data>
+  <data name="&gt;&gt;AutoWeightbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AutoWeightbutton.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;AutoWeightbutton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Weightlabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Weightlabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 505</value>
+  </data>
+  <data name="Weightlabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="Weightlabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Weightlabel2.Text" xml:space="preserve">
+    <value>装箱重量2</value>
+  </data>
+  <data name="Weightlabel2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel2.Name" xml:space="preserve">
+    <value>Weightlabel2</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel2.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Unitlabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Unitlabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 505</value>
+  </data>
+  <data name="Unitlabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="Unitlabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Unitlabel2.Text" xml:space="preserve">
+    <value>公斤</value>
+  </data>
+  <data name="Unitlabel2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Unitlabel2.Name" xml:space="preserve">
+    <value>Unitlabel2</value>
+  </data>
+  <data name="&gt;&gt;Unitlabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Unitlabel2.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;Unitlabel2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="WeightnumericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 500</value>
+  </data>
+  <data name="WeightnumericUpDown2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="WeightnumericUpDown2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="WeightnumericUpDown2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="WeightnumericUpDown2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="WeightnumericUpDown2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown2.Name" xml:space="preserve">
+    <value>WeightnumericUpDown2</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown2.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Unitlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Unitlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 505</value>
+  </data>
+  <data name="Unitlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="Unitlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Unitlabel1.Text" xml:space="preserve">
+    <value>公斤</value>
+  </data>
+  <data name="Unitlabel1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Unitlabel1.Name" xml:space="preserve">
+    <value>Unitlabel1</value>
+  </data>
+  <data name="&gt;&gt;Unitlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Unitlabel1.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;Unitlabel1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Weightlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Weightlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 505</value>
+  </data>
+  <data name="Weightlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="Weightlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Weightlabel1.Text" xml:space="preserve">
+    <value>装箱重量1</value>
+  </data>
+  <data name="Weightlabel1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel1.Name" xml:space="preserve">
+    <value>Weightlabel1</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel1.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="WeightnumericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 500</value>
+  </data>
+  <data name="WeightnumericUpDown1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="WeightnumericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="WeightnumericUpDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="WeightnumericUpDown1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="WeightnumericUpDown1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown1.Name" xml:space="preserve">
+    <value>WeightnumericUpDown1</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown1.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAzoo4XnrrHmlbDph4//
+        ////Bfv///8UU3lzdGVtLkRyYXdpbmcuQ29sb3IEAAAABG5hbWUFdmFsdWUKa25vd25Db2xvcgVzdGF0
+        ZQEAAAAJBwcDAAAACv/A//8AAAAAAAACAAAJBgAAAAH5////+////woAAAAAAAAAABoAAQABBQYAAAAT
+        U3lzdGVtLkRyYXdpbmcuRm9udAQAAAAETmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJh
+        d2luZy5Gb250U3R5bGUDAAAAG1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABggAAAAG
+        5a6L5L2TAAAQQQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAA
+        AAAF9v///xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAzlubPlnYfph43ph4//
+        ////Bfv///8UU3lzdGVtLkRyYXdpbmcuQ29sb3IEAAAABG5hbWUFdmFsdWUKa25vd25Db2xvcgVzdGF0
+        ZQEAAAAJBwcDAAAACsD///8AAAAAAAACAAAJBgAAAAH5////+////woAAAAAAAAAABoAAQABBQYAAAAT
+        U3lzdGVtLkRyYXdpbmcuRm9udAQAAAAETmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJh
+        d2luZy5Gb250U3R5bGUDAAAAG1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABggAAAAG
+        5a6L5L2TAAAQQQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAA
+        AAAF9v///xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAzorr7nva7ph43ph4//
+        ////Bfv///8UU3lzdGVtLkRyYXdpbmcuQ29sb3IEAAAABG5hbWUFdmFsdWUKa25vd25Db2xvcgVzdGF0
+        ZQEAAAAJBwcDAAAACsD/wP8AAAAAAAACAAAJBgAAAAH5////+////woAAAAAAAAAABoAAQABBQYAAAAT
+        U3lzdGVtLkRyYXdpbmcuRm9udAQAAAAETmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJh
+        d2luZy5Gb250U3R5bGUDAAAAG1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABggAAAAG
+        5a6L5L2TAAAQQQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAA
+        AAAF9v///xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items3" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAzoo4XnrrHmlbDph4//
+        ////Bfv///8UU3lzdGVtLkRyYXdpbmcuQ29sb3IEAAAABG5hbWUFdmFsdWUKa25vd25Db2xvcgVzdGF0
+        ZQEAAAAJBwcDAAAACv/A//8AAAAAAAACAAAJBgAAAAH5////+////woAAAAAAAAAABoAAQABBQYAAAAT
+        U3lzdGVtLkRyYXdpbmcuRm9udAQAAAAETmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJh
+        d2luZy5Gb250U3R5bGUDAAAAG1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABggAAAAG
+        5a6L5L2TAAAQQQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAA
+        AAAF9v///xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items4" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAzlubPlnYfph43ph4//
+        ////Bfv///8UU3lzdGVtLkRyYXdpbmcuQ29sb3IEAAAABG5hbWUFdmFsdWUKa25vd25Db2xvcgVzdGF0
+        ZQEAAAAJBwcDAAAACsD///8AAAAAAAACAAAJBgAAAAH5////+////woAAAAAAAAAABoAAQABBQYAAAAT
+        U3lzdGVtLkRyYXdpbmcuRm9udAQAAAAETmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJh
+        d2luZy5Gb250U3R5bGUDAAAAG1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABggAAAAG
+        5a6L5L2TAAAQQQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAA
+        AAAF9v///xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Items5" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAA
+        BFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5
+        bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdp
+        bmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAzorr7nva7ph43ph4//
+        ////Bfv///8UU3lzdGVtLkRyYXdpbmcuQ29sb3IEAAAABG5hbWUFdmFsdWUKa25vd25Db2xvcgVzdGF0
+        ZQEAAAAJBwcDAAAACsD/wP8AAAAAAAACAAAJBgAAAAH5////+////woAAAAAAAAAABoAAQABBQYAAAAT
+        U3lzdGVtLkRyYXdpbmcuRm9udAQAAAAETmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJh
+        d2luZy5Gb250U3R5bGUDAAAAG1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABggAAAAG
+        5a6L5L2TAAAQQQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAA
+        AAAF9v///xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 536</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1166, 154</value>
+  </data>
+  <data name="GradeWeightlistViewEx.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="GradeWeightlistViewEx.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GradeWeightlistViewEx.Name" xml:space="preserve">
+    <value>GradeWeightlistViewEx</value>
+  </data>
+  <data name="&gt;&gt;GradeWeightlistViewEx.Type" xml:space="preserve">
+    <value>ListViewEx.ListViewEx, ListViewEx, Version=1.0.5976.17502, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GradeWeightlistViewEx.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;GradeWeightlistViewEx.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="GradeSizelistViewExName.Text" xml:space="preserve">
+    <value>等级名称</value>
+  </data>
+  <data name="GradeSizelistViewExName.Width" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="GradeSizelistViewExMiniSize.Text" xml:space="preserve">
+    <value>最小尺寸（毫米）</value>
+  </data>
+  <data name="GradeSizelistViewExMiniSize.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="GradeSizelistViewExMiniSize.Width" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="GradeSizelistViewExTargetNumber.Text" xml:space="preserve">
+    <value>装箱量（个）</value>
+  </data>
+  <data name="GradeSizelistViewExTargetNumber.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="GradeSizelistViewExTargetNumber.Width" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="GradeSizelistViewExTargetWeight.Text" xml:space="preserve">
+    <value>装箱量（克）</value>
+  </data>
+  <data name="GradeSizelistViewExTargetWeight.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="GradeSizelistViewExMinWeight.Text" xml:space="preserve">
+    <value>最小重量（克）</value>
+  </data>
+  <data name="GradeSizelistViewExMinWeight.Width" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="GradeSizelistViewExMinVolume.Text" xml:space="preserve">
+    <value>最小体积（立方厘米）</value>
+  </data>
+  <data name="GradeSizelistViewExMinVolume.Width" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="GradeSizelistViewExMinArea.Text" xml:space="preserve">
+    <value>最小面积（平方毫米）</value>
+  </data>
+  <data name="GradeSizelistViewExMinArea.Width" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="GradeSizelistViewEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 267</value>
+  </data>
+  <data name="GradeSizelistViewEx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GradeSizelistViewEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1166, 221</value>
+  </data>
+  <data name="GradeSizelistViewEx.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewEx.Name" xml:space="preserve">
+    <value>GradeSizelistViewEx</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewEx.Type" xml:space="preserve">
+    <value>ListViewEx.ListViewEx, ListViewEx, Version=1.0.5976.17502, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewEx.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewEx.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="GradeNumlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GradeNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 241</value>
+  </data>
+  <data name="GradeNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="GradeNumlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="GradeNumlabel.Text" xml:space="preserve">
+    <value>等级数量</value>
+  </data>
+  <data name="&gt;&gt;GradeNumlabel.Name" xml:space="preserve">
+    <value>GradeNumlabel</value>
+  </data>
+  <data name="&gt;&gt;GradeNumlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeNumlabel.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;GradeNumlabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="GradeNumcomboBox.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GradeNumcomboBox.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GradeNumcomboBox.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GradeNumcomboBox.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GradeNumcomboBox.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GradeNumcomboBox.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="GradeNumcomboBox.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GradeNumcomboBox.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="GradeNumcomboBox.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="GradeNumcomboBox.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GradeNumcomboBox.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="GradeNumcomboBox.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="GradeNumcomboBox.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="GradeNumcomboBox.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="GradeNumcomboBox.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="GradeNumcomboBox.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="GradeNumcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 235</value>
+  </data>
+  <data name="GradeNumcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GradeNumcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 25</value>
+  </data>
+  <data name="GradeNumcomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GradeNumcomboBox.Name" xml:space="preserve">
+    <value>GradeNumcomboBox</value>
+  </data>
+  <data name="&gt;&gt;GradeNumcomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeNumcomboBox.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;GradeNumcomboBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="LabelNametextBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 157</value>
+  </data>
+  <data name="LabelNametextBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LabelNametextBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="LabelNametextBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox4.Name" xml:space="preserve">
+    <value>LabelNametextBox4</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox4.Parent" xml:space="preserve">
+    <value>LabelNamegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelNamelabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelNamelabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 162</value>
+  </data>
+  <data name="LabelNamelabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="LabelNamelabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LabelNamelabel4.Text" xml:space="preserve">
+    <value>贴标机4</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel4.Name" xml:space="preserve">
+    <value>LabelNamelabel4</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel4.Parent" xml:space="preserve">
+    <value>LabelNamegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelNametextBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 118</value>
+  </data>
+  <data name="LabelNametextBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LabelNametextBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="LabelNametextBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox3.Name" xml:space="preserve">
+    <value>LabelNametextBox3</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox3.Parent" xml:space="preserve">
+    <value>LabelNamegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LabelNamelabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelNamelabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 122</value>
+  </data>
+  <data name="LabelNamelabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="LabelNamelabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LabelNamelabel3.Text" xml:space="preserve">
+    <value>贴标机3</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel3.Name" xml:space="preserve">
+    <value>LabelNamelabel3</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel3.Parent" xml:space="preserve">
+    <value>LabelNamegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LabelNametextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 73</value>
+  </data>
+  <data name="LabelNametextBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LabelNametextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="LabelNametextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox2.Name" xml:space="preserve">
+    <value>LabelNametextBox2</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox2.Parent" xml:space="preserve">
+    <value>LabelNamegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LabelNamelabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelNamelabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 78</value>
+  </data>
+  <data name="LabelNamelabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="LabelNamelabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LabelNamelabel2.Text" xml:space="preserve">
+    <value>贴标机2</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel2.Name" xml:space="preserve">
+    <value>LabelNamelabel2</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel2.Parent" xml:space="preserve">
+    <value>LabelNamegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LabelNametextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 31</value>
+  </data>
+  <data name="LabelNametextBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LabelNametextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="LabelNametextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox1.Name" xml:space="preserve">
+    <value>LabelNametextBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox1.Parent" xml:space="preserve">
+    <value>LabelNamegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelNametextBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LabelNamelabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelNamelabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 35</value>
+  </data>
+  <data name="LabelNamelabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="LabelNamelabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelNamelabel1.Text" xml:space="preserve">
+    <value>贴标机1</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel1.Name" xml:space="preserve">
+    <value>LabelNamelabel1</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel1.Parent" xml:space="preserve">
+    <value>LabelNamegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelNamelabel1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LabelNamegroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>913, 18</value>
+  </data>
+  <data name="LabelNamegroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LabelNamegroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LabelNamegroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 196</value>
+  </data>
+  <data name="LabelNamegroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LabelNamegroupBox.Text" xml:space="preserve">
+    <value>贴标机</value>
+  </data>
+  <data name="&gt;&gt;LabelNamegroupBox.Name" xml:space="preserve">
+    <value>LabelNamegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelNamegroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelNamegroupBox.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;LabelNamegroupBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ExitLabelTyperadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ExitLabelTyperadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 148</value>
+  </data>
+  <data name="ExitLabelTyperadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ExitLabelTyperadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="ExitLabelTyperadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ExitLabelTyperadioButton.Text" xml:space="preserve">
+    <value>按出口方式</value>
+  </data>
+  <data name="&gt;&gt;ExitLabelTyperadioButton.Name" xml:space="preserve">
+    <value>ExitLabelTyperadioButton</value>
+  </data>
+  <data name="&gt;&gt;ExitLabelTyperadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExitLabelTyperadioButton.Parent" xml:space="preserve">
+    <value>LabelTypegroupBox</value>
+  </data>
+  <data name="&gt;&gt;ExitLabelTyperadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GradeLabelTyperadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GradeLabelTyperadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 101</value>
+  </data>
+  <data name="GradeLabelTyperadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GradeLabelTyperadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="GradeLabelTyperadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GradeLabelTyperadioButton.Text" xml:space="preserve">
+    <value>按等级方式</value>
+  </data>
+  <data name="&gt;&gt;GradeLabelTyperadioButton.Name" xml:space="preserve">
+    <value>GradeLabelTyperadioButton</value>
+  </data>
+  <data name="&gt;&gt;GradeLabelTyperadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeLabelTyperadioButton.Parent" xml:space="preserve">
+    <value>LabelTypegroupBox</value>
+  </data>
+  <data name="&gt;&gt;GradeLabelTyperadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NoLabelTyperadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NoLabelTyperadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 54</value>
+  </data>
+  <data name="NoLabelTyperadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="NoLabelTyperadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="NoLabelTyperadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NoLabelTyperadioButton.Text" xml:space="preserve">
+    <value>不贴标</value>
+  </data>
+  <data name="&gt;&gt;NoLabelTyperadioButton.Name" xml:space="preserve">
+    <value>NoLabelTyperadioButton</value>
+  </data>
+  <data name="&gt;&gt;NoLabelTyperadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NoLabelTyperadioButton.Parent" xml:space="preserve">
+    <value>LabelTypegroupBox</value>
+  </data>
+  <data name="&gt;&gt;NoLabelTyperadioButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LabelTypegroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>690, 18</value>
+  </data>
+  <data name="LabelTypegroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LabelTypegroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LabelTypegroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 196</value>
+  </data>
+  <data name="LabelTypegroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LabelTypegroupBox.Text" xml:space="preserve">
+    <value>贴标工作方式</value>
+  </data>
+  <data name="&gt;&gt;LabelTypegroupBox.Name" xml:space="preserve">
+    <value>LabelTypegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelTypegroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelTypegroupBox.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;LabelTypegroupBox.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="NumradioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NumradioButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="NumradioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 148</value>
+  </data>
+  <data name="NumradioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="NumradioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 21</value>
+  </data>
+  <data name="NumradioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="NumradioButton.Text" xml:space="preserve">
+    <value>个</value>
+  </data>
+  <data name="&gt;&gt;NumradioButton.Name" xml:space="preserve">
+    <value>NumradioButton</value>
+  </data>
+  <data name="&gt;&gt;NumradioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumradioButton.Parent" xml:space="preserve">
+    <value>WeightUnitsgroupBox</value>
+  </data>
+  <data name="&gt;&gt;NumradioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GramradioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GramradioButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GramradioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 54</value>
+  </data>
+  <data name="GramradioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GramradioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 21</value>
+  </data>
+  <data name="GramradioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GramradioButton.Text" xml:space="preserve">
+    <value>克</value>
+  </data>
+  <data name="&gt;&gt;GramradioButton.Name" xml:space="preserve">
+    <value>GramradioButton</value>
+  </data>
+  <data name="&gt;&gt;GramradioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GramradioButton.Parent" xml:space="preserve">
+    <value>WeightUnitsgroupBox</value>
+  </data>
+  <data name="&gt;&gt;GramradioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="WeightUnitsgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 18</value>
+  </data>
+  <data name="WeightUnitsgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="WeightUnitsgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="WeightUnitsgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 196</value>
+  </data>
+  <data name="WeightUnitsgroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="WeightUnitsgroupBox.Text" xml:space="preserve">
+    <value>计算每箱重单位</value>
+  </data>
+  <data name="&gt;&gt;WeightUnitsgroupBox.Name" xml:space="preserve">
+    <value>WeightUnitsgroupBox</value>
+  </data>
+  <data name="&gt;&gt;WeightUnitsgroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeightUnitsgroupBox.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;WeightUnitsgroupBox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="VolumeradioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VolumeradioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 148</value>
+  </data>
+  <data name="VolumeradioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="VolumeradioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="VolumeradioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="VolumeradioButton.Text" xml:space="preserve">
+    <value>体积</value>
+  </data>
+  <data name="&gt;&gt;VolumeradioButton.Name" xml:space="preserve">
+    <value>VolumeradioButton</value>
+  </data>
+  <data name="&gt;&gt;VolumeradioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VolumeradioButton.Parent" xml:space="preserve">
+    <value>SortingStandardgroupBox</value>
+  </data>
+  <data name="&gt;&gt;VolumeradioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ArearadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ArearadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 116</value>
+  </data>
+  <data name="ArearadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ArearadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="ArearadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ArearadioButton.Text" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="&gt;&gt;ArearadioButton.Name" xml:space="preserve">
+    <value>ArearadioButton</value>
+  </data>
+  <data name="&gt;&gt;ArearadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ArearadioButton.Parent" xml:space="preserve">
+    <value>SortingStandardgroupBox</value>
+  </data>
+  <data name="&gt;&gt;ArearadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DiameterradioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DiameterradioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 85</value>
+  </data>
+  <data name="DiameterradioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="DiameterradioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="DiameterradioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DiameterradioButton.Text" xml:space="preserve">
+    <value>直径</value>
+  </data>
+  <data name="&gt;&gt;DiameterradioButton.Name" xml:space="preserve">
+    <value>DiameterradioButton</value>
+  </data>
+  <data name="&gt;&gt;DiameterradioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiameterradioButton.Parent" xml:space="preserve">
+    <value>SortingStandardgroupBox</value>
+  </data>
+  <data name="&gt;&gt;DiameterradioButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WeightcheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WeightcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 51</value>
+  </data>
+  <data name="WeightcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="WeightcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="WeightcheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="WeightcheckBox.Text" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="&gt;&gt;WeightcheckBox.Name" xml:space="preserve">
+    <value>WeightcheckBox</value>
+  </data>
+  <data name="&gt;&gt;WeightcheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeightcheckBox.Parent" xml:space="preserve">
+    <value>SortingStandardgroupBox</value>
+  </data>
+  <data name="&gt;&gt;WeightcheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SizecheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SizecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 51</value>
+  </data>
+  <data name="SizecheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SizecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="SizecheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SizecheckBox.Text" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="&gt;&gt;SizecheckBox.Name" xml:space="preserve">
+    <value>SizecheckBox</value>
+  </data>
+  <data name="&gt;&gt;SizecheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SizecheckBox.Parent" xml:space="preserve">
+    <value>SortingStandardgroupBox</value>
+  </data>
+  <data name="&gt;&gt;SizecheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SortingStandardgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 18</value>
+  </data>
+  <data name="SortingStandardgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SortingStandardgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SortingStandardgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 196</value>
+  </data>
+  <data name="SortingStandardgroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SortingStandardgroupBox.Text" xml:space="preserve">
+    <value>分选标准</value>
+  </data>
+  <data name="&gt;&gt;SortingStandardgroupBox.Name" xml:space="preserve">
+    <value>SortingStandardgroupBox</value>
+  </data>
+  <data name="&gt;&gt;SortingStandardgroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SortingStandardgroupBox.Parent" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;SortingStandardgroupBox.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="SizeGrade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="SizeGrade.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SizeGrade.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="SizeGrade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1186, 706</value>
+  </data>
+  <data name="SizeGrade.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SizeGrade.Text" xml:space="preserve">
+    <value>尺寸（重量）设置</value>
+  </data>
+  <data name="&gt;&gt;SizeGrade.Name" xml:space="preserve">
+    <value>SizeGrade</value>
+  </data>
+  <data name="&gt;&gt;SizeGrade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SizeGrade.Parent" xml:space="preserve">
+    <value>GradeSettabControl</value>
+  </data>
+  <data name="&gt;&gt;SizeGrade.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GradeSettabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1</value>
+  </data>
+  <data name="GradeSettabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GradeSettabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1194, 736</value>
+  </data>
+  <data name="GradeSettabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GradeSettabControl.Name" xml:space="preserve">
+    <value>GradeSettabControl</value>
+  </data>
+  <data name="&gt;&gt;GradeSettabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSettabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GradeSettabControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="OKbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>995, 741</value>
+  </data>
+  <data name="OKbutton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="OKbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 33</value>
+  </data>
+  <data name="OKbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="OKbutton.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.Name" xml:space="preserve">
+    <value>OKbutton</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Cancelbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1095, 740</value>
+  </data>
+  <data name="Cancelbutton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Cancelbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 33</value>
+  </data>
+  <data name="Cancelbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Cancelbutton.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.Name" xml:space="preserve">
+    <value>Cancelbutton</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1194, 782</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>等级设定</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExName.Name" xml:space="preserve">
+    <value>GradeSizelistViewExName</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExMiniSize.Name" xml:space="preserve">
+    <value>GradeSizelistViewExMiniSize</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExMiniSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExTargetNumber.Name" xml:space="preserve">
+    <value>GradeSizelistViewExTargetNumber</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExTargetNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExTargetWeight.Name" xml:space="preserve">
+    <value>GradeSizelistViewExTargetWeight</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExTargetWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExMinWeight.Name" xml:space="preserve">
+    <value>GradeSizelistViewExMinWeight</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExMinWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExMinVolume.Name" xml:space="preserve">
+    <value>GradeSizelistViewExMinVolume</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExMinVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExMinArea.Name" xml:space="preserve">
+    <value>GradeSizelistViewExMinArea</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewExMinArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GradeSetForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

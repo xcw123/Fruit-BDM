@@ -1,0 +1,1453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="splitContainer2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="SampleExitLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 95</value>
+  </data>
+  <data name="SampleExitLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="SampleExitLabel.Text" xml:space="preserve">
+    <value>Sampling</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 9pt, style=Bold</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 14</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 17</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.Text" xml:space="preserve">
+    <value>Process on and can not print</value>
+  </data>
+  <data name="LblProOffAndPrint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 9pt, style=Bold</value>
+  </data>
+  <data name="LblProOffAndPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>648, 34</value>
+  </data>
+  <data name="LblProOffAndPrint.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="LblProOffAndPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 17</value>
+  </data>
+  <data name="LblProOffAndPrint.Text" xml:space="preserve">
+    <value>Process off and can print</value>
+  </data>
+  <data name="VelChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 26.25pt, style=Bold</value>
+  </data>
+  <data name="VelChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="VelChangelabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="VelChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 50</value>
+  </data>
+  <data name="VelUnitlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="VelUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 34</value>
+  </data>
+  <data name="VelUnitlabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="VelUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 23</value>
+  </data>
+  <data name="VelUnitlabel.Text" xml:space="preserve">
+    <value>RPM</value>
+  </data>
+  <data name="BatchNumlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="BatchNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 11</value>
+  </data>
+  <data name="BatchNumlabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="BatchNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 23</value>
+  </data>
+  <data name="BatchNumlabel.Text" xml:space="preserve">
+    <value>Batch Number</value>
+  </data>
+  <data name="BatchNumChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 15pt, style=Bold</value>
+  </data>
+  <data name="BatchNumChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 9</value>
+  </data>
+  <data name="BatchNumChangelabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="BatchNumChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 28</value>
+  </data>
+  <data name="StartTimeChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 54</value>
+  </data>
+  <data name="StartTimeChangelabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="BatchNumUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>636, 10</value>
+  </data>
+  <data name="BatchNumUnitlabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="BatchNumUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 26</value>
+  </data>
+  <data name="BatchNumUnitlabel.Text" xml:space="preserve">
+    <value>Piece</value>
+  </data>
+  <data name="SeparationEfficiencylabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="SeparationEfficiencylabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>759, 11</value>
+  </data>
+  <data name="SeparationEfficiencylabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="SeparationEfficiencylabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 23</value>
+  </data>
+  <data name="SeparationEfficiencylabel.Text" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="SeparationProgramelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="SeparationProgramelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>734, 57</value>
+  </data>
+  <data name="SeparationProgramelabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="SeparationProgramelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 23</value>
+  </data>
+  <data name="SeparationProgramelabel.Text" xml:space="preserve">
+    <value>Strategy</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 15pt, style=Bold</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>874, 9</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 28</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 10pt, style=Bold</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 59</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.Text" xml:space="preserve">
+    <value>(No Save)</value>
+  </data>
+  <data name="SeparationVellabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="SeparationVellabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 34</value>
+  </data>
+  <data name="SeparationVellabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="SeparationVellabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 23</value>
+  </data>
+  <data name="SeparationVellabel.Text" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="WeightCountlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="WeightCountlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1003, 11</value>
+  </data>
+  <data name="WeightCountlabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="WeightCountlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="WeightCountlabel.Text" xml:space="preserve">
+    <value>Batch Weight</value>
+  </data>
+  <data name="AverWeightCountlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="AverWeightCountlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>992, 57</value>
+  </data>
+  <data name="AverWeightCountlabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="AverWeightCountlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 23</value>
+  </data>
+  <data name="AverWeightCountlabel.Text" xml:space="preserve">
+    <value>Average Weight</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 15pt, style=Bold</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1185, 9</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 28</value>
+  </data>
+  <data name="AverWeightCountChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 15pt, style=Bold</value>
+  </data>
+  <data name="AverWeightCountChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1198, 54</value>
+  </data>
+  <data name="AverWeightCountChangelabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="AverWeightCountChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 28</value>
+  </data>
+  <data name="WeightCountUnitlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="WeightCountUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1310, 11</value>
+  </data>
+  <data name="WeightCountUnitlabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="WeightCountUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 23</value>
+  </data>
+  <data name="WeightCountUnitlabel.Text" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="RealWeightCountlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="RealWeightCountlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1400, 11</value>
+  </data>
+  <data name="RealWeightCountlabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="RealWeightCountlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="RealWeightCountlabel.Text" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="RealWeightCountChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 15pt, style=Bold</value>
+  </data>
+  <data name="RealWeightCountChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1570, 9</value>
+  </data>
+  <data name="RealWeightCountChangelabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="RealWeightCountChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 28</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1308, 57</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 23</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.Text" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1680, 11</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 23</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.Text" xml:space="preserve">
+    <value>TPH</value>
+  </data>
+  <data name="StartTimelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="StartTimelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 57</value>
+  </data>
+  <data name="StartTimelabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="StartTimelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="StartTimelabel.Text" xml:space="preserve">
+    <value>Starting Time</value>
+  </data>
+  <data name="Intervallabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1370, 55</value>
+  </data>
+  <data name="Intervallabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 26</value>
+  </data>
+  <data name="Intervallabel.Text" xml:space="preserve">
+    <value>Interval speed</value>
+  </data>
+  <data name="IntervalChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1587, 55</value>
+  </data>
+  <data name="IntervalUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1684, 55</value>
+  </data>
+  <data name="IntervalUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 26</value>
+  </data>
+  <data name="IntervalUnitlabel.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 320</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1750, 91</value>
+  </data>
+  <data name="splitContainer3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="StopSortinglabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 145</value>
+  </data>
+  <data name="StopSortinglabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 17</value>
+  </data>
+  <data name="StopSortinglabel.Text" xml:space="preserve">
+    <value>Prepareing for sort...</value>
+  </data>
+  <data name="StandardSettinglabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 145</value>
+  </data>
+  <data name="StandardSettinglabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="StandardSettinglabel.Text" xml:space="preserve">
+    <value>Calculating...</value>
+  </data>
+  <data name="NoramlSortinglabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 145</value>
+  </data>
+  <data name="NoramlSortinglabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="NoramlSortinglabel.Text" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 0</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.Text" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="GradedataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="GradedataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>615, 174</value>
+  </data>
+  <data name="GradeSizelistViewName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GradeSizelistViewSize.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="GradeSizelistViewWeightSum.Text" xml:space="preserve">
+    <value>Total Weight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GradeSizelistViewWeightSum.Width" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="GradeSizelistViewWeightPercent.Text" xml:space="preserve">
+    <value>Weight Percent</value>
+  </data>
+  <data name="GradeSizelistViewWeightPercent.Width" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="GradeSizelistViewBoxNumber.Text" xml:space="preserve">
+    <value>Cartons</value>
+  </data>
+  <data name="GradeSizelistViewBoxNumber.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="GradeSizelistViewTargetNumber.Text" xml:space="preserve">
+    <value>Target Number</value>
+  </data>
+  <data name="GradeSizelistViewTargetNumber.Width" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="GradeSizelistViewLabel.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="GradeSizelistViewWeight.Text" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="GradeSizelistViewNum.Text" xml:space="preserve">
+    <value>Total Num</value>
+  </data>
+  <data name="GradeSizelistViewNum.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="GradeSizelistViewTargetWeight.Text" xml:space="preserve">
+    <value>Target Weight</value>
+  </data>
+  <data name="GradeSizelistViewTargetWeight.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="GradeSizelistViewWeightPerBox.Text" xml:space="preserve">
+    <value>Weight Per Box</value>
+  </data>
+  <data name="GradeSizelistViewWeightPerBox.Width" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="GradeSizelistViewNumPercent.Text" xml:space="preserve">
+    <value>Num Percent</value>
+  </data>
+  <data name="GradeSizelistViewBoxPercent.Text" xml:space="preserve">
+    <value>Cartons Percent</value>
+  </data>
+  <data name="GradeSizelistViewEx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="GradeSizelistViewEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>795, 174</value>
+  </data>
+  <data name="splitContainer3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1419, 176</value>
+  </data>
+  <data name="splitContainer3.SplitterDistance" type="System.Int32, mscorlib">
+    <value>617</value>
+  </data>
+  <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1419, 619</value>
+  </data>
+  <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>437</value>
+  </data>
+  <data name="splitContainer2.SplitterWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1419, 688</value>
+  </data>
+  <data name="splitContainer1.SplitterWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="SystemtoolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 26</value>
+  </data>
+  <data name="SystemtoolStripStatusLabel.Text" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="CuptoolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 26</value>
+  </data>
+  <data name="CuptoolStripStatusLabel.Text" xml:space="preserve">
+    <value>Cup:</value>
+  </data>
+  <data name="IPMtoolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 26</value>
+  </data>
+  <data name="MainstatusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 715</value>
+  </data>
+  <data name="MainstatusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1419, 31</value>
+  </data>
+  <data name="加载配置toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="加载配置toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="加载配置toolStripMenuItem.Text" xml:space="preserve">
+    <value>Load Configuration</value>
+  </data>
+  <data name="保存配置toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="保存配置toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="保存配置toolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Configuration</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 6</value>
+  </data>
+  <data name="退出XToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="退出XToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="退出XToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit(X)</value>
+  </data>
+  <data name="文件FToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 21</value>
+  </data>
+  <data name="文件FToolStripMenuItem.Text" xml:space="preserve">
+    <value>Files(F)</value>
+  </data>
+  <data name="等级设定toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="等级设定toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="等级设定toolStripMenuItem.Text" xml:space="preserve">
+    <value>Size Settings</value>
+  </data>
+  <data name="工程设置toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="工程设置toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="工程设置toolStripMenuItem.Text" xml:space="preserve">
+    <value>Engineer Settings</value>
+  </data>
+  <data name="恢复设置toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="恢复设置toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="恢复设置toolStripMenuItem.Text" xml:space="preserve">
+    <value>Restore Settings</value>
+  </data>
+  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 6</value>
+  </data>
+  <data name="备份设置toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="备份设置toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="备份设置toolStripMenuItem.Text" xml:space="preserve">
+    <value>Backup Settings</value>
+  </data>
+  <data name="设置SToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
+  </data>
+  <data name="设置SToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings(S)</value>
+  </data>
+  <data name="电磁阀测试toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="电磁阀测试toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="电磁阀测试toolStripMenuItem.Text" xml:space="preserve">
+    <value>Solenoid Test</value>
+  </data>
+  <data name="电机使能ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="电机使能ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Motor Enable</value>
+  </data>
+  <data name="toolStripMenuItem16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 6</value>
+  </data>
+  <data name="出口清空toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="出口清空toolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit Clear</value>
+  </data>
+  <data name="数据清零toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="数据清零toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="数据清零toolStripMenuItem.Text" xml:space="preserve">
+    <value>Zero Clearing</value>
+  </data>
+  <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 6</value>
+  </data>
+  <data name="结束加工toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="结束加工toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="结束加工toolStripMenuItem.Text" xml:space="preserve">
+    <value>End Batch</value>
+  </data>
+  <data name="toolStripMenuItem18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 6</value>
+  </data>
+  <data name="复位果杯toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="复位果杯toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="复位果杯toolStripMenuItem.Text" xml:space="preserve">
+    <value>Cup Resetting</value>
+  </data>
+  <data name="测试果杯toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="测试果杯toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="测试果杯toolStripMenuItem.Text" xml:space="preserve">
+    <value>Cup Testing</value>
+  </data>
+  <data name="toolStripMenuItem20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 6</value>
+  </data>
+  <data name="固定窗口toolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="固定窗口toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="固定窗口toolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Layout</value>
+  </data>
+  <data name="WIFI功能ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="WIFI功能ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="WIFI功能ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Wifi Broadcast</value>
+  </data>
+  <data name="关闭IPMToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="关闭IPMToolStripMenuItem.Text" xml:space="preserve">
+    <value>Close IPM</value>
+  </data>
+  <data name="数据恢复ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="数据恢复ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Data Recovery</value>
+  </data>
+  <data name="工具TToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="工具TToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tools(T)</value>
+  </data>
+  <data name="用户手册ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="用户手册ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="用户手册ToolStripMenuItem.Text" xml:space="preserve">
+    <value>User Manual</value>
+  </data>
+  <data name="语言切换ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="语言切换ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language Switch</value>
+  </data>
+  <data name="toolStripMenuItem23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 6</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Text" xml:space="preserve">
+    <value>About Reemoon</value>
+  </data>
+  <data name="帮助HToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="帮助HToolStripMenuItem.Text" xml:space="preserve">
+    <value>Helps(H)</value>
+  </data>
+  <data name="MainmenuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 3, 0, 3</value>
+  </data>
+  <data name="MainmenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1419, 27</value>
+  </data>
+  <data name="QaulitytoolStripButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="QaulitytoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 8.25pt, style=Bold</value>
+  </data>
+  <data name="QaulitytoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 69</value>
+  </data>
+  <data name="QaulitytoolStripButton.Text" xml:space="preserve">
+    <value>Grades Settings</value>
+  </data>
+  <data name="QaulitytoolStripButton.ToolTipText" xml:space="preserve">
+    <value>Grades Settings</value>
+  </data>
+  <data name="GradetoolStripButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GradetoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GradetoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 69</value>
+  </data>
+  <data name="GradetoolStripButton.Text" xml:space="preserve">
+    <value>Size Settings</value>
+  </data>
+  <data name="FruitInfotoolStripButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FruitInfotoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 8.25pt, style=Bold</value>
+  </data>
+  <data name="FruitInfotoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 69</value>
+  </data>
+  <data name="FruitInfotoolStripButton.Text" xml:space="preserve">
+    <value>Fruit Information</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 72</value>
+  </data>
+  <data name="LoadtoolStripButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LoadtoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 8.25pt, style=Bold</value>
+  </data>
+  <data name="LoadtoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 69</value>
+  </data>
+  <data name="LoadtoolStripButton.Text" xml:space="preserve">
+    <value>Load Strategies</value>
+  </data>
+  <data name="SavetoolStripButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SavetoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SavetoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 69</value>
+  </data>
+  <data name="SavetoolStripButton.Text" xml:space="preserve">
+    <value>Save Strategies</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 72</value>
+  </data>
+  <data name="SeparationLogtoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SeparationLogtoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 69</value>
+  </data>
+  <data name="SeparationLogtoolStripButton.Text" xml:space="preserve">
+    <value>Sorting Log</value>
+  </data>
+  <data name="ProcessInfotoolStripButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ProcessInfotoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ProcessInfotoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 69</value>
+  </data>
+  <data name="ProcessInfotoolStripButton.Text" xml:space="preserve">
+    <value>Batch Details</value>
+  </data>
+  <data name="StatisticInfotoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 8.25pt, style=Bold</value>
+  </data>
+  <data name="StatisticInfotoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 69</value>
+  </data>
+  <data name="StatisticInfotoolStripButton.Text" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="EndProcesstoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 8.25pt, style=Bold</value>
+  </data>
+  <data name="EndProcesstoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 69</value>
+  </data>
+  <data name="EndProcesstoolStripButton.Text" xml:space="preserve">
+    <value>End Batch</value>
+  </data>
+  <data name="PrinttoolStripButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="PrinttoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PrinttoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 69</value>
+  </data>
+  <data name="PrinttoolStripButton.Text" xml:space="preserve">
+    <value>Print Reports</value>
+  </data>
+  <data name="QualitytoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 69</value>
+  </data>
+  <data name="TimetoolStripLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 27.75pt, style=Bold</value>
+  </data>
+  <data name="TimetoolStripLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 69</value>
+  </data>
+  <data name="ClientInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 12pt, style=Bold</value>
+  </data>
+  <data name="ClientInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 69</value>
+  </data>
+  <data name="ClientInfoLabel.Text" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="MaintoolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="MaintoolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1419, 72</value>
+  </data>
+  <data name="启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="启动ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="暂停ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="暂停ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="打开ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="打开ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="清空ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="清空ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ExitcontextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 92</value>
+  </data>
+  <data name="printPreviewDialog1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAICAQAAAAAADoAgAAZgAAABAQEAAAAAAAKAEAAE4DAAAgIAAAAQAIAKgIAAB2BAAAEBAAAAEA
+        CABoBQAAHg0AACAgAAABACAAqBAAAIYSAAAQEAAAAQAgAGgEAAAuIwAAKAAAACAAAABAAAAAAQAEAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAgACAAAAAgACAAICAAACAgIAAwMDAAAAA
+        /wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIoiI
+        iIiIiIiIiIiIiIiIiIiCIigiIiIozMzMzMzMyCIogiIoIiIiKM7m5ubm5sgiKIIiKCIiIijObm5ubm7I
+        IiiCIigiIiIozubm5ubmyCIogiIoIiIiKM5ubm5ubsgiKIIiKCIiIijO5ubm5ubIIiiIiIiIiIiIzm5u
+        bm5uyCIogRERERERGM7u7u7u7sgiKIHZWVlZWRjMzMzMzMzIIiiB1ZWVlZUYiIiIiIiIiIiIgdlZWVlZ
+        GDMzMzMzMzMzOIHVlZWVlRg/uLi4uLi4uDiB2VlZWVkYP7uLi4uLi4s4gdWVlZWVGD+4uLi4uLi4OIHZ
+        WVlZWRg/u4uLi4uLiziB1ZWVlZUYP7i4uLi4uLg4gdlZWVlZGD+7i4uLi4uLOIHVlZWVlRg/uLi4uLi4
+        uDiB3d3d3d0YP7uLi4uLi4s4gRERERERGD+4uLi4uLi4OIiIiIiIiIg/u4uLi4uLiziCIiIiIiIoP7i4
+        uLi4uLg4giIiIiIiKD+7i4uLi4uLOIIiIiIiIig/uLi4uLi4uDiCIiIiIiIoP7u7u7u7u7s4giIiIiIi
+        KD//////////OIIiIiIiIigzMzMzMzMzMziIiIiIiIiIiIiIiIiIiIiIIiIiIiIiIiIiIiIiIiIiIv//
+        ////////AAAAAHv4AA57+AAOe/gADnv4AA57+AAOe/gADgAAAA4AAAAOAAAADgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/4AAB/+AAAf/gAAH/4AAB/+AAAf/gAAAAA
+        AAD/////KAAAABAAAAAgAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACA
+        gACAAAAAgACAAICAAACAgIAAwMDAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAiIiIiIiIiIoiI
+        iIiIiIiIgigijMzMyCiCKCKM5mbIKIiIiIzu7sgogRERjMzMyCiB2ZGIiIiIiIHZkYMzMzM4gdmRg/u7
+        uziB3dGD+7u7OIEREYP7u7s4iIiIg/u7uziCIiKD+7u7OIIiIoP///84giIigzMzMziIiIiIiIiIiP//
+        KCIAACjObALm5mwCIigAAoiIAAKIzgAAbm4AACIoAAAREQAAGM4AAO7uAAAiKHwAWVl8ABjMfADMzAAA
+        IigoAAAAIAAAAEAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAICAgADA3MAA8MqmAKo/KgD/PyoAAF8qAFVfKgCqXyoA/18qAAB/KgBVfyoAqn8qAP9/
+        KgAAnyoAVZ8qAKqfKgD/nyoAAL8qAFW/KgCqvyoA/78qAADfKgBV3yoAqt8qAP/fKgAA/yoAVf8qAKr/
+        KgD//yoAAABVAFUAVQCqAFUA/wBVAAAfVQBVH1UAqh9VAP8fVQAAP1UAVT9VAKo/VQD/P1UAAF9VAFVf
+        VQCqX1UA/19VAAB/VQBVf1UAqn9VAP9/VQAAn1UAVZ9VAKqfVQD/n1UAAL9VAFW/VQCqv1UA/79VAADf
+        VQBV31UAqt9VAP/fVQAA/1UAVf9VAKr/VQD//1UAAAB/AFUAfwCqAH8A/wB/AAAffwBVH38Aqh9/AP8f
+        fwAAP38AVT9/AKo/fwD/P38AAF9/AFVffwCqX38A/19/AAB/fwBVf38Aqn9/AP9/fwAAn38AVZ9/AKqf
+        fwD/n38AAL9/AFW/fwCqv38A/79/AADffwBV338Aqt9/AP/ffwAA/38AVf9/AKr/fwD//38AAACqAFUA
+        qgCqAKoA/wCqAAAfqgBVH6oAqh+qAP8fqgAAP6oAVT+qAKo/qgD/P6oAAF+qAFVfqgCqX6oA/1+qAAB/
+        qgBVf6oAqn+qAP9/qgAAn6oAVZ+qAKqfqgD/n6oAAL+qAFW/qgCqv6oA/7+qAADfqgBV36oAqt+qAP/f
+        qgAA/6oAVf+qAKr/qgD//6oAAADUAFUA1ACqANQA/wDUAAAf1ABVH9QAqh/UAP8f1AAAP9QAVT/UAKo/
+        1AD/P9QAAF/UAFVf1ACqX9QA/1/UAAB/1ABVf9QAqn/UAP9/1AAAn9QAVZ/UAKqf1AD/n9QAAL/UAFW/
+        1ACqv9QA/7/UAADf1ABV39QAqt/UAP/f1AAA/9QAVf/UAKr/1AD//9QAVQD/AKoA/wAAH/8AVR//AKof
+        /wD/H/8AAD//AFU//wCqP/8A/z//AABf/wBVX/8Aql//AP9f/wAAf/8AVX//AKp//wD/f/8AAJ//AFWf
+        /wCqn/8A/5//AAC//wBVv/8Aqr//AP+//wAA3/8AVd//AKrf/wD/3/8AVf//AKr//wD/zMwA/8z/AP//
+        MwD//2YA//+ZAP//zAAAfwAAVX8AAKp/AAD/fwAAAJ8AAFWfAACqnwAA/58AAAC/AABVvwAAqr8AAP+/
+        AAAA3wAAVd8AAKrfAAD/3wAAVf8AAKr/AAAAACoAVQAqAKoAKgD/ACoAAB8qAFUfKgCqHyoA/x8qAAA/
+        KgBVPyoA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAAAAAAD//wAA////AP39/f39/f39/f39/f39
+        /f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+        /f39/f39/f39/f39/f39/f39/f39/f39qoYIqoYIhqoIqgiqCaoIqgiqhqqGhoYIhoYIqv39/f0I/f39
+        /ar9/f39/YY2Ng4yDg4ODgoOCgoKCgqG/f39/Yb9/f39CP39/f39qjY7Ozs3Nzc3NjMSMjIOCqr9/f39
+        qv39/f2G/f39/f0IN19fOzs3Nzc3NjcODg4KCP39/f0I/f39/ar9/f39/ao6X19fXzs7Ozc3NzY3NgqG
+        /f39/Yb9/f39CP39/f39hl9jY19jX187Ozs7Nzc3Dqr9/f39qv39/f2G/f39/f0IOodjh19jX19fXztf
+        OzcOCP39/f0ICAmqCAiqCKoICapfCYdjh2ODY19fXzs7Ow6q/f39/QhITEwoSCUoKSQoqmMJCYcJCWNj
+        Y2NfY19fNgj9/f39qkyZmZmYmJRwlCmqX19fXl9fX186WzY3Njc2gv39/f0JcJ2dmZmZlJmUJAmqCaoJ
+        hggIqggICKoIqggI/f39/YZwnp2dnZmZmJVMqnx8fHx8fFR8VHhUVFRUVKr9/f39CHChoZ2dnZ2ZmUwJ
+        fKSkxqSkxqSkpKSkpKBUCP39/f2qcKLDoqGdnZ2ZTKp8ysakxqSkxqSkxqSkpFSq/f39/QiUpqbDoqHE
+        nZ1Mq3ykqMakyqSkxqSkpKSkVAj9/f39hpTIyKbHoqGhoXAIfMrLpMqkxqSkxqTGpKRUqv39/f0IlMym
+        yKbIpcShcAh8y6jKpMqkxsqkpKSkxlQI/f39/aqUzMzMyKbIpqJwqnzLy8qpxsqkpMakxqSkeAj9/f39
+        CJSUlJSUlJSUlJQJgMupy8qpysqkyqSkxqRUqv39/f2GCKoIqgiqCKoIhgigrcvPqcuoy8qkxsqkxnyG
+        /f39/ar9/f39/f39/f39qnzPz6nLy8uoyqnKpKTKVAj9/f39CP39/f39/f39/f0IfNDPz8+py8upyqjG
+        yqR8hv39/f2G/f39/f39/f39/Qik0K7P0M+ty8vLy6jKpXyq/f39/ar9/f39/f39/f39CHzQ09Ctz8/P
+        qcupy6jKeAj9/f39CP39/f39/f39/f2qoNPQ0NPQ0M/Qz8vLy6l8CP39/f2G/f39/f39/f39/QmkfKR8
+        oHx8fHx8fHx8fHyG/f39/aoIqgiqCKoIqgiqCKoIqgiqCKoIqgiqCKoIqgj9/f39/f39/f39/f39/f39
+        /f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f3/////////////
+        ///AAAAD3vgAA974AAPe+AAD3vgAA974AAPe+AADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AA
+        AAPAAAADwAAAA8AAAAPAAAADwAAAA9/4AAPf+AAD3/gAA9/4AAPf+AAD3/gAA8AAAAP//////////ygA
+        AAAQAAAAIAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAA
+        gACAgAAAgICAAMDcwADwyqYAqj8qAP8/KgAAXyoAVV8qAKpfKgD/XyoAAH8qAFV/KgCqfyoA/38qAACf
+        KgBVnyoAqp8qAP+fKgAAvyoAVb8qAKq/KgD/vyoAAN8qAFXfKgCq3yoA/98qAAD/KgBV/yoAqv8qAP//
+        KgAAAFUAVQBVAKoAVQD/AFUAAB9VAFUfVQCqH1UA/x9VAAA/VQBVP1UAqj9VAP8/VQAAX1UAVV9VAKpf
+        VQD/X1UAAH9VAFV/VQCqf1UA/39VAACfVQBVn1UAqp9VAP+fVQAAv1UAVb9VAKq/VQD/v1UAAN9VAFXf
+        VQCq31UA/99VAAD/VQBV/1UAqv9VAP//VQAAAH8AVQB/AKoAfwD/AH8AAB9/AFUffwCqH38A/x9/AAA/
+        fwBVP38Aqj9/AP8/fwAAX38AVV9/AKpffwD/X38AAH9/AFV/fwCqf38A/39/AACffwBVn38Aqp9/AP+f
+        fwAAv38AVb9/AKq/fwD/v38AAN9/AFXffwCq338A/99/AAD/fwBV/38Aqv9/AP//fwAAAKoAVQCqAKoA
+        qgD/AKoAAB+qAFUfqgCqH6oA/x+qAAA/qgBVP6oAqj+qAP8/qgAAX6oAVV+qAKpfqgD/X6oAAH+qAFV/
+        qgCqf6oA/3+qAACfqgBVn6oAqp+qAP+fqgAAv6oAVb+qAKq/qgD/v6oAAN+qAFXfqgCq36oA/9+qAAD/
+        qgBV/6oAqv+qAP//qgAAANQAVQDUAKoA1AD/ANQAAB/UAFUf1ACqH9QA/x/UAAA/1ABVP9QAqj/UAP8/
+        1AAAX9QAVV/UAKpf1AD/X9QAAH/UAFV/1ACqf9QA/3/UAACf1ABVn9QAqp/UAP+f1AAAv9QAVb/UAKq/
+        1AD/v9QAAN/UAFXf1ACq39QA/9/UAAD/1ABV/9QAqv/UAP//1ABVAP8AqgD/AAAf/wBVH/8Aqh//AP8f
+        /wAAP/8AVT//AKo//wD/P/8AAF//AFVf/wCqX/8A/1//AAB//wBVf/8Aqn//AP9//wAAn/8AVZ//AKqf
+        /wD/n/8AAL//AFW//wCqv/8A/7//AADf/wBV3/8Aqt//AP/f/wBV//8Aqv//AP/MzAD/zP8A//8zAP//
+        ZgD//5kA///MAAB/AABVfwAAqn8AAP9/AAAAnwAAVZ8AAKqfAAD/nwAAAL8AAFW/AACqvwAA/78AAADf
+        AABV3wAAqt8AAP/fAABV/wAAqv8AAAAAKgBVACoAqgAqAP8AKgAAHyoAVR8qAKofKgD/HyoAAD8qAFU/
+        KgDw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAAAAAAAP//AAD///8A/f39/f39/f39/f39/f39/f0I
+        hgiqCKoICKoICKaGCP39qv39hv2GNg4ODjII/ar9/Yb9/ar9qjdjXzsOCP2G/f0IhquGCAleCWNfNob9
+        qv39qkxMTEgIX19fX18I/Qj9/QhwnZlMqoYIqggIqgiG/f2qcKadcAl8fFQDVFQDqv39CHDMpnCqfMvL
+        ysrKVAj9/QiUlHBwCYDPy8/LylSG/f2GqoYIqgig0M/Py8t8qv39CP39/f2GpNDQ0M/PfAn9/ar9/f39
+        qqT20NDQ0Hyq/f2G/f39/QmkpKSloKR8CP39CKoIhgiqCIYIqgiGCKr9/f39/f39/f39/f39/f39/f//
+        hv2AAf0ItAX9/bQFX2OABWNfgAU7O4ABNzeAAf39gAGq/YAB/YaAAf39vAE6h7wBX2O8AV9fgAE7N///
+        /f0oAAAAIAAAAEAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADCv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/
+        wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/
+        wf/Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAwr/B/7Z3Sf+zckT/rm0//6toO/+nYjb/pF4y/6BZLv+dVCr/mlEn/5dNI/+VSiH/kkce/5FE
+        HP+RRBz/kUUb/8K/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/AAAAAAAA
+        AAAAAAAAAAAAAAAAAADCv8H/v4JS//+aZv//lWD/+5Bc//WLV//uh1P/54FO/997S//Wdkb/zXBD/8Vr
+        QP+9Zj3/tGI5/65dN/+RRRz/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/AAAAAAAAAAAAAAAAAAAAAMK/
+        wf8AAAAAAAAAAAAAAAAAAAAAAAAAAMK/wf/GjFv//6Rz//+fbf//m2f//5Zh//yRXf/3jVj/8IhV/+mD
+        UP/hfUz/2HhI/9ByRP/HbED/v2c9/5VJIf/Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8AAAAAAAAAAAAA
+        AAAAAAAAwr/B/wAAAAAAAAAAAAAAAAAAAAAAAAAAwr/B/86WZP//r4L//6p7//+mdf//oW7//5xo//+X
+        Yv/9kl7/+I5a//KJVf/rhFH/4n5N/9t4SP/Sc0X/mlEm/8K/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/wAA
+        AAAAAAAAAAAAAAAAAADCv8H/AAAAAAAAAAAAAAAAAAAAAAAAAADCv8H/1J9s//+4kf//tIv//6+E//+r
+        ff//p3f//6Jw//+eav//mWT//pRf//qQWv/0i1b/7IVS/+V/Tv+gWC7/wr/B/wAAAAAAAAAAAAAAAAAA
+        AADCv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8AAAAAAAAAAAAAAAAAAAAAAAAAAMK/wf/apnP//7+d//+7
+        mP//uJL//7WM//+whv//rH///6d4//+jcf//n2v//5ll//+VYP/6kVv/9YxY/6diN//Cv8H/AAAAAAAA
+        AAAAAAAAAAAAAMK/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/96t
+        eP//wqL//8Gi//+/nv//vJn//7mT//+2jv//sYj//66A//+pev//pHP//6Bt//+bZ///l2L/r20//8K/
+        wf8AAAAAAAAAAAAAAAAAAAAAwr/B/xYXev8XF3b/GBVx/xkUbf8ZFGr/GhNm/xoSY/8bEV//HBFd/xwQ
+        W//Cv8H/4K96///Cov//wqL//8Ki///Cov//wJ///72b//+6lf//t4///7KJ//+ugv//qnv//6V0//+h
+        bv+3d0n/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/FRqE/0dN1v8/RNL/Nz3Q/y40zv8nLcz/ISfK/xwh
+        yf8WHMf/GxJh/8K/wf/gr3r/4K96/+Cvev/gr3r/3614/9yqdf/apnL/16Nw/9Sea//Rmmj/zZZk/8qR
+        X//GjFz/w4dW/7+CUv/Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8SHZD/WF3a/05U1/9FS9X/PUPS/zU7
+        0P8uM83/JyzL/yAmyf8aFGn/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/
+        wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/xAfnP9obt7/YGTc/1Zb
+        2f9NU9f/RUrU/ztB0v80OdD/LDHO/xgWcv/Cv8H/Dn+n/w18pP8MeqH/DHie/wt1m/8Kc5j/CXGV/wlv
+        k/8JbJD/CGqN/wdpi/8HZ4j/BmWH/wZkhf8GYoP/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/DiKp/3l+
+        4/9vdeH/Zmze/11i2/9UWtn/S1HW/0NI1P86P9H/Fhh9/8K/wf8Ogar/Barp/wGo6P8Apef/AKPm/wCi
+        5P8An+L/AJ7h/wCd3/8AnN7/AJnc/wCY2/8AmNn/AJbX/wZjhP/Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/
+        wf8MJbX/iI7n/4CF5v93fOP/bnPg/2Vr3f9bYdv/UljY/0lP1v8UGoj/wr/B/w+Erf8Lrur/Bqvq/wOo
+        6f8Apuf/AKTm/wCi5f8AoOT/AJ/i/wCd4f8AnN//AJrd/wCZ2/8AmNr/BmWH/8K/wf8AAAAAAAAAAAAA
+        AAAAAAAAwr/B/wkowP+WnOz/jpTq/4aL6P9+hOX/dXri/2xx4P9jaN3/WV/b/xEek//Cv8H/EIaw/xay
+        7P8Or+z/Cavr/wWq6v8Bp+j/AKbn/wCj5f8AoeT/AJ/j/wCe4f8AnOD/AJve/wCa3f8HZ4n/wr/B/wAA
+        AAAAAAAAAAAAAAAAAADCv8H/CCrK/6Ko7/+coe7/lZrr/42T6f+Fiub/fIHl/3N54v9rcN//ECGg/8K/
+        wf8QiLP/I7nu/xq07f8Ssez/C63r/war6v8Cqen/AKbo/wCk5v8AouX/AKHk/wCf4f8AneH/AJzf/who
+        i//Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8GLNP/q7Hy/6as8P+hpu//mp/u/5OY6/+LkOj/g4nm/3qA
+        5P8NI6z/wr/B/xCKtv8xvvD/J7rv/x627f8Vsuz/Dq/s/wmr6/8Equn/Aafo/wCl5/8Ao+X/AKHk/wCf
+        4v8AnuH/CGqO/8K/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/wUu2/+vtPP/r7Tz/6qv8v+mq/D/oKXv/5me
+        7f+Sl+v/io/p/wsmt//Cv8H/Eo24/0HF8f82wfD/LLzv/yK47v8atO3/EbHs/wut6/8Gq+r/A6np/wCm
+        6P8Apeb/AKLl/wCh5P8IbJD/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/BC/h/wQv3/8FL9z/BS3Z/wYt
+        1v8GLNL/ByvP/wgqy/8IKcb/CSnC/8K/wf8Sjrv/Uszy/0fH8f87w/H/Mb7v/ye67/8et+7/FbPt/w6v
+        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
+</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 9pt, style=Bold</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>752, 17</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.Text" xml:space="preserve">
+    <value>Customer：</value>
+  </data>
+  <data name="ClientInfoLabelGrower.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 9pt, style=Bold</value>
+  </data>
+  <data name="ClientInfoLabelGrower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>848, 17</value>
+  </data>
+  <data name="ClientInfoLabelGrower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="ClientInfoLabelGrower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="ClientInfoLabelGrower.Text" xml:space="preserve">
+    <value>    Grower：</value>
+  </data>
+  <data name="ClientInfoLabelVariety.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 9pt, style=Bold</value>
+  </data>
+  <data name="ClientInfoLabelVariety.Location" type="System.Drawing.Point, System.Drawing">
+    <value>943, 17</value>
+  </data>
+  <data name="ClientInfoLabelVariety.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="ClientInfoLabelVariety.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="ClientInfoLabelVariety.Text" xml:space="preserve">
+    <value>    Variety：</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1419, 746</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 9pt, style=Bold</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAMDAAAAEAIACoJQAAJgAAABAQAAABACAAaAQAAM4lAAAoAAAAMAAAAGAAAAABACAAAAAAAIAl
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGCotAU+IjwhYipAbZIyRPW6L
+        j2dwhYeMaXZ3pVdeX7NBRka6LTAwux8iIroYGxu3FRgYsBUXGKgYGxufHCAglSMnKIkrMDF8OD0+bkpR
+        UV9hZ2hQdXx9QIWMjDGPlJUkk5iZGJabmw6Xm5sHg4aGAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEp6
+        gANbipANZYyRJmyJjU1YfYWVO2x6zSNfcOkUV2r1DlRo+wxRZv4MTWH+C0hb/QtAUPkMNUHwDisz5BMj
+        J9UaIiPGIywtuzI8Pa5IUlOfYWpsjneBgnqGj5BljpaXTpOamjmVmpsll5qbFJeamgmGiYkCAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA7iZ0eNoidixqCn+YTfp7+E3yb/xN5l/4RdZL+EHGM/g9sh/4PaIL+DmN7/w5d
+        df4NV23+DFFm/gtMX/4LQlH7EjQ+8CAxNOMzQUPaS1lbz2VzdMF6h4ivhpGTl46XmHuSmppclZqbPZaa
+        myGXmpoMhYeHAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAFIGiDRaPsooXj7T2F5G2/heTuP4Xkrf+FpC0/xaOsv4Wi67+Foiq/hWE
+        pf4UgKD+E3yb/xJ3lP4RcY3+D2uG/g5lfv4NXnb+DVhu/w5QZP0dRVDwOk5Q3lRnadlsfoDPfYyOv4eU
+        lqeOmJqHkZmaYpSamzqWmpoZlpmZBjU2NgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXk7c4F5W73heYv/4XmsH+GZ7F/hqgyf4aocn+GaDJ/xif
+        x/4YncX+F5vC/heYvv4Xlbr+FpG2/xeNsP4Wiav+FoWl/hV/nv4Tepf+EnWQ/xJviv4RaYP+Gl5y8TFf
+        attNbnXIb4SHrH2PkZuGlJaDi5aXYpCXmD6Tl5gelJaWDJOTkwaCgoIEbm5uA1paWgI4ODgBCwsLAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiXvVcYm8L3GaHJ/xihyv4Yosr+GqXO/hup
+        0/4brNb+HKzX/xyr1v4bqtX+G6nT/hqn0P4Zpc7+GKLK/xifxv4YnML+GZq+/hqYuv4albX+GZKw/xiQ
+        q/4WjKf+FYSh/hJ3lP4PZX//HVxu6WF2eYp0gYJwf4eIW4eMjEKNj48tkpKTIJaWlhmZmZkVmJiYEZqa
+        mgyampoIj4+PBCQkJAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGZ3EUhihyfsap8//GqfQ/xmm
+        z/8Zp9H/G6vW/x2v2v8dsd7/HrLf/x6z3/8etOD/HrLe/x2x3f8dr9v/HK/Z/xyt1/8crNX/HavS/x2q
+        0P8dqc3/HanJ/x6qxv8eq8T/HKnA/xmfuf8Wi6v/EXKO/yxZZslbYGCKbnFxe31+fmmIiIhXkJCQSpWV
+        lT+YmJg0mZmZKZqamh2bm5sSmpqaCWVlZQQAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAZpM4uGabQ9CCx
+        2/4kt+D+Jrnj/ya55P4jt+P+ILXh/h604f4etuT+Hrfm/x+45v4fuOb+H7jl/h645f4duOT+Hbfj/x63
+        4v4fuOL+Ibjg/iK43v4jud3+I7rc/yO82v4kvtj+JMDV/iG+0f4cssf/F5W0/hZyjPZNUVKvZ2dnn3l5
+        eY6GhoZ8jo6OapWVlVqYmJhLmZmZOZqamiibm5sYmpqaC2trawQAAAABAAAAAAAAAAAAAAAAAAAAACCh
+        wQYpwebRO9f4/lTd/P6C5f7+n+r+/6jt/v6c6/7+e+H+/lvX/f44zPn+Lsb0/yjB7/4hvOv+ILvp/h+8
+        6f4fvOn+H7zp/x+96v4fv+n+IsLp/iPE6f4lxuj+KMfn/yrJ5v4ry+X+Kszj/inM3/4lxtj/HrXJ/heU
+        sv4oY3veW2JqoHl5eYKGhoZwj4+PX5WVlU+YmJhAmZmZMJqamiGbm5sTmpqaCWJiYgMAAAABAAAAAAAA
+        AAAAAAAAAAAAADzf+X5R5Pv+r+/+/sn0/v7P9f7+0fX+/+n7/v7z/f7+v/P+/snz/v7b9/7+xfH+/5Xl
+        /f5d2Pz+NMv3/irG8f4jwOv+IcDs/yDC7f4hxe7+I8nu/ibN7/4p0O/+K9Lv/y7T7v4w1O3+MNTr/i7S
+        5/4qzeH/JcLW/h6swv4Wiab+DVCM+zdah7x8gopTkJCQNJWVlSqYmJghmZmZGJqamhCampoJlJSUBCAg
+        IAEAAAAAAAAAAAAAAAAAAAAANLvODUPn/PS59P7+5vn+/sLz/v5h4v3+Ptv9/1vk/v6K6/7+ZN/+/j3U
+        /v451P7+R9f9/3rh/f7I8/7+3vf+/prp/f5S2vv+NM/1/yfJ8P4iy+/+JtHx/irV8v4u2fP+MNvz/zLb
+        8/4y2/L+M9nw/jLW7f4u0ef/J8bd/iK2zv4anbb+E3qb/g9Wn/4WVp7wWnWVbY2QlQ2YmJgJmZmZB5SU
+        lARmZmYCGhoaAQAAAAAAAAAAAAAAAAAAAAAAAAAAOtHnO1Lp/P7l+f7++P3+/pTx/v5D4P3+Pdz9/0nh
+        /v5N4f7+a+r+/k3n/v5D4/7+ROP+/17r/v5X6v7+qO7+/oHt/v649P7+sfD+/2fm/P493Pf+Mdn0/i/d
+        9f404fb+N+P3/zfi9v414PX+M9zz/jLY8P4w0ev/Ksjj/iK51v4cpsP+Fo2p/hNvnf4UX6//EViq/h9c
+        pKMyZqMKIjBBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOc/nPlnn/P/T9f//sPL+/3Lr
+        /v9f5/7/Q+j+/07q//9u8P7/bu/+/2Xs/v9N7f7/c/L//3bz//9c8v//ffD+/0fp//9I7v//Vev//5Hx
+        /v+r8v7/Y+r8/0nm+f885/j/POn4/zro+P845Pf/NN/1/zDY8v8t0e7/Ksjo/yO83P8crM3/GJi4/xOA
+        nv8WbLP/F2i7/xVjt/8UX7PBElioDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANLzVGEvi
+        /f3L9P7+ceb+/l7t/v5f7P7+auv+/2Ls/v5+8/7+cO/+/nzx/v5i8P7+c/X+/3n2/v5S9P7+W/b+/nP4
+        /v5d9f7+XfT+/0zx/v5O6v7+ne37/nPn+P5Y5vz+S+v6/z3r+f445/j+NOH2/i/Z8/4q0O//J8fq/iS9
+        4v4csdX+GJ/D/hWMrv4UeKf/HHPJ/hxwxf4Za8H+FWG6whJXqggAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAD7c/cy38P7+g+r+/lbz/v5b7f7+YO3//33w/v5r8P7+dvP+/mvx/v5l8v7+YPb+/132
+        /v5x+f7+d/n+/m76/v5s+v7+ePr+/3D6/v5b9v7+Q+b5/iHe/v7C8v7+duT9/0zk+/456Pj+MeH2/izY
+        9P4o0PD/Jcfs/iK/5v4dtN3+GabO/haWu/4ThKX/IH7L/h960P4cdc3+F2rF/hVjv6EAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEbb+2eL6f7+uPT+/oP0/v539P7+aPH//2rv/v5w7/7+cPL+/mTw
+        /f5i8v3+YfX9/1rz/f5n8/3+Y/b+/knz/v5U8/7+a/j+/2/4/f5H9f7+Ufb+/nLt/v5Y7P7+h+z+/5zp
+        /f5O3Pv+NN/2/ijX8/4lzvH/Isbt/iC/6f4et+H+GqzW/higxv4Vj7P/HIO+/iGA2P4gfdb+HHXP/hls
+        yf4UY8NbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADy72QdZ4P3d7Pv+/uT9/v6r9/7+V/H+/2bu
+        /v5w8P7+bvD9/mPx/f5M8f3+bPL9/3Xy/f5o8f3+X/D9/m3y/f5h7/3+cPL9/3v0/f5a9v3+a/b+/lP0
+        /v5B8v7+TfD+/3Pu/v6+8v7+W9v8/i/U9P4jy/D/IMXt/h+/6/4dueX+HLHc/hmm0P4Xmb//GYq3/iWL
+        4f4lh97+IH7Y/h110f4WZsfqE1+7EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABU3fpMo/H+/tj5
+        /v5d6P7+aun+/17t/v5Z7P3+YO38/mDv/P5d7vz+Ye78/2Tu/P5q8P3+TPD9/mTw/f5U7/3+gvL9/2Dx
+        /f5e8P3+bvL9/k7z/f5i9f3+avX+/1Xx/v5W7f7+wPT+/m7g/f4tzfL/IMLu/h6+6/4duuf+HLTh/hqs
+        1/4ZoMj/FpG2/ieS4/4nj+P+Ioff/h992f4YbM7/FWTHhgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAASdf7nL/w/v9m4P7/Ptn9/1Hj/f9W6/3/Re79/2Lv/f9Q7Pz/Yu38/2ju/P9v7/z/a+79/27v
+        /f9w7v3/ce79/1Lv/f9w7Pz/Wev8/13t/P9i8f3/bfT9/1H0/v9h8P7/Xe3+/8T3/v+E6f3/NtL0/x+/
+        6/8du+n/HLbk/xux3P8aps//F5i+/yOU3v8pl+n/JI/l/ySH3/8cdtb/F2jL7xReuQwAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAO7rjCkzN+dXQ9P7+VNz9/zjb/f5H3f3+UOv9/lLt/P5h7/z+Ye38/1jr
+        /P5e7Pz+Xev8/lno/P6G8f3+s/T9/2vq/f6J7v3+ROv8/k7r/P5X6/z+SPH9/2Lx/f5i7/3+ee3+/rHz
+        /v76/v//m/X+/i3K8f4du+n+HLfm/huy3/4bqtX/GJ7F/iOZ3P4qne3+Jpbp/iSO5f4dft3/GG3R/hRk
+        ymAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1ORARp30+Be0Pn+2vf+/0/Y/P4+1/z+N+T9/lbt
+        /f5h8Pz+V+39/1ns/P5h7vz+TO79/mTr/P6L7v3+6/v+//X8/v7I9/7+eOr8/lrp/P5U6vz+Z/D9/1Dz
+        /f5f7/3+Ye/+/lbt/v5p8f7/zvf+/nXj/v4kwe3+HLjm/hu04f4brdj/GKHK/iOd3f4qofD+KJ3u/iSV
+        6v4iieT/GnbZ/hVnzbIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGm/CJxp51/4kk+b+atb6/8/0
+        /v5d2fr+Mtj1/k/t/P5L7/3+Vu/9/13u/P5i7vz+evD9/nXv/f527v3+l/P+/+f7/v73/f7+sfL+/ljn
+        /P486vz+Vez8/07w/P5y8Pz+evD9/mjv/v5f7P7/VeL+/tH2/v5a2fz+ILro/hu04v4brtr/GaTO/iOi
+        4P4tqPT+KqPy/iab7/4kkun/G3/g/hdt1PATWqgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4LaXSKK
+        4v4llOn+KKHu/2TU+v7I8fn+BuX+/kHs/v5S8P3+UvH9/1/x/f5l8P3+afD9/l3u/P5X7/3+Y+39/5ny
+        /f6a8f3+j/D9/mvq/f5V6Pz+cfD9/23x/f5v8P3+bfD9/lTv/v5Z7f7/QeD+/l7i/v7M9P7+O833/huy
+        4v4artz/GaXQ/iSl5P4op/b+JqT0/iih8v4lme//H4rn/hl43f4Zcs8mAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAH4fehCKT6P4jm+3+JaDx/yen8/5Szfr+zvX+/nnr/v5P7f7+ZvT+/3r2/v5o8/3+avH9/oXz
+        /f5w8f3+bOz9/1jr/P517/3+Xe38/mPt/f5R6vz+Wer8/2Xu/P5r8Pz+ae/9/mTu/f5e7P7/RuX+/k7h
+        /v6K5f7+m+j+/ia96/4ZrNz/GKPQ/iSm6v4pqvf+J6f2/iek9P4poPL/JJPu/huA4/4bfN5KAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAH4vhniOY6/8loPH/JqT0/yao9v8jqff/PcT6/8Lx/v+t9P7/U+/+/0rz
+        /v9t9v3/evb9/2ry/f908P3/Y+/9/2/x/f928P3/Vur8/0nv/f9i7v3/V+/9/2jv/P9m7vz/Vu79/3Pv
+        /f+B8f7/a+3+/3bq/v+L5v7/3Pf+/0zS+f8Yqdz/FqHR/yas8v8pqfj/KKf3/yqo9/8npPX/Jpzy/x6K
+        6v8cgeNgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIzirCWa7v4qpPT+Kaf2/yap9/4nrPj+Ja75/jTA
+        +/6O5/3+yPf+/2fw/v5f8/7+UPP+/mTz/f5z7v3+Wu79/2Tv/P5r8P3+Tu79/mPu/f5l7/3+YO38/13s
+        /P5t8P3+ZvH9/mLx/f5f7f3/Z+7+/kzt/v5N4/7+hej+/pLm/f4ktOf/Fp/U/imx+f4rqvn+Kqj4/iuq
+        +P4lpvf/J6H0/iCR7v4eiehqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIY3jqied8P4qp/f+Kaz4/yyw
+        +f4ir/r+JLL6/ia1+/4vvvz+Wdv9/8H2/v6L7/7+Z/P+/rr7/v6J9P7+YfT+/2f0/f5x8f3+VO78/mXu
+        /P5r7vz+Zu78/2fu/P5k7vz+Zu79/mPu/f5h7v7/Re/+/mTu/v507/7+YOb+/r/x/v4uwfH/G6Tf/i60
+        +/4trfr+Lav5/i2s+f4srvj/KKb2/iGX8f4hkOxmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIZDmmieg
+        8f4prPj+KLD5/yu1+v4itPv+H7X7/iO4/P4hvP3+KMP9/zHP/f6K7/7+6/3+/vz+/v5n8f7+Xe/9/2Hw
+        /f5z8f3+afD8/mju/f5Z6/z+W+z8/2Lt/P5o7fz+Wev9/mrw/f508P7/YO/+/m3u/v5p8P7+Yen+/tD1
+        /v45y/j/H67s/i+3/P4vsfv+La76/i6v+v4us/r/Kaz4/iCd8v4hlu5WAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAH5LpfCWj8/4orvn+Lbb7/ye3+/4fuPz+Hrr8/izB/f4lwv3+IMP9/yTG/f4qy/7+Rdz9/pr1
+        /v6y9/7+XOn+/0zo/f5W7f3+Vuv9/k/p/P5o6f3+Qe38/1bq/P5e6/3+Wer9/knu/v5h7f7/Vez+/lfv
+        /v6N8v7+xvn+/tT2/v45zPr/Hrz5/ia8/f4tt/z+KbX7/iu2+/4rtfr/JK/4/iWm8v4mm+s4AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAIZjrTiOk8/8rsvn/KLj7/yW8/P8gvfz/IcH9/zzL/f80yv3/JcX9/y/I
+        /v8oyP7/H8v+/x/S/v854f7/jPH+/8H3/v+X8P7/X+j9/0vk/f+V7v7/Wer9/1jq/f9M6P3/Qun9/2Hq
+        /v9Z6/7/We3//1Hv//9g7f7/1vr//6ns/v84zv7/KcX+/yPE/f8yw/3/Kr78/ye6/P8st/v/Iq/4/ySn
+        8PwijtMPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHojOFCKk8vsttPr+Lbz8/ye//P4mw/3+J8f9/i7L
+        /f4pyf3+Ksj+/zHK/v4wy/7+Kc/+/iLU/v4e1/7+KN7+/zbe/P5s5/z+svD+/sj2/v7Z+v7+wPf+/1jj
+        /f494/3+Seb9/krm/v5y5/7/b+7+/nnw/v668/7+yvT+/k7Y/v4yy/7/Nsv+/ibH/v4qxP3+KcH8/iO8
+        /P4muPv/IrH4/h+m8NIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACWp9MIntfr+J738/zHG
+        /f4exP3+Icj9/iXL/v4wzf7+M83+/ynL/v4kzP7+Ndb+/hzW/v4a2f7+Itv+/zXc/f453v7+NNf9/jjW
+        /f545f3+oOv9/8Hx/v7F8/7+v/P+/rvy/v7F8/7/0/b+/sP0/v6W7v7+Sdz+/i3N/v4ox/7/L8r+/inJ
+        /v4sx/7+KsT9/ijB/f4ku/v/Jrb3/iKq8IgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACWt
+        9mImuPr+LsP8/y3J/f4kyf3+Hcv+/iXP/v4jzv7+LM/+/yjO/f4x0/7+Pdv+/jbf/v4s4f7+J+D+/x3c
+        /v4w2/7+LdX+/i7S/v431P7+KdL+/yjV/v4q1/7+P97+/lPj/v5O5f7/QuP+/kLh/f472P3+Jc3+/iLJ
+        /v4jyP7/Jsn9/ivL/v4vy/7+JsX9/jHF/f4nvvv/JLb1/iut7y0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACKb1wklufjmLMX7/yvL/f4izf7+Hs7+/jLW/v4t1P7+J9P+/ynT/v4y2f7+Mt/+/h/f
+        /v4d4f7+N+T+/zzi/v4v2f7+KtX+/i7U/v4v1P7+H9P+/xrW/v4h3P7+I97+/iHd/v4q2/7/K9b+/jjV
+        /v4x0f7+Js3+/iLL/v4pzP7/Kc3+/ibL/v4uzP3+Jsf9/i/H/P4pwPj/I7XzwAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAst/NqMMX4/y3N/P4w0v3+JtT+/kHb/v482/7+KNj+/zPc
+        /v4v3v7+L+P+/ibk/v4j5v7+Oeb+/0zk/v4y2/7+Ldj+/inU/v4k1P7+Htj+/x/c/v4b3P7+NeP+/ibf
+        /v4o2/7/ONn+/jTU/v4w0v7+Js7+/iLN/v4s0P7/N9L+/izP/f4yzv7+Msz9/jLI+v4qvfP+JLPwQQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqlsgDOb7wyjLN+P841fz/L9f+/zza
+        /v842/7/Ndz+/zzh/v9C5v7/QOj+/1Tt/v9L7f7/U+3+/17o/v8x3v7/K9r+/y/X/v8e0v7/Itn+/yjd
+        /v8m3v7/O+P+/yzh/v8p3v7/SN7+/z/Z/v8t1P7/MdX+/yvT/v8t0v7/OtP+/zHP/f81z/3/Mcv7/zbH
+        9v82ve+rAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLzsKDvJ
+        8/Iz0/r+N9j9/jnb/v463P7+Ot3+/zXh/v495v7+Uez+/kvs/v5E6/7+Sev+/0vp/v4+5P7+Md7+/iLX
+        /v4W1f7+FtX+/xnX/v4d2v7+J9/+/jXj/v5G5P7/TOP+/kXf/v473v7+Mtr+/irW/v4x0/7/NtH+/i7L
+        /f41zPz+NMj3/jO+7+g8ueoXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAADjF8lA80Pf8P9n8/jXZ/f4n1v7+Ldn+/yXc/v4o4v7+O+n+/kzv/v5E7f7+O+z+/0Lr
+        /v5O6v7+MuL+/hjY/v4R0v7+FtX+/xbU/v4a2P7+It7+/jLj/v5S5/7/SOb+/jjn/v485P7+MN7+/iPU
+        /v4oz/7/MMv+/jLI/P4ww/f+K7bu+S6y6D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHzfRjQdT6/DHT/f4j0P7+I9P+/x/W/v4h3f7+K+b+/j/u
+        /v4z7P7+Q+/+/1Hv/v5O7P7+LeT+/h7d/v4a2v7+GNn+/xXW/v4Z2P7+I9r+/izj/v4/5f7/P+r+/jTp
+        /v425f7+N+D+/inU/v4hyP3/JcL9/im++P4osu/7JqTjVwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOMn1WDfO+vcszf3+H8z+/xXN
+        /v4b2P7+KOX+/i7r/v4+7f7+bPH+/3Ds/f404f3+Mub+/i3m/v4h5P7+GeH+/x7g/v4Vx/z+Icj6/jfk
+        /v4v5P7/SOr+/kvu/v4/6P7+OOH+/inT/f4exP3/HLn5/iKu7/Yood9TAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPB
+        8TUrxPfdGsL8/xnL/v4c1/7+Meb+/l/u/v5Z8P7+V/D+/3bv/f4/1vn+H7z1/iTS+P4i5/7+H+f+/xrM
+        7/4Pkun+K834/kbn/v4x5v7/U+z+/mbz/v5B6/7+OOD9/inT/P4Zw/v/GKzx3h2Z3zUAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAsqtoMIb30kCLN/foo2v7/Oub+/0np/v9E3/z/PNb6/z3P+f8yyPf/JLLx/xiI
+        1P8Sd6D/FpCW/xR8mv8TisT/KLv0/y/H+P8q0fn/Udr5/3Tr/P9J6P7/Mt79/zXb/PwlxPWVHqHbDgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPH8Cky1vqmQ+P991Ds/v5b7f7+UuP8/1XU
+        +f5O0ff+Vtn5/mHj+v4ur+X+QNHr/yyv4f4ys+b+O9H4/k/Q9/5H1Pj/XeP7/n3y/v5A6f77NN/6qjjV
+        9iwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASsfhEE7g
+        +15X5f2laej9327q/f1y7P3+evD+/mnr/P5b4vr+cfH9/1fo/P5O4vv+We399WXq/e5e6P3ndur9zXTs
+        /H5f3/YfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAFWzxwpft8kXY8HRCGbo/DZc6/1tc+/9Z2Dl+DdP2vIvSrfKAwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAD//wAA
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+</root>

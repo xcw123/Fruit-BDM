@@ -1,0 +1,731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Namelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 17</value>
+  </data>
+  <data name="Namelabel.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NametextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NametextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="ColorcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 27</value>
+  </data>
+  <data name="ColorcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="ColorcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="ColorcheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="ColorcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="ColorcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="ColorcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="Colorlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="Colorlabel.Text" xml:space="preserve">
+    <value>Color Grade</value>
+  </data>
+  <data name="ColorgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 52</value>
+  </data>
+  <data name="ColorgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="ColorgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="ColorgroupBox.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="FlawcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 27</value>
+  </data>
+  <data name="FlawcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="FlawcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="FlawcheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="FlawcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="FlawcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="FlawcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="Flawlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="Flawlabel.Text" xml:space="preserve">
+    <value>Blemish Grade</value>
+  </data>
+  <data name="FlawgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 52</value>
+  </data>
+  <data name="FlawgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="FlawgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="FlawgroupBox.Text" xml:space="preserve">
+    <value>Blemish</value>
+  </data>
+  <data name="ShapecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 27</value>
+  </data>
+  <data name="ShapecheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="ShapecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="ShapecheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="ShapecomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="ShapecomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="ShapecomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="Shapelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="Shapelabel.Text" xml:space="preserve">
+    <value>Shape Grade</value>
+  </data>
+  <data name="ShapegroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 52</value>
+  </data>
+  <data name="ShapegroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="ShapegroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="ShapegroupBox.Text" xml:space="preserve">
+    <value>Shape</value>
+  </data>
+  <data name="DensitycheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 27</value>
+  </data>
+  <data name="DensitycheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="DensitycheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="DensitycheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="DensitycomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="DensitycomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="DensitycomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="Densitylabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="Densitylabel.Text" xml:space="preserve">
+    <value>Density Grade</value>
+  </data>
+  <data name="DensitygroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 163</value>
+  </data>
+  <data name="DensitygroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="DensitygroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="DensitygroupBox.Text" xml:space="preserve">
+    <value>Density</value>
+  </data>
+  <data name="RigiditycheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 27</value>
+  </data>
+  <data name="RigiditycheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="RigiditycheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="RigiditycheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="RigiditycomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="RigiditycomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="RigiditycomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="Rigiditylabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 17</value>
+  </data>
+  <data name="Rigiditylabel.Text" xml:space="preserve">
+    <value>Hardness Grade</value>
+  </data>
+  <data name="RigiditygroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 496</value>
+  </data>
+  <data name="RigiditygroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="RigiditygroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="RigiditygroupBox.Text" xml:space="preserve">
+    <value>Hardness</value>
+  </data>
+  <data name="SugarcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 27</value>
+  </data>
+  <data name="SugarcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="SugarcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="SugarcheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="SugarcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="SugarcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="SugarcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="Sugarlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="Sugarlabel.Text" xml:space="preserve">
+    <value>Sugar Grade</value>
+  </data>
+  <data name="SugargroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 274</value>
+  </data>
+  <data name="SugargroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="SugargroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="SugargroupBox.Text" xml:space="preserve">
+    <value>Sugar</value>
+  </data>
+  <data name="OKbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 552</value>
+  </data>
+  <data name="OKbutton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="OKbutton.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Cancelbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 552</value>
+  </data>
+  <data name="Cancelbutton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="Cancelbutton.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BruisecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 27</value>
+  </data>
+  <data name="BruisecheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="BruisecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="BruisecheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="BruisecomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="BruisecomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="BruisecomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Bruise Grade</value>
+  </data>
+  <data name="BruisegroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 163</value>
+  </data>
+  <data name="BruisegroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="BruisegroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="BruisegroupBox.Text" xml:space="preserve">
+    <value>Bruise</value>
+  </data>
+  <data name="RotcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 27</value>
+  </data>
+  <data name="RotcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="RotcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="RotcheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="RotcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="RotcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="RotcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Rot Grade</value>
+  </data>
+  <data name="RotgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 163</value>
+  </data>
+  <data name="RotgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="RotgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="RotgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 102</value>
+  </data>
+  <data name="RotgroupBox.Text" xml:space="preserve">
+    <value>Rot</value>
+  </data>
+  <data name="AciditycheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 27</value>
+  </data>
+  <data name="AciditycheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="AciditycheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="AciditycheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="AciditycomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="AciditycomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="AciditycomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Acidity Grade</value>
+  </data>
+  <data name="AciditygroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 274</value>
+  </data>
+  <data name="AciditygroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="AciditygroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="AciditygroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 102</value>
+  </data>
+  <data name="AciditygroupBox.Text" xml:space="preserve">
+    <value>Acidity</value>
+  </data>
+  <data name="HollowcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 27</value>
+  </data>
+  <data name="HollowcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="HollowcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="HollowcheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="HollowcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="HollowcomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="HollowcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 17</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Hardness Grade</value>
+  </data>
+  <data name="HollowgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 274</value>
+  </data>
+  <data name="HollowgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="HollowgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="HollowgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 102</value>
+  </data>
+  <data name="HollowgroupBox.Text" xml:space="preserve">
+    <value>Hardness</value>
+  </data>
+  <data name="SkincheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 27</value>
+  </data>
+  <data name="SkincheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="SkincheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="SkincheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="SkincomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="SkincomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="SkincomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 63</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Dry matter Grade</value>
+  </data>
+  <data name="SkingroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 385</value>
+  </data>
+  <data name="SkingroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="SkingroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="SkingroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 102</value>
+  </data>
+  <data name="SkingroupBox.Text" xml:space="preserve">
+    <value>Dry matter</value>
+  </data>
+  <data name="BrowncheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 27</value>
+  </data>
+  <data name="BrowncheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="BrowncheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="BrowncheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="BrowncomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="BrowncomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="BrowncomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Brown Grade</value>
+  </data>
+  <data name="BrowngroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 385</value>
+  </data>
+  <data name="BrowngroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="BrowngroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="BrowngroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 102</value>
+  </data>
+  <data name="BrowngroupBox.Text" xml:space="preserve">
+    <value>Brown</value>
+  </data>
+  <data name="TangxincheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 27</value>
+  </data>
+  <data name="TangxincheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="TangxincheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="TangxincheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="TangxincomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="TangxincomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="TangxincomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Tangxin Grade</value>
+  </data>
+  <data name="TangxingroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 385</value>
+  </data>
+  <data name="TangxingroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="TangxingroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="TangxingroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 102</value>
+  </data>
+  <data name="TangxingroupBox.Text" xml:space="preserve">
+    <value>Tangxin</value>
+  </data>
+  <data name="WatercheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 27</value>
+  </data>
+  <data name="WatercheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="WatercheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="WatercheckBox.Text" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="WatercomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="WatercomboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="WatercomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Water Grade</value>
+  </data>
+  <data name="WatergroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 496</value>
+  </data>
+  <data name="WatergroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="WatergroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="WatergroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 102</value>
+  </data>
+  <data name="WatergroupBox.Text" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>705, 612</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Grades Param Select</value>
+  </data>
+</root>

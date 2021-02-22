@@ -1,0 +1,1570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;MotorEnableSwitchWeightlabel.Name" xml:space="preserve">
+    <value>MotorEnableSwitchWeightlabel</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ReplaceSelectcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MotorEnableSwitchWeightlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Gradelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 17</value>
+  </data>
+  <data name="&gt;&gt;ExitSwitchdataGridView.Name" xml:space="preserve">
+    <value>ExitSwitchdataGridView</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="WeightnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="DelayTimenumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="ExitSwitchdataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="MotorEnableSwitchcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="HoldTimenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 139</value>
+  </data>
+  <data name="WeightcheckBox.Text" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="WeightnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NumcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 28</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 432</value>
+  </data>
+  <data name="ChangegroupBox.Text" xml:space="preserve">
+    <value>装箱量</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;VolumenumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.Name" xml:space="preserve">
+    <value>Cancelbutton</value>
+  </data>
+  <data name="Gradelabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MotorEnableSwitchNumlabel.Text" xml:space="preserve">
+    <value>个数</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchNumlabel.Name" xml:space="preserve">
+    <value>MotorEnableSwitchNumlabel</value>
+  </data>
+  <data name="Volumelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 101</value>
+  </data>
+  <data name="LabelcheckBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="Weightlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 16</value>
+  </data>
+  <data name="LabelcheckBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LabelcheckBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ReplaceSelectcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 82</value>
+  </data>
+  <data name="LabelcheckBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Settinglabel.Name" xml:space="preserve">
+    <value>Settinglabel</value>
+  </data>
+  <data name="LabelgroupBox.Text" xml:space="preserve">
+    <value>贴标</value>
+  </data>
+  <data name="MotorEnableSwitchWeightnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 78</value>
+  </data>
+  <data name="NumcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel.Parent" xml:space="preserve">
+    <value>ChangegroupBox</value>
+  </data>
+  <data name="DisplayNametextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 52</value>
+  </data>
+  <data name="VolumecheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelcheckBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="Gradelabel.Text" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox4.Parent" xml:space="preserve">
+    <value>LabelgroupBox</value>
+  </data>
+  <data name="MotorEnableSwitchNumnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 105</value>
+  </data>
+  <data name="ProductNametextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Weightlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 141</value>
+  </data>
+  <data name="MotorEnableSwitchNumlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Outletlabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="WeightcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 64</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchWeightnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AdditionalTextrichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 68</value>
+  </data>
+  <data name="WeightnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 63</value>
+  </data>
+  <data name="&gt;&gt;NumcheckBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Numlabel.Text" xml:space="preserve">
+    <value>个</value>
+  </data>
+  <data name="&gt;&gt;MotorSendbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Settinglabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Numlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 16</value>
+  </data>
+  <data name="&gt;&gt;NumcheckBox.Name" xml:space="preserve">
+    <value>NumcheckBox</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox1.Parent" xml:space="preserve">
+    <value>LabelgroupBox</value>
+  </data>
+  <data name="Gradelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LabelcheckBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ProductNametextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="VolumecheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ExitSwitchdataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchWeightlabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox4.Name" xml:space="preserve">
+    <value>LabelcheckBox4</value>
+  </data>
+  <data name="&gt;&gt;Gradelabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchNumnumericUpDown.Name" xml:space="preserve">
+    <value>MotorEnableSwitchNumnumericUpDown</value>
+  </data>
+  <data name="VolumenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 98</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="NumnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AdditionalTextrichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DisplayNametextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;ReplaceSelectcheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MotorEnableSwitchNumlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Settinglabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="MotorgroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchlabel.Name" xml:space="preserve">
+    <value>MotorEnableSwitchlabel</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DelayTimelabel.Text" xml:space="preserve">
+    <value>启动延时</value>
+  </data>
+  <data name="MotorgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 250</value>
+  </data>
+  <data name="&gt;&gt;ChangegroupBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="VolumecheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LabelcheckBox3.Text" xml:space="preserve">
+    <value>贴标3</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 16</value>
+  </data>
+  <data name="LabelcheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;Numlabel.Parent" xml:space="preserve">
+    <value>ChangegroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox1.Name" xml:space="preserve">
+    <value>LabelcheckBox1</value>
+  </data>
+  <data name="&gt;&gt;HoldTimenumericUpDown.Name" xml:space="preserve">
+    <value>HoldTimenumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelcheckBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 28</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchWeightnumericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ReplaceSelectcheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExitSwitchdataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LabelcheckBox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;WeightcheckBox.Name" xml:space="preserve">
+    <value>WeightcheckBox</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="VolumenumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="OKbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 646</value>
+  </data>
+  <data name="LabelcheckBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 113</value>
+  </data>
+  <data name="HoldTimelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 141</value>
+  </data>
+  <data name="WeightcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChangegroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 142</value>
+  </data>
+  <data name="&gt;&gt;LabelgroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VolumenumericUpDown.Name" xml:space="preserve">
+    <value>VolumenumericUpDown</value>
+  </data>
+  <data name="MotorEnableSwitchlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 23</value>
+  </data>
+  <data name="&gt;&gt;DelayTimenumericUpDown.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="DelayTimelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 113</value>
+  </data>
+  <data name="WeightcheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NumnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="MotorEnableSwitchNumnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="HoldTimenumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="MotorEnableSwitchcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="&gt;&gt;NumnumericUpDown.Name" xml:space="preserve">
+    <value>NumnumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;Gradelabel.Name" xml:space="preserve">
+    <value>Gradelabel</value>
+  </data>
+  <data name="WeightnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="NumcheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchWeightlabel.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;OrangeimageList.Name" xml:space="preserve">
+    <value>OrangeimageList</value>
+  </data>
+  <data name="LabelcheckBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Cancelbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cancelbutton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ChangegroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 12</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>产品名称</value>
+  </data>
+  <data name="MotorEnableSwitchlabel.Text" xml:space="preserve">
+    <value>使能模式</value>
+  </data>
+  <data name="&gt;&gt;ProductNametextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;WeightcheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown.Name" xml:space="preserve">
+    <value>WeightnumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Volumelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="&gt;&gt;DisplayNametextBox.Name" xml:space="preserve">
+    <value>DisplayNametextBox</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ExitSwitchdataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="Numlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DelayTimenumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="MotorSendbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchlabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchNumnumericUpDown.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OrangeimageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAG
+        KAAAAk1TRnQBSQFMAgEBAwEAAbwBAQHEAQEBIAEAASABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAGA
+        AwABIAMAAQEBAAEgBgABQCEABAEBAgMPARQDJgE5Az0BZwNMAZICUAFRAZ8DUAGkA1ABowNQAZ4DTQGV
+        A0gBiANEAXkBPQI+AWoDNgFZAy4BRwMjATQDFwEgAw0BEQMFAQcDAQECIACA/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/jAADBAEF
+        Aw8BFAMyAVEDSwGOAVcCWQHCAVsCYQHhAVgCYgHpAVkBXwFkAewCWQFkAewCWAFiAekDXQHiA14B2gNc
+        Ac4DWAHAAlMBVAGtA04BmANHAYEDOwFlAywBRAMaASUDCgEOAwABAQMAAQEYAID/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+IAAMJ
+        AQwDHAEoAzYBWQFQAlIBpAFcAmEB3AEhAV8BgQH7ARYCfwH+ARUCfwH+ARQCfwH+ARMBfgF/Af4BEgF3
+        AX8B/gERAXABfwH+ARABZwF/Af4BKwEzAVMB/AFIAUkBYgH2AlgBYQHpAV4CYQHaA1sBxANRAaIDQgFz
+        AywBRAMVAR0DBAEGAwMBBAMBAQIDAAEBEACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/iAADIgExA0gBhgFIAmIB9gErAWoBewH8
+        ARkBfwGNAf4BGgF/AZAB/gEaAX8BkQH+ARkBfwGOAf4BGQF/AYoB/gEYAX8BhQH+ARcCfwH+ARcCfwH+
+        ARcCfwH+ARcCfwH+ARUCfwH+ASECXwH7AVMCZAHxAV4CYQHaA1QBrgNFAX0DMQFPAx0BKgMNARIDCgEN
+        AwYBCAMDAQQDAAEBDACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/hAADJAE1A0sBjgFXAlwB3wErAW4BgAH8AR0BfwGXAf4BHAF/
+        AZsB/gEcAX8BngH+AR0BfwGfAf4BHQF/AZ8B/gEdAX8BnQH+ARwBfwGaAf4BGwF/AZcB/gEcAX8BlAH+
+        AR0BfwGQAf4BHQF/AYsB/gEdAX8BhgH+ATwBpQGoAf0BIQFzAYIB+wFZAmcB8gFXAlwB3wNRAaADQgF2
+        AzcBWgMsAUMDIwEzAxgBIgMNARIDBAEGAwEBAggAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4AAAw0BEQNHAYIBWgJdAdMBYQGP
+        AasB/gFvAZIBrgH+AWoBkgGuAf4BXgGPAa8B/gFRAYwBsAH+AUUBiAGvAf4BMAGCAa0B/gElAX8BqgH+
+        AR8BfwGnAf4BHgF/AaYB/gEgAX8BpQH+ASEBfwGkAf4BIwGAAaIB/gElAYIBoAH+ASYBhAGdAf4BJQGA
+        AZcB/gErAXEBewH8AVECbQH3A1sByANOAZkDQAFuAzABSwMmATgDGgElAw4BEwMEAQYDAQECCACA/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/gAADKAE8A1kBxwFgAX0BhAH6AX8BrQG/Af4BfwGvAcAB/gF/Aa8BwAH+AX8BqQG/Af4BdQGh
+        Ab4B/gFnAZwBuwH+AVcBlQG4Af4BRgGQAbQB/gE4AYsBsQH+AS4BhwGwAf4BJwGJAa8B/gEmAY0BrwH+
+        ASkBkQGvAf4BLQGTAa8B/gEuAZUBrgH+AS0BkwGpAf4BKAGJAZ4B/gEgAX8BiwH+AVkCYAHrAVcCWQHC
+        A0oBjAM0AVQDIAEuAxIBGAMJAQwDAgEDAwABAQgAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4AAA0sBjgNhAeIBfwGzAcAB/gFw
+        AakBvwH+AUcBoQG/Af4BYQGmAcAB/gFVAaMBwAH+AUcBnwHAAf4BWAGjAb8B/gF/Aa4BwAH+AX8BrwHA
+        Af4BfQGoAb4B/gFcAZ0BuQH+ATkBmAG1Af4BLgGaAbUB/gEwAZ4BtgH+ATQBoAG2Af4BMwGfAbUB/gEy
+        AZoBsQH+AS0BkQGpAf4BJQGBAZsB/gEbAn8B/gErAVkBbgH8AVgCXgHdA0gBhgMbASYDAwEEAwABARAA
+        gP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/4AAA0wBkwNhAeQBfwGwAcAB/gFkAasBwAH+AVMBqQHAAf4BaQGuAcAB/gFmAa4BwAH+
+        AWABrQHAAf4BbgGxAcAB/gFyAbMBwAH+AWsBswHAAf4BYwGwAcAB/gFhAa0BvgH+AWgBqQG9Af4BWgGn
+        AbsB/gFHAaYBugH+ATwBqAG5Af4BNwGkAbgB/gEyAZwBtAH+ASwBkgGuAf4BJgGDAaMB/gEdAX8BiwH+
+        ARcCfwH+AUgCYgH2A18B4AFNAk4BlQMpAT8DAQECEACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/gAADQAFwA18B2wF/AbEBwAH+
+        AWUBsAHAAf4BYQGvAcAB/gFtAbIBwAH+AWsBsgHAAf4BZgGzAcAB/gFqAbcBwAH+AWgBtwHAAf4BYQG2
+        AcAB/gFeAbYBwAH+AWoBtwHAAf4BZwGyAb8B/gFjAa4BvgH+AV8BqgG+Af4BXAGqAbwB/gFCAaYBugH+
+        ATIBnQG2Af4BKQGSAbEB/gEkAYQBqQH+AR0BfwGYAf4BGAF/AYIB/gEXAn8B/gEcAXUBiAH+AVwCYQHc
+        AUkCSgGJASECIgExEACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/gAADJgE5A1sBwwFcAXoBfAH4AXcBtAHAAf4BaQGxAcAB/gFs
+        AbIBwAH+AWgBswHAAf4BYgGzAb8B/gFhAbYBvwH+AWcBtwG/Af4BZAG3AcAB/gFjAbgBwAH+AXEBuQG/
+        Af4BWwG1Ab4B/gFcAbEBvwH+AWkBrgHAAf4BcwGsAb8B/gFYAagBuwH+AT4BnQG4Af4BKgGRAbMB/gEh
+        AYQBrQH+AR0BfwGhAf4BGQF/AY0B/gEZAX8BggH+AR8BfwGOAf4BHgF7AZIB/gFcAl4BzgNDAXgDBwEJ
+        AwEBAggAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/4MAAQEDTwGXA2EB5AF/AbUBwAH+AWEBrwHAAf4BZAGwAb8B/gFgAbEBvwH+
+        AV8BsQG+Af4BaQGyAb4B/gFiAbIBvwH+AWABsgG/Af4BZgGzAb8B/gFzAbQBvwH+AWgBtQG/Af4BWwG1
+        Ab8B/gFVAbUBvwH+AV8BswHAAf4BfwGvAb8B/gFjAaEBuwH+ATQBkQG0Af4BHwGDAa4B/gEdAX8BpwH+
+        ARoBfwGZAf4BGgF/AY0B/gEeAX8BjgH+ASIBfwGcAf4BKwFcAYIB/AFZAlsBxAMaASUDBwEJCACA/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/hAADKAE9A1IBpAFqAYQBhgH5AU0BogG/Af4BUQGpAb8B/gFWAa4BvwH+AVwBsAG+Af4BYgGv
+        Ab4B/gFkAbABvgH+AWgBsAG+Af4BbgGwAb4B/gF3AbEBvwH+AWoBsQG+Af4BXgGxAb4B/gFYAbEBvgH+
+        AVsBtAG/Af4BagGxAb8B/gF/Aa8BvwH+AX8BpwG7Af4BPQGRAbMB/gElAYABqwH+ARsBfwGfAf4BGwF/
+        AZUB/gEdAX8BkAH+ASQBfwGjAf4BIwF/AaIB/gFcAmEB3ANEAXoDFgEfCACA/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/hAADDwEU
+        A0kBiAFcAXUBewH4AW8BowG/Af4BUQGkAb4B/gFPAaoBvgH+AVgBsAG+Af4BXAGvAb4B/gFiAbABvgH+
+        AWsBsAG+Af4BfwGxAb8B/gF/AbYBwAH+AX8BswG/Af4BcgGwAb8B/gFWAa8BvgH+AVgBswG/Af4BZQGx
+        Ab8B/gF8AbIBwAH+AX8BrwG/Af4BcAGiAbsB/gE4AYgBsAH+ASABfwGkAf4BHAF/AZoB/gEdAX8BlAH+
+        ASYBfwGpAf4BJgF/AaoB/gFUAmEB7gFXAlkBvwMhATAIAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+EAAMNAREBSAJJAYcBTQFu
+        AX4B+gF/AZoBvAH+AVwBnwG9Af4BUwGoAb0B/gFWAbABvgH+AVsBsQG+Af4BYgGxAb4B/gFrAbEBvgH+
+        AX8BsgG/Af4BgAG4AcAB/gF/AbYBvwH+AX8BsQG/Af4BVgGtAb4B/gFaAbEBvgH+AWcBsQG/Af4BZgGx
+        AcAB/gFpAa8BwAH+AX8BrAHAAf4BVgGVAbYB/gExAYABqgH+ARwBfwGeAf4BHQF/AZkB/gEnAX8BrQH+
+        AScBfwGxAf4BKQFkAX4B+gNdAe0DKgFBAwMBBAQAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4QAAx0BKgFPAlABmwEoAX8BrQH+
+        ATYBfwG1Af4BagGaAbsB/gFpAawBvgH+AVoBsQG/Af4BZAG1Ab8B/gFnAbQBvwH+AWkBswG/Af4BbAGx
+        Ab4B/gFwAa8BvgH+AXsBsQG+Af4BbgGvAb4B/gFgAa0BvgH+AWcBsAG+Af4BawGxAb4B/gFkAbABvwH+
+        AVcBrAG/Af4BTAGkAcAB/gF7AaUBvwH+AVQBjQGxAf4BHQF/AaIB/gEeAX8BnQH+ASUBfwGxAf4BJwF/
+        AbUB/gElAX8BsAH+AR0BfwGnAf4BNAI1AVUDCgEOBACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/hAADJgE5AU8CUwGlASYBfwGy
+        Af4BKgF/AbcB/gE6AX8BugH+AV8BlAG9Af4BegGrAb8B/gFvAbQBwAH+AWkBtgG/Af4BaQG0Ab8B/gFr
+        AbIBvwH+AWcBsQG+Af4BaAGwAb4B/gFjAbABvwH+AV4BrwG/Af4BYQGvAb4B/gFkAbEBvgH+AWcBsQG/
+        Af4BZgGvAb8B/gFfAawBwAH+AX8BqwHAAf4BZQGXAbYB/gE0AX8BqwH+AR4BfwGkAf4BJgF/AbQB/gEp
+        AX8BuAH+AScBfwG1Af4BIQF/Aa8B/gM6AWEDEAEWBACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/hAADKQE+AVICUwGoAScBfwG1
+        Af4BKAF/AbkB/gEnAX8BuwH+AUABggG9Af4BXQGWAb8B/gFoAacBwAH+AXkBsgHAAf4BfwG2AcAB/gF/
+        AbUBwAH+AWMBsgG/Af4BZAGxAb4B/gFjAbEBvwH+AWEBsAG/Af4BYQGvAb4B/gFiAbABvgH+AWcBsQG/
+        Af4BaAGxAb8B/gFhAa8BwAH+AXQBrgHAAf4BbgGgAbsB/gFSAYoBtAH+ASIBfwGsAf4BKQF/AbgB/gEr
+        AX8BuwH+ASkBfwG4Af4BIwF/AbQB/gM7AWQDEgEZBACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/hAADJQE3AVACUgGkASkBfwG4
+        Af4BKgF/AbwB/gEjAX8BvQH+ASUBfwG+Af4BMwGEAb4B/gFPAZUBvwH+AXIBpgHAAf4BfwGxAcAB/gF/
+        AbUBwAH+AWgBsgG/Af4BaAGxAb4B/gFmAbABvgH+AWMBrgG+Af4BXgGuAb4B/gFeAa4BvgH+AWEBrwG/
+        Af4BYgGwAb8B/gFbAbABwAH+AW8BsAHAAf4BeQGoAb8B/gFnAZUBuwH+ASUBfwG1Af4BKwF/AbsB/gEt
+        AX8BvQH+ASoBfwG6Af4BJAF/AbYB/gM4AV0DDwEUBACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/hAADGwEmA04BmAEnAX8BuQH+
+        ASgBfwG9Af4BIQF/Ab4B/gEoAYMBvwH+AS4BiAG/Af4BJgGHAb8B/gErAY4BvwH+AUsBnQHAAf4BbgGr
+        AcAB/gF9AbABvwH+AW0BrwG/Af4BZwGtAb8B/gFgAasBvwH+AVIBrAG+Af4BUQGrAb8B/gFVAa0BwAH+
+        AVgBrgHAAf4BVQGvAcAB/gF/AbQBwAH+AX8BrAHAAf4BZQGZAb8B/gEkAYIBvgH+ASoBfwG+Af4BKwF/
+        Ab4B/gEoAX8BuwH+AUABqAGxAf0DMAFMAwcBCQQAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4QAAwoBDQNHAYIBQgFcAWkB9QEq
+        AX8BvgH+ASQBhAG/Af4BJwGIAb8B/gEtAYwBvwH+ASsBiwHAAf4BLAGQAcAB/gEvAZcBwAH+ATQBngHA
+        Af4BQQGjAb8B/gFbAaYBvwH+AXYBqgG/Af4BfwGtAb8B/gF/Aa4BvwH+AXoBrQG/Af4BewGuAcAB/gF/
+        AbABwAH+AX8BswHAAf4BfwGxAcAB/gFwAaIBwAH+AUABkQHAAf4BKwGJAcAB/gErAYUBvwH+ASkBgAG+
+        Af4BUQFtAYAB9wFXAlwB3wMnATsDAQECBACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/hAADAQECAzoBYgFbAl4B0AEsAYUBvgH+
+        ASQBiQG/Af4BJgGNAcAB/gErAZABwAH+ASsBjwHAAf4BLwGVAcAB/gEqAZoBwAH+ASUBngHAAf4BLQGg
+        AcAB/gFBAZ8BwAH+AVUBoAHAAf4BYgGhAcAB/gFgAaMBwAH+AVkBpQHAAf4BXgGnAcAB/gFnAakBwAH+
+        AWwBqQHAAf4BZQGjAcAB/gFIAZcBwAH+ASwBjQHAAf4BKwGMAcAB/gErAYkBvwH+ASoBhQG+Af4BWAJi
+        AekBUgJTAagDHQEqCACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/iAADJwE7AU4CTwGXAS4BhgGRAfsBQAGoAbQB/QEpAZIBwAH+
+        AS0BlgHAAf4BLAGVAb8B/gEzAZwBwAH+ATEBoQHAAf4BLwGkAcAB/gE1AaQBwAH+AS8BnAHAAf4BLgGY
+        AcAB/gErAZYBwAH+ASIBmAHAAf4BKQGdAcAB/gExAaABwAH+ATgBoQHAAf4BOgGdAb8B/gEwAZUBvwH+
+        ASoBkAHAAf4BJwGOAcAB/gErAY4BvwH+ASwBjAG/Af4BKwF7AZgB/AFaAl0B0wE5AjoBYAMSARgIAID/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf+IAAMKAQ4DMgFRAVMCZAHxATABiQGRAfsBNgGZAcAB/gE6AZ0BwAH+ATMBngHAAf4BNwGj
+        AcAB/gE5AagBwAH+AT8BqwHAAf4BTQGpAcAB/gE2AZ8BwAH+ASoBmQHAAf4BJQGYAcAB/gEhAZwBwAH+
+        ASkBoQHAAf4BKgGhAcAB/gEtAZ8BwAH+ATwBmwHAAf4BMQGWAcAB/gErAZMBwAH+ASwBkgHAAf4BMwGS
+        Ab8B/gEyAZABvgH+AVICZQH0A1YBswMMARADAwEECACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/iAADAwEEAxsBJgFGAkcBgAFa
+        AmAB3gE2AZkBvgH+ATQBnAG/Af4BMQGeAcAB/gE5AaUBwAH+AUABqwHAAf4BRAGtAcAB/gFGAasBwAH+
+        ATsBpQHAAf4BKgGdAcAB/gEbAZcBwAH+ARkBmAHAAf4BIQGdAcAB/gEvAaIBwAH+ATsBpAHAAf4BQgGj
+        AcAB/gE4AZ4BwAH+AS8BmQHAAf4BKwGTAcAB/gEyAY4BvwH+AUABqAGzAf0BVQJXAboDNgFZAwMBBAMA
+        AQEIAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf+MAAMJAQwDHwEtA0wBkwFeAmEB2gEtAZcBvgH+AScBmAHAAf4BLgGiAcAB/gE4
+        AaoBwAH+AUMBrwHAAf4BUAGuAcAB/gE/AagBwAH+ASwBogHAAf4BHAGcAcAB/gEYAZsBwAH+AR0BmQHA
+        Af4BLAGfAcAB/gE8AacBwAH+AUMBqQHAAf4BOwGkAcAB/gEwAZsBwAH+ASgBjgG/Af4BQAGoAbMB/QFY
+        AlsBxgE/AkABbgMWAR4QAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+UAAMpAT4BTAJNAZEBWwJeAdkBUQF0AYAB9wErAYUBmgH8
+        ATEBqAHAAf4BRAGuAcAB/gFZAa0BvwH+AT4BogG+Af4BKwGbAbsB/gEeAZUBtgH+ARkBkwGyAf4BGwGL
+        AbcB/gEoAZYBvAH+ATkBpgG/Af4BSQGsAcAB/gE+AacBwAH+ATABiwGSAfsBVAJhAe4BWQJcAc8BPwJA
+        AW8DHAEoFACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/mAADGgEkAT8CQAFuAVsCYQHhAVEBdwGAAfcBPgGmAcAB/gFRAakBvwH+
+        AVEBowG9Af4BNgGNAbkB/gElAX8BqgH+ARsBfwGXAf4BGAF/AYkB/gEcAX8BoAH+ASkBgwGzAf4BPwGf
+        Ab0B/gFfAasBvgH+AUYBpwG/Af4BUwJkAfEBVgJYAbwDLgFIAw0BEhgAgP8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/5gAAwcBCQMW
+        AR4DKgFAAUQCRQF8A1QBrwFbAl4B2QFcAXkBfAH4AUABqQGzAf0BTgGVAbYB/gFEAY8BrgH+AUABjgGp
+        Af4BQAGoAa8B/QFNAXoBgQH6AVoCXQHwA2EB3AFSAlQBpgM+AWsDJAE1Aw0BEgMEAQUYAID/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af+cAAMBAQIDBAEFAx0BKgMwAUsDPQFnA0UBfANHAYEDSgGLA0wBkwNMAZMBSAJJAYgDRgF/A0IBdgM9
+        AWkDLQFFAxYBHwMDAQQgAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+vAAQBAQIDBAEFAw0BEgMWAR4DFQEdAwoBDgMEAQU0AID/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf//AAEAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/4AAAUIBTQE+BwABPgMAASgDAAGAAwABIAMAAQEBAAEBBgABAhYA
+        A/8BAAHgAgAB/wwAAeACAAE/DAABwAIAAQ8MAAHAAgABBwwAAYACAAEDDwABAw8AAQMPAAEPDwABDw8A
+        AQ8PAAEDDwABAwwAAYACAAEDDAABgAIAAQMMAAGAAgABAQwAAYACAAEBDAABgAIAAQEMAAGAAgABAQwA
+        AYACAAEBDAABgAIAAQEMAAGAAgABAQwAAYACAAEDDAABwAIAAQMMAAHAAgABAwwAAcACAAEDDAAB4AIA
+        AQ8MAAH4AgABHwwAAfwCAAE/DAAB/AIAAT8MAAH+AgAB/wwAAf8B4AEfAf8MAAT/IgAL
+</value>
+  </data>
+  <data name="MotorEnableSwitchNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="OKbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;VolumenumericUpDown.Parent" xml:space="preserve">
+    <value>ChangegroupBox</value>
+  </data>
+  <data name="LabelcheckBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchcomboBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NumcheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MotorgroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReplaceSelectcheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="MotorEnableSwitchcomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ExitSwitchdataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>703, 654</value>
+  </data>
+  <data name="WeightcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="&gt;&gt;DelayTimelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchlabel.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;Gradelabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="MotorEnableSwitchlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LabelcheckBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 58</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchNumnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox3.Name" xml:space="preserve">
+    <value>LabelcheckBox3</value>
+  </data>
+  <data name="&gt;&gt;LabelgroupBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VolumenumericUpDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="&gt;&gt;VolumenumericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelgroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="NumcheckBox.Text" xml:space="preserve">
+    <value>个数</value>
+  </data>
+  <data name="LabelcheckBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 28</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="DelayTimenumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="MotorEnableSwitchcomboBox.Items" xml:space="preserve">
+    <value>装箱量</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="MotorEnableSwitchNumnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 50</value>
+  </data>
+  <data name="LabelcheckBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MotorSendbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Gradelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DelayTimelabel.Name" xml:space="preserve">
+    <value>DelayTimelabel</value>
+  </data>
+  <data name="&gt;&gt;VolumecheckBox.Parent" xml:space="preserve">
+    <value>ChangegroupBox</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>显示名称</value>
+  </data>
+  <data name="&gt;&gt;LabelgroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HoldTimelabel.Name" xml:space="preserve">
+    <value>HoldTimelabel</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchNumlabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ChangegroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;MotorSendbutton.Name" xml:space="preserve">
+    <value>MotorSendbutton</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 16</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 55</value>
+  </data>
+  <data name="&gt;&gt;LabelgroupBox.Name" xml:space="preserve">
+    <value>LabelgroupBox</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="MotorEnableSwitchNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 52</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchWeightnumericUpDown.Name" xml:space="preserve">
+    <value>MotorEnableSwitchWeightnumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;DelayTimelabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="VolumecheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 100</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel.Name" xml:space="preserve">
+    <value>Weightlabel</value>
+  </data>
+  <data name="LabelcheckBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MotorEnableSwitchNumnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Outletlabel.Text" xml:space="preserve">
+    <value>出口</value>
+  </data>
+  <data name="&gt;&gt;Outletlabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VolumecheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="LabelcheckBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelcheckBox2.Text" xml:space="preserve">
+    <value>贴标2</value>
+  </data>
+  <data name="HoldTimenumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="MotorEnableSwitchWeightlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="&gt;&gt;DelayTimenumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductNametextBox.Name" xml:space="preserve">
+    <value>ProductNametextBox</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;MotorSendbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;NumnumericUpDown.Parent" xml:space="preserve">
+    <value>ChangegroupBox</value>
+  </data>
+  <data name="&gt;&gt;DelayTimelabel.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="NumnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 27</value>
+  </data>
+  <data name="&gt;&gt;WeightnumericUpDown.Parent" xml:space="preserve">
+    <value>ChangegroupBox</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchcomboBox.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox3.Parent" xml:space="preserve">
+    <value>LabelgroupBox</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 80</value>
+  </data>
+  <data name="Numlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MotorgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 175</value>
+  </data>
+  <data name="DisplayNametextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="NumnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="ReplaceSelectcheckBox.Text" xml:space="preserve">
+    <value>产品名称替代显示名称</value>
+  </data>
+  <data name="MotorEnableSwitchWeightnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="DelayTimenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 111</value>
+  </data>
+  <data name="MotorSendbutton.Text" xml:space="preserve">
+    <value>立即发送</value>
+  </data>
+  <data name="&gt;&gt;WeightcheckBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchcomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cancelbutton.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="&gt;&gt;Outletlabel.Name" xml:space="preserve">
+    <value>Outletlabel</value>
+  </data>
+  <data name="LabelcheckBox1.Text" xml:space="preserve">
+    <value>贴标1</value>
+  </data>
+  <data name="OKbutton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="OKbutton.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="LabelcheckBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;NumnumericUpDown.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HoldTimelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchWeightlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Outletlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MotorEnableSwitchWeightnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Settinglabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ExitSwitchdataGridView.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;NumcheckBox.Parent" xml:space="preserve">
+    <value>ChangegroupBox</value>
+  </data>
+  <data name="HoldTimelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LabelcheckBox4.Text" xml:space="preserve">
+    <value>贴标4</value>
+  </data>
+  <data name="&gt;&gt;DisplayNametextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="LabelgroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="MotorSendbutton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DisplayNametextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MotorSendbutton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Numlabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;WeightcheckBox.Parent" xml:space="preserve">
+    <value>ChangegroupBox</value>
+  </data>
+  <data name="&gt;&gt;OKbutton.Name" xml:space="preserve">
+    <value>OKbutton</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LabelgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 158</value>
+  </data>
+  <data name="Volumelabel.Text" xml:space="preserve">
+    <value>立方厘米</value>
+  </data>
+  <data name="&gt;&gt;AdditionalTextrichTextBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 543</value>
+  </data>
+  <data name="MotorEnableSwitchWeightlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox2.Parent" xml:space="preserve">
+    <value>LabelgroupBox</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>平板显示</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Outletlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;AdditionalTextrichTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Settinglabel.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="HoldTimenumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="Cancelbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Settinglabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;HoldTimenumericUpDown.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;MotorgroupBox.Name" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchWeightnumericUpDown.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;HoldTimenumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MotorEnableSwitchWeightlabel.Text" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="ExitSwitchdataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 17</value>
+  </data>
+  <data name="Volumelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="MotorgroupBox.Text" xml:space="preserve">
+    <value>电机</value>
+  </data>
+  <data name="MotorEnableSwitchWeightnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>附加内容</value>
+  </data>
+  <data name="Settinglabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ExitSwitchForm</value>
+  </data>
+  <data name="MotorEnableSwitchlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VolumenumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="&gt;&gt;VolumecheckBox.Name" xml:space="preserve">
+    <value>VolumecheckBox</value>
+  </data>
+  <data name="&gt;&gt;HoldTimelabel.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="DelayTimelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Settinglabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, -2</value>
+  </data>
+  <data name="&gt;&gt;MotorgroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Volumelabel.Parent" xml:space="preserve">
+    <value>ChangegroupBox</value>
+  </data>
+  <data name="&gt;&gt;Volumelabel.Name" xml:space="preserve">
+    <value>Volumelabel</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="Settinglabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProductNametextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 22</value>
+  </data>
+  <data name="Outletlabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Weightlabel.Text" xml:space="preserve">
+    <value>克</value>
+  </data>
+  <data name="LabelcheckBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 58</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchNumlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MotorSendbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 389</value>
+  </data>
+  <data name="AdditionalTextrichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;HoldTimenumericUpDown.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="NumcheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="HoldTimelabel.Text" xml:space="preserve">
+    <value>持续时间</value>
+  </data>
+  <data name="&gt;&gt;ProductNametextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DelayTimelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="&gt;&gt;DelayTimenumericUpDown.Name" xml:space="preserve">
+    <value>DelayTimenumericUpDown</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;HoldTimelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="MotorEnableSwitchlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;MotorgroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="MotorEnableSwitchlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="HoldTimelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DelayTimenumericUpDown.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Settinglabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Weightlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="AdditionalTextrichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 23</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox2.Name" xml:space="preserve">
+    <value>LabelcheckBox2</value>
+  </data>
+  <data name="&gt;&gt;ProductNametextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;AdditionalTextrichTextBox.Name" xml:space="preserve">
+    <value>AdditionalTextrichTextBox</value>
+  </data>
+  <data name="Volumelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Outletlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ChangegroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="NumcheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Gradelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChangegroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DelayTimelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Gradelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Outletlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="&gt;&gt;NumnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>973, 710</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchNumlabel.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;ReplaceSelectcheckBox.Name" xml:space="preserve">
+    <value>ReplaceSelectcheckBox</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 85</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchcomboBox.Name" xml:space="preserve">
+    <value>MotorEnableSwitchcomboBox</value>
+  </data>
+  <data name="Weightlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 65</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>出口设置</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="ReplaceSelectcheckBox.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ChangegroupBox.Name" xml:space="preserve">
+    <value>ChangegroupBox</value>
+  </data>
+  <data name="Cancelbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 646</value>
+  </data>
+  <data name="LabelcheckBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;ChangegroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DelayTimelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VolumecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="WeightnumericUpDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Volumelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ReplaceSelectcheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Numlabel.Name" xml:space="preserve">
+    <value>Numlabel</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 25</value>
+  </data>
+  <data name="&gt;&gt;DisplayNametextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NumnumericUpDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Outletlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, -2</value>
+  </data>
+  <data name="VolumenumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="VolumecheckBox.Text" xml:space="preserve">
+    <value>体积</value>
+  </data>
+  <data name="Numlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 30</value>
+  </data>
+  <data name="&gt;&gt;LabelcheckBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OrangeimageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MotorEnableSwitchNumnumericUpDown.Parent" xml:space="preserve">
+    <value>MotorgroupBox</value>
+  </data>
+  <data name="&gt;&gt;VolumecheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NumnumericUpDown.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="WeightcheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="OKbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;HoldTimelabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 95</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="MotorEnableSwitchWeightlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 80</value>
+  </data>
+  <data name="&gt;&gt;Cancelbutton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChangegroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="HoldTimelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Volumelabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Numlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelgroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;ReplaceSelectcheckBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;AdditionalTextrichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="OrangeimageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

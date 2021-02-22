@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LoadImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1097, 12</value>
+  </data>
+  <data name="LoadImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LoadImagebutton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LoadImagebutton.Text" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="&gt;&gt;LoadImagebutton.Name" xml:space="preserve">
+    <value>LoadImagebutton</value>
+  </data>
+  <data name="&gt;&gt;LoadImagebutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadImagebutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LoadImagebutton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ImagePathtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="ImagePathtextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1079, 21</value>
+  </data>
+  <data name="ImagePathtextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ImagePathtextBox.Name" xml:space="preserve">
+    <value>ImagePathtextBox</value>
+  </data>
+  <data name="&gt;&gt;ImagePathtextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImagePathtextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ImagePathtextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CupWidthlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CupWidthlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 31</value>
+  </data>
+  <data name="CupWidthlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="CupWidthlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="CupWidthlabel.Text" xml:space="preserve">
+    <value>果杯宽度</value>
+  </data>
+  <data name="&gt;&gt;CupWidthlabel.Name" xml:space="preserve">
+    <value>CupWidthlabel</value>
+  </data>
+  <data name="&gt;&gt;CupWidthlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CupWidthlabel.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;CupWidthlabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CupWidthnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>503, 29</value>
+  </data>
+  <data name="CupWidthnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="CupWidthnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CupWidthnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;CupWidthnumericUpDown.Name" xml:space="preserve">
+    <value>CupWidthnumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;CupWidthnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CupWidthnumericUpDown.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;CupWidthnumericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FruitTypelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FruitTypelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 31</value>
+  </data>
+  <data name="FruitTypelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="FruitTypelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="FruitTypelabel.Text" xml:space="preserve">
+    <value>水果类型</value>
+  </data>
+  <data name="&gt;&gt;FruitTypelabel.Name" xml:space="preserve">
+    <value>FruitTypelabel</value>
+  </data>
+  <data name="&gt;&gt;FruitTypelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FruitTypelabel.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;FruitTypelabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FruitTypenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 29</value>
+  </data>
+  <data name="FruitTypenumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="FruitTypenumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="FruitTypenumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;FruitTypenumericUpDown.Name" xml:space="preserve">
+    <value>FruitTypenumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;FruitTypenumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FruitTypenumericUpDown.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;FruitTypenumericUpDown.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="StartXlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StartXlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 31</value>
+  </data>
+  <data name="StartXlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="StartXlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="StartXlabel.Text" xml:space="preserve">
+    <value>X起始位置</value>
+  </data>
+  <data name="&gt;&gt;StartXlabel.Name" xml:space="preserve">
+    <value>StartXlabel</value>
+  </data>
+  <data name="&gt;&gt;StartXlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartXlabel.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;StartXlabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="StartXnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 29</value>
+  </data>
+  <data name="StartXnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="StartXnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="StartXnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;StartXnumericUpDown.Name" xml:space="preserve">
+    <value>StartXnumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;StartXnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartXnumericUpDown.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;StartXnumericUpDown.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CupNumlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CupNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 31</value>
+  </data>
+  <data name="CupNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="CupNumlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CupNumlabel.Text" xml:space="preserve">
+    <value>果杯个数</value>
+  </data>
+  <data name="&gt;&gt;CupNumlabel.Name" xml:space="preserve">
+    <value>CupNumlabel</value>
+  </data>
+  <data name="&gt;&gt;CupNumlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CupNumlabel.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;CupNumlabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CupNumnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 29</value>
+  </data>
+  <data name="CupNumnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="CupNumnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="CupNumnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;CupNumnumericUpDown.Name" xml:space="preserve">
+    <value>CupNumnumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;CupNumnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CupNumnumericUpDown.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;CupNumnumericUpDown.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ImageHeightabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ImageHeightabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 31</value>
+  </data>
+  <data name="ImageHeightabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="ImageHeightabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ImageHeightabel.Text" xml:space="preserve">
+    <value>图像高</value>
+  </data>
+  <data name="&gt;&gt;ImageHeightabel.Name" xml:space="preserve">
+    <value>ImageHeightabel</value>
+  </data>
+  <data name="&gt;&gt;ImageHeightabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageHeightabel.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;ImageHeightabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ImageHeightnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 29</value>
+  </data>
+  <data name="ImageHeightnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="ImageHeightnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ImageHeightnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;ImageHeightnumericUpDown.Name" xml:space="preserve">
+    <value>ImageHeightnumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;ImageHeightnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageHeightnumericUpDown.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;ImageHeightnumericUpDown.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ImageWidthlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ImageWidthlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 31</value>
+  </data>
+  <data name="ImageWidthlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="ImageWidthlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ImageWidthlabel.Text" xml:space="preserve">
+    <value>图像宽</value>
+  </data>
+  <data name="&gt;&gt;ImageWidthlabel.Name" xml:space="preserve">
+    <value>ImageWidthlabel</value>
+  </data>
+  <data name="&gt;&gt;ImageWidthlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageWidthlabel.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;ImageWidthlabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ImageWidthnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 29</value>
+  </data>
+  <data name="ImageWidthnumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="ImageWidthnumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ImageWidthnumericUpDown.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;ImageWidthnumericUpDown.Name" xml:space="preserve">
+    <value>ImageWidthnumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;ImageWidthnumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageWidthnumericUpDown.Parent" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;ImageWidthnumericUpDown.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ParasSetgroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 743</value>
+  </data>
+  <data name="ParasSetgroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>999, 70</value>
+  </data>
+  <data name="ParasSetgroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ParasSetgroupBox.Text" xml:space="preserve">
+    <value>参数调整</value>
+  </data>
+  <data name="ParasSetgroupBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ParasSetgroupBox.Name" xml:space="preserve">
+    <value>ParasSetgroupBox</value>
+  </data>
+  <data name="&gt;&gt;ParasSetgroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ParasSetgroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ParasSetgroupBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="GetImagebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1093, 356</value>
+  </data>
+  <data name="GetImagebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="GetImagebutton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="GetImagebutton.Text" xml:space="preserve">
+    <value>获取图像</value>
+  </data>
+  <data name="&gt;&gt;GetImagebutton.Name" xml:space="preserve">
+    <value>GetImagebutton</value>
+  </data>
+  <data name="&gt;&gt;GetImagebutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GetImagebutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GetImagebutton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FlawNumtextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 706</value>
+  </data>
+  <data name="FlawNumtextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="FlawNumtextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 21</value>
+  </data>
+  <data name="FlawNumtextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="FlawNumtextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;FlawNumtextBox.Name" xml:space="preserve">
+    <value>FlawNumtextBox</value>
+  </data>
+  <data name="&gt;&gt;FlawNumtextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawNumtextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FlawNumtextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="FlawNumlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FlawNumlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FlawNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 712</value>
+  </data>
+  <data name="FlawNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="FlawNumlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="FlawNumlabel.Text" xml:space="preserve">
+    <value>瑕疵个数</value>
+  </data>
+  <data name="&gt;&gt;FlawNumlabel.Name" xml:space="preserve">
+    <value>FlawNumlabel</value>
+  </data>
+  <data name="&gt;&gt;FlawNumlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawNumlabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FlawNumlabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="FlawArealabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FlawArealabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FlawArealabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 709</value>
+  </data>
+  <data name="FlawArealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 12</value>
+  </data>
+  <data name="FlawArealabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="FlawArealabel1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel1.Name" xml:space="preserve">
+    <value>FlawArealabel1</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="FlawAreatextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 706</value>
+  </data>
+  <data name="FlawAreatextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="FlawAreatextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 21</value>
+  </data>
+  <data name="FlawAreatextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="FlawAreatextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;FlawAreatextBox.Name" xml:space="preserve">
+    <value>FlawAreatextBox</value>
+  </data>
+  <data name="&gt;&gt;FlawAreatextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawAreatextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FlawAreatextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FlawArealabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FlawArealabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FlawArealabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 712</value>
+  </data>
+  <data name="FlawArealabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="FlawArealabel.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="FlawArealabel.Text" xml:space="preserve">
+    <value>瑕疵面积</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel.Name" xml:space="preserve">
+    <value>FlawArealabel</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="SrcImagepanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SrcImagepictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="SrcImagepictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1157, 311</value>
+  </data>
+  <data name="SrcImagepictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SrcImagepictureBox.Name" xml:space="preserve">
+    <value>SrcImagepictureBox</value>
+  </data>
+  <data name="&gt;&gt;SrcImagepictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SrcImagepictureBox.Parent" xml:space="preserve">
+    <value>SrcImagepanel</value>
+  </data>
+  <data name="&gt;&gt;SrcImagepictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SrcImagepanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
+  </data>
+  <data name="SrcImagepanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1157, 311</value>
+  </data>
+  <data name="SrcImagepanel.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;SrcImagepanel.Name" xml:space="preserve">
+    <value>SrcImagepanel</value>
+  </data>
+  <data name="&gt;&gt;SrcImagepanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SrcImagepanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SrcImagepanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DstImagepanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DstpictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DstpictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1157, 311</value>
+  </data>
+  <data name="DstpictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;DstpictureBox.Name" xml:space="preserve">
+    <value>DstpictureBox</value>
+  </data>
+  <data name="&gt;&gt;DstpictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DstpictureBox.Parent" xml:space="preserve">
+    <value>DstImagepanel</value>
+  </data>
+  <data name="&gt;&gt;DstpictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DstImagepanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 385</value>
+  </data>
+  <data name="DstImagepanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1157, 311</value>
+  </data>
+  <data name="DstImagepanel.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;DstImagepanel.Name" xml:space="preserve">
+    <value>DstImagepanel</value>
+  </data>
+  <data name="&gt;&gt;DstImagepanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DstImagepanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DstImagepanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1184, 810</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>瑕疵检测测试</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SpotDetectTestForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

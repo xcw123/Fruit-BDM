@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Volumelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 100</value>
+  </data>
+  <data name="Volumelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Volumelabel.Text" xml:space="preserve">
+    <value>cm3</value>
+  </data>
+  <data name="VolumecheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="VolumecheckBox.Text" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="Weightlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="Weightlabel.Text" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="WeightcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="WeightcheckBox.Text" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Numlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 16</value>
+  </data>
+  <data name="Numlabel.Text" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="NumcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="NumcheckBox.Text" xml:space="preserve">
+    <value>Pieces</value>
+  </data>
+  <data name="ChangegroupBox.Text" xml:space="preserve">
+    <value>Carton fill</value>
+  </data>
+  <data name="LabelgroupBox.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="LabelcheckBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="LabelcheckBox4.Text" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="LabelcheckBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="LabelcheckBox2.Text" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="LabelcheckBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="LabelcheckBox3.Text" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="LabelcheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="LabelcheckBox1.Text" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="OKbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 667</value>
+  </data>
+  <data name="OKbutton.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Cancelbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 667</value>
+  </data>
+  <data name="Cancelbutton.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="OrangeimageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAe
+        KAAAAk1TRnQBSQFMAgEBAwEAAdABAAHQAQABIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
+        AwABIAMAAQEBAAEgBgABQCEABAEBAgMPARQDJgE5Az0BZwNMAZICUAFRAZ8DUAGkA1ABowNQAZ4DTQGV
+        A0gBiANEAXkBPQI+AWoDNgFZAy4BRwMjATQDFwEgAw0BEQMFAQcDAQECIACA/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/jAADBAEF
+        Aw8BFAMyAVEDSwGOAVcCWQHCAVsCYQHhAVgCYgHpAVkBXwFkAewCWQFkAewCWAFiAekDXQHiA14B2gNc
+        Ac4DWAHAAlMBVAGtA04BmANHAYEDOwFlAywBRAMaASUDCgEOAwABAQMAAQEYAID/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+IAAMJ
+        AQwDHAEoAzYBWQFQAlIBpAFcAmEB3AEhAWIBhgH7ARYCfwH+ARUCfwH+ARQCfwH+ARMBfgF/Af4BEgF3
+        AX8B/gERAXABfwH+ARABZwF/Af4BKgE4AVkB/AFIAUkBYgH2AlgBYQHpAV4CYQHaA1sBxANRAaIDQgFz
+        AywBRAMVAR0DBAEGAwMBBAMBAQIDAAEBEACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/iAADIgExA0gBhgFIAmIB9gErAW8BggH8
+        ARkBfwGXAf4BGgF/AZoB/gEaAX8BmwH+ARkBfwGYAf4BGQF/AZQB/gEYAX8BjwH+ARcBfwGJAf4BFwF/
+        AYIB/gEXAn8B/gEXAn8B/gEVAn8B/gEhAV8BagH7AVMCZAHxAV4CYQHaA1QBrgNFAX0DMQFPAx0BKgMN
+        ARIDCgENAwYBCAMDAQQDAAEBDACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/hAADJAE1A0sBjgFXAlwB3wErAXMBjwH8AR0BfwGh
+        Af4BHAF/AaUB/gEcAX8BqAH+AR0BfwGpAf4BHQF/AakB/gEdAX8BpwH+ARwBfwGkAf4BGwF/AaEB/gEc
+        AX8BngH+AR0BfwGaAf4BHQF/AZUB/gEdAX8BkAH+ATcBpQGoAf0BIQGAAYcB+wFZAmcB8gFXAlwB3wNR
+        AaADQgF2AzcBWgMsAUMDIwEzAxgBIgMNARIDBAEGAwEBAggAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4AAAw0BEQNHAYIBWgJd
+        AdMBYQGZAbUB/gFvAZwBuAH+AWoBnAG4Af4BXgGZAbkB/gFRAZYBugH+AUUBkgG5Af4BMAGMAbcB/gEl
+        AYgBtAH+AR8BhgGxAf4BHgGEAbAB/gEgAYYBrwH+ASEBiAGuAf4BIwGKAawB/gElAYwBqgH+ASYBjgGn
+        Af4BJQGKAaEB/gErAXYBggH8AVABbQFuAfcDWwHIA04BmQNAAW4DMAFLAyYBOAMaASUDDgETAwQBBgMB
+        AQIIAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf+AAAMoATwDWQHHAWgBigGTAfoBfwG3AckB/gF/AbkBygH+AX8BuQHKAf4BfwGz
+        AckB/gF1AasByAH+AWcBpgHFAf4BVwGfAcIB/gFGAZoBvgH+ATgBlQG7Af4BLgGRAboB/gEnAZMBuQH+
+        ASYBlwG5Af4BKQGbAbkB/gEtAZ0BuQH+AS4BnwG4Af4BLQGdAbMB/gEoAZMBqAH+ASABfwGVAf4BWQJg
+        AesBVwJZAcIDSgGMAzQBVAMgAS4DEgEYAwkBDAMCAQMDAAEBCACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/gAADSwGOA2EB4gF/
+        Ab0BygH+AXABswHJAf4BRwGrAckB/gFhAbABygH+AVUBrQHKAf4BRwGpAcoB/gFYAa0ByQH+AX8BuAHK
+        Af4BfwG5AcoB/gF9AbIByAH+AVwBpwHDAf4BOQGiAb8B/gEuAaQBvwH+ATABqAHAAf4BNAGqAcAB/gEz
+        AakBvwH+ATIBpAG7Af4BLQGbAbMB/gElAYsBpQH+ARsBfwGGAf4BKwFeAXMB/AFYAl4B3QNIAYYDGwEm
+        AwMBBAMAAQEQAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf+AAANMAZMDYQHkAX8BugHKAf4BZAG1AcoB/gFTAbMBygH+AWkBuAHK
+        Af4BZgG4AcoB/gFgAbcBygH+AW4BuwHKAf4BcgG9AcoB/gFrAb0BygH+AWMBugHKAf4BYQG3AcgB/gFo
+        AbMBxwH+AVoBsQHFAf4BRwGwAcQB/gE8AbIBwwH+ATcBrgHCAf4BMgGmAb4B/gEsAZwBuAH+ASYBjQGt
+        Af4BHQF/AZUB/gEXAX8BgAH+AUgCYgH2A18B4AFNAk4BlQMpAT8DAQECEACA/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/gAADQAFw
+        A18B2wF/AbsBygH+AWUBugHKAf4BYQG5AcoB/gFtAbwBygH+AWsBvAHKAf4BZgG9AcoB/gFqAcEBygH+
+        AWgBwQHKAf4BYQHAAcoB/gFeAcABygH+AWoBwQHKAf4BZwG8AckB/gFjAbgByAH+AV8BtAHIAf4BXAG0
+        AcYB/gFCAbABxAH+ATIBpwHAAf4BKQGcAbsB/gEkAY4BswH+AR0BfwGiAf4BGAF/AYwB/gEXAX8BggH+
+        ARwBdQGSAf4BXAJhAdwBSQJKAYkBIQIiATEQAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+AAAMmATkDWwHDAWUBgQGHAfgBdwG+
+        AcoB/gFpAbsBygH+AWwBvAHKAf4BaAG9AcoB/gFiAb0ByQH+AWEBwAHJAf4BZwHBAckB/gFkAcEBygH+
+        AWMBwgHKAf4BcQHDAckB/gFbAb8ByAH+AVwBuwHJAf4BaQG4AcoB/gFzAbYByQH+AVgBsgHFAf4BPgGn
+        AcIB/gEqAZsBvQH+ASEBjgG3Af4BHQGBAasB/gEZAX8BlwH+ARkBfwGMAf4BHwF/AZgB/gEeAXsBnAH+
+        AVwCXgHOA0MBeAMHAQkDAQECCACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/gwABAQNPAZcDYQHkAX8BvwHKAf4BYQG5AcoB/gFk
+        AboByQH+AWABuwHJAf4BXwG7AcgB/gFpAbwByAH+AWIBvAHJAf4BYAG8AckB/gFmAb0ByQH+AXMBvgHJ
+        Af4BaAG/AckB/gFbAb8ByQH+AVUBvwHJAf4BXwG9AcoB/gF/AbkByQH+AWMBqwHFAf4BNAGbAb4B/gEf
+        AY0BuAH+AR0BhQGxAf4BGgF/AaMB/gEaAX8BlwH+AR4BfwGYAf4BIgF/AaYB/gErAWEBkQH8AVkCWwHE
+        AxoBJQMHAQkIAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf+EAAMoAT0DUgGkAWoBiQGLAfkBTQGsAckB/gFRAbMByQH+AVYBuAHJ
+        Af4BXAG6AcgB/gFiAbkByAH+AWQBugHIAf4BaAG6AcgB/gFuAboByAH+AXcBuwHJAf4BagG7AcgB/gFe
+        AbsByAH+AVgBuwHIAf4BWwG+AckB/gFqAbsByQH+AX8BuQHJAf4BfwGxAcUB/gE9AZsBvQH+ASUBigG1
+        Af4BGwF/AakB/gEbAX8BnwH+AR0BfwGaAf4BJAF/Aa0B/gEjAX8BrAH+AVwCYQHcA0QBegMWAR8IAID/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf+EAAMPARQDSQGIAVwBegGCAfgBbwGtAckB/gFRAa4ByAH+AU8BtAHIAf4BWAG6AcgB/gFc
+        AbkByAH+AWIBugHIAf4BawG6AcgB/gF/AbsByQH+AX8BwAHKAf4BfwG9AckB/gFyAboByQH+AVYBuQHI
+        Af4BWAG9AckB/gFlAbsByQH+AXwBvAHKAf4BfwG5AckB/gFwAawBxQH+ATgBkgG6Af4BIAGCAa4B/gEc
+        AX8BpAH+AR0BfwGeAf4BJgF/AbMB/gEmAX8BtAH+AVQCYQHuAVcCWQG/AyEBMAgAgP8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4QA
+        Aw0BEQFIAkkBhwFNAXMBjAH6AX8BpAHGAf4BXAGpAccB/gFTAbIBxwH+AVYBugHIAf4BWwG7AcgB/gFi
+        AbsByAH+AWsBuwHIAf4BfwG8AckB/gGKAcIBygH+AX8BwAHJAf4BfwG7AckB/gFWAbcByAH+AVoBuwHI
+        Af4BZwG7AckB/gFmAbsBygH+AWkBuQHKAf4BfwG2AcoB/gFWAZ8BwAH+ATEBigG0Af4BHAF/AagB/gEd
+        AX8BowH+AScBfwG3Af4BJwF/AbsB/gEpAWoBjAH6Al0BYAHtAyoBQQMDAQQEAID/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+EAAMd
+        ASoBTwJQAZsBKAF/AbcB/gE2AX8BvwH+AWoBpAHFAf4BaQG2AcgB/gFaAbsByQH+AWQBvwHJAf4BZwG+
+        AckB/gFpAb0ByQH+AWwBuwHIAf4BcAG5AcgB/gF7AbsByAH+AW4BuQHIAf4BYAG3AcgB/gFnAboByAH+
+        AWsBuwHIAf4BZAG6AckB/gFXAbYByQH+AUwBrgHKAf4BewGvAckB/gFUAZcBuwH+AR0BfwGsAf4BHgF/
+        AacB/gElAX8BuwH+AScBfwG/Af4BJQF/AboB/gEdAX8BsQH+ATQCNQFVAwoBDgQAgP8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4QA
+        AyYBOQFPAlMBpQEmAX8BvAH+ASoBfwHBAf4BOgGFAcQB/gFfAZ4BxwH+AXoBtQHJAf4BbwG+AcoB/gFp
+        AcAByQH+AWkBvgHJAf4BawG8AckB/gFnAbsByAH+AWgBugHIAf4BYwG6AckB/gFeAbkByQH+AWEBuQHI
+        Af4BZAG7AcgB/gFnAbsByQH+AWYBuQHJAf4BXwG2AcoB/gF/AbUBygH+AWUBoQHAAf4BNAGGAbUB/gEe
+        AX8BrgH+ASYBfwG+Af4BKQF/AcIB/gEnAX8BvwH+ASEBfwG5Af4DOgFhAxABFgQAgP8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4QA
+        AykBPgFSAlMBqAEnAX8BvwH+ASgBfwHDAf4BJwF/AcUB/gFAAYwBxwH+AV0BoAHJAf4BaAGxAcoB/gF5
+        AbwBygH+AX8BwAHKAf4BfwG/AcoB/gFjAbwByQH+AWQBuwHIAf4BYwG7AckB/gFhAboByQH+AWEBuQHI
+        Af4BYgG6AcgB/gFnAbsByQH+AWgBuwHJAf4BYQG5AcoB/gF0AbgBygH+AW4BqgHFAf4BUgGUAb4B/gEi
+        AX8BtgH+ASkBfwHCAf4BKwF/AcUB/gEpAX8BwgH+ASMBfwG+Af4DOwFkAxIBGQQAgP8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4QA
+        AyUBNwFQAlIBpAEpAX8BwgH+ASoBfwHGAf4BIwGAAccB/gElAYUByAH+ATMBjgHIAf4BTwGfAckB/gFy
+        AbABygH+AX8BuwHKAf4BfwG/AcoB/gFoAbwByQH+AWgBuwHIAf4BZgG6AcgB/gFjAbgByAH+AV4BuAHI
+        Af4BXgG4AcgB/gFhAbkByQH+AWIBugHJAf4BWwG6AcoB/gFvAboBygH+AXkBsgHJAf4BZwGfAcUB/gEl
+        AX8BvwH+ASsBfwHFAf4BLQF/AccB/gEqAX8BxAH+ASQBfwHAAf4DOAFdAw8BFAQAgP8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4QA
+        AxsBJgNOAZgBJwF/AcMB/gEoAYQBxwH+ASEBhwHIAf4BKAGNAckB/gEuAZIByQH+ASYBkQHJAf4BKwGY
+        AckB/gFLAacBygH+AW4BtQHKAf4BfQG6AckB/gFtAbkByQH+AWcBtwHJAf4BYAG1AckB/gFSAbYByAH+
+        AVEBtQHJAf4BVQG3AcoB/gFYAbgBygH+AVUBuQHKAf4BfwG+AcoB/gF/AbYBygH+AWUBowHJAf4BJAGM
+        AcgB/gEqAYgByAH+ASsBhQHIAf4BKAGAAcUB/gE9AagBtgH9AzABTAMHAQkEAID/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+EAAMK
+        AQ0DRwGCAUIBZgFuAfUBKgGJAcgB/gEkAY4ByQH+AScBkgHJAf4BLQGWAckB/gErAZUBygH+ASwBmgHK
+        Af4BLwGhAcoB/gE0AagBygH+AUEBrQHJAf4BWwGwAckB/gF2AbQByQH+AX8BtwHJAf4BfwG4AckB/gF6
+        AbcByQH+AXsBuAHKAf4BfwG6AcoB/gF/Ab0BygH+AX8BuwHKAf4BcAGsAcoB/gFAAZsBygH+ASsBkwHK
+        Af4BKwGPAckB/gEpAYoByAH+AVEBdwGFAfcBVwJcAd8DJwE7AwEBAgQAgP8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4QAAwEBAgM6
+        AWIBWwJeAdABLAGPAcgB/gEkAZMByQH+ASYBlwHKAf4BKwGaAcoB/gErAZkBygH+AS8BnwHKAf4BKgGk
+        AcoB/gElAagBygH+AS0BqgHKAf4BQQGpAcoB/gFVAaoBygH+AWIBqwHKAf4BYAGtAcoB/gFZAa8BygH+
+        AV4BsQHKAf4BZwGzAcoB/gFsAbMBygH+AWUBrQHKAf4BSAGhAcoB/gEsAZcBygH+ASsBlgHKAf4BKwGT
+        AckB/gEqAY8ByAH+AVgCYgHpAVICUwGoAx0BKggAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4gAAycBOwFOAk8BlwEuAYsBlgH7
+        AUABqQG5Af0BKQGcAcoB/gEtAaABygH+ASwBnwHJAf4BMwGmAcoB/gExAasBygH+AS8BrgHKAf4BNQGu
+        AcoB/gEvAaYBygH+AS4BogHKAf4BKwGgAcoB/gEiAaIBygH+ASkBpwHKAf4BMQGqAcoB/gE4AasBygH+
+        AToBpwHJAf4BMAGfAckB/gEqAZoBygH+AScBmAHKAf4BKwGYAckB/gEsAZYByQH+ASsBggGnAfwBWgJd
+        AdMBOQI6AWADEgEYCACA/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/iAADCgEOAzIBUQFTAWQBaQHxATABjgGWAfsBNgGjAcoB/gE6
+        AacBygH+ATMBqAHKAf4BNwGtAcoB/gE5AbIBygH+AT8BtQHKAf4BTQGzAcoB/gE2AakBygH+ASoBowHK
+        Af4BJQGiAcoB/gEhAaYBygH+ASkBqwHKAf4BKgGrAcoB/gEtAakBygH+ATwBpQHKAf4BMQGgAcoB/gEr
+        AZ0BygH+ASwBnAHKAf4BMwGcAckB/gEyAZoByAH+AVIBZQFqAfQDVgGzAwwBEAMDAQQIAID/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af+IAAMDAQQDGwEmAUYCRwGAAVoCYAHeATYBowHIAf4BNAGmAckB/gExAagBygH+ATkBrwHKAf4BQAG1
+        AcoB/gFEAbcBygH+AUYBtQHKAf4BOwGvAcoB/gEqAacBygH+ARsBoQHKAf4BGQGiAcoB/gEhAacBygH+
+        AS8BrAHKAf4BOwGuAcoB/gFCAa0BygH+ATgBqAHKAf4BLwGjAcoB/gErAZ0BygH+ATIBmAHJAf4BQAGo
+        AbgB/QFVAlcBugM2AVkDAwEEAwABAQgAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4wAAwkBDAMfAS0DTAGTAV4CYQHaAS0BoQHI
+        Af4BJwGiAcoB/gEuAawBygH+ATgBtAHKAf4BQwG5AcoB/gFQAbgBygH+AT8BsgHKAf4BLAGsAcoB/gEc
+        AaYBygH+ARgBpQHKAf4BHQGjAcoB/gEsAakBygH+ATwBsQHKAf4BQwGzAcoB/gE7Aa4BygH+ATABpQHK
+        Af4BKAGYAckB/gFAAagBuAH9AVgCWwHGAT8CQAFuAxYBHhAAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/5QAAykBPgFMAk0BkQFb
+        Al4B2QFQAYABhQH3ASsBlAGpAfwBMQGyAcoB/gFEAbgBygH+AVkBtwHJAf4BPgGsAcgB/gErAaUBxQH+
+        AR4BnwHAAf4BGQGdAbwB/gEbAZUBwQH+ASgBoAHGAf4BOQGwAckB/gFJAbYBygH+AT4BsQHKAf4BMAGQ
+        AZcB+wFUAmEB7gFZAlwBzwE/AkABbwMcASgUAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+YAAMaASQBPwJAAW4BWwJhAeEBUQGB
+        AYUB9wE+AbABygH+AVEBswHJAf4BUQGtAccB/gE2AZcBwwH+ASUBhQG0Af4BGwF/AaEB/gEYAX8BkwH+
+        ARwBfwGqAf4BKQGNAb0B/gE/AakBxwH+AV8BtQHIAf4BRgGxAckB/gFTAWUBaQHxAVYCWAG8Ay4BSAMN
+        ARIYAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf+YAAMHAQkDFgEeAyoBQAFEAkUBfANUAa8BWwJeAdkBXAF+AYUB+AFAAa4BuAH9
+        AU4BnwHAAf4BRAGZAbgB/gFAAZgBswH+AUABqAG0Af0BTQGAAZAB+gFaAV8BYQHwA2EB3AFSAlQBpgM+
+        AWsDJAE1Aw0BEgMEAQUYAID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+cAAMBAQIDBAEFAx0BKgMwAUsDPQFnA0UBfANHAYEDSgGL
+        A0wBkwNMAZMBSAJJAYgDRgF/A0IBdgM9AWkDLQFFAxYBHwMDAQQgAID/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf+vAAQBAQIDBAEF
+        Aw0BEgMWAR4DFQEdAwoBDgMEAQU0AID/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/
+        A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf//AAEAgP8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOr
+        Af8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/wOrAf8DqwH/A6sB/4AAAUIBTQE+BwABPgMA
+        ASgDAAGAAwABIAMAAQEBAAEBBgABAhYAA/8BAAHgAgAB/wwAAeACAAE/DAABwAIAAQ8MAAHAAgABBwwA
+        AYACAAEDDwABAw8AAQMPAAEPDwABDw8AAQ8PAAEDDwABAwwAAYACAAEDDAABgAIAAQMMAAGAAgABAQwA
+        AYACAAEBDAABgAIAAQEMAAGAAgABAQwAAYACAAEBDAABgAIAAQEMAAGAAgABAQwAAYACAAEDDAABwAIA
+        AQMMAAHAAgABAwwAAcACAAEDDAAB4AIAAQ8MAAH4AgABHwwAAfwCAAE/DAAB/AIAAT8MAAH+AgAB/wwA
+        Af8B4AEfAf8MAAT/DAAL
+</value>
+  </data>
+  <data name="Gradelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="Gradelabel.Text" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="Outletlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="Outletlabel.Text" xml:space="preserve">
+    <value>Outlet</value>
+  </data>
+  <data name="Settinglabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 16</value>
+  </data>
+  <data name="Settinglabel.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="MotorgroupBox.Text" xml:space="preserve">
+    <value>Motor</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 80</value>
+  </data>
+  <data name="MotorEnableSwitchWeightnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 78</value>
+  </data>
+  <data name="MotorEnableSwitchWeightlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 80</value>
+  </data>
+  <data name="MotorEnableSwitchWeightlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="MotorEnableSwitchWeightlabel.Text" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="MotorEnableSwitchNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 52</value>
+  </data>
+  <data name="MotorEnableSwitchNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="MotorEnableSwitchNumlabel.Text" xml:space="preserve">
+    <value>Pieces</value>
+  </data>
+  <data name="MotorEnableSwitchcomboBox.Items" xml:space="preserve">
+    <value>Pieces</value>
+  </data>
+  <data name="MotorEnableSwitchcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 20</value>
+  </data>
+  <data name="MotorEnableSwitchcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 24</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 117</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 145</value>
+  </data>
+  <data name="HoldTimelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 141</value>
+  </data>
+  <data name="HoldTimelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="HoldTimelabel.Text" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="HoldTimenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 139</value>
+  </data>
+  <data name="DelayTimelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 113</value>
+  </data>
+  <data name="DelayTimelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="DelayTimelabel.Text" xml:space="preserve">
+    <value>Start Delay</value>
+  </data>
+  <data name="DelayTimenumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 111</value>
+  </data>
+  <data name="MotorEnableSwitchlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 23</value>
+  </data>
+  <data name="MotorEnableSwitchlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 16</value>
+  </data>
+  <data name="MotorEnableSwitchlabel.Text" xml:space="preserve">
+    <value>EnableSwitchMode</value>
+  </data>
+  <data name="MotorEnableSwitchNumnumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 50</value>
+  </data>
+  <data name="MotorSendbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 307</value>
+  </data>
+  <data name="MotorSendbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 23</value>
+  </data>
+  <data name="MotorSendbutton.Text" xml:space="preserve">
+    <value>Sending Data</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Names</value>
+  </data>
+  <data name="ReplaceSelectcheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 81</value>
+  </data>
+  <data name="ReplaceSelectcheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 20</value>
+  </data>
+  <data name="ReplaceSelectcheckBox.Text" xml:space="preserve">
+    <value>Use Product Name for Display Name</value>
+  </data>
+  <data name="DisplayNametextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 52</value>
+  </data>
+  <data name="DisplayNametextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="ProductNametextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="ProductNametextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 55</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 25</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Panel Display</value>
+  </data>
+  <data name="AdditionalTextrichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 23</value>
+  </data>
+  <data name="AdditionalTextrichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 68</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 25</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 16</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Append Content</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Outlet Settings</value>
+  </data>
+</root>

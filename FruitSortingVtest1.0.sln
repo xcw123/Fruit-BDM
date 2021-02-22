@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitSortingVtest1.0", "FruitSortingVtest1.0\FruitSortingVtest1.0.csproj", "{57675A92-3941-49F7-88CA-E499DCA6A4AC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FruitSortingSetupVtest1.0", "FruitSortingSetupVtest1.0\FruitSortingSetupVtest1.0.vdproj", "{2228151E-05CB-42ED-AD4B-C9E6545EDA94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57675A92-3941-49F7-88CA-E499DCA6A4AC}.Debug|x86.ActiveCfg = Debug|x86
+		{57675A92-3941-49F7-88CA-E499DCA6A4AC}.Debug|x86.Build.0 = Debug|x86
+		{57675A92-3941-49F7-88CA-E499DCA6A4AC}.Release|x86.ActiveCfg = Release|x86
+		{57675A92-3941-49F7-88CA-E499DCA6A4AC}.Release|x86.Build.0 = Release|x86
+		{2228151E-05CB-42ED-AD4B-C9E6545EDA94}.Debug|x86.ActiveCfg = Debug
+		{2228151E-05CB-42ED-AD4B-C9E6545EDA94}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

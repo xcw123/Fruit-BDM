@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="VerticalAxistextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 348</value>
+  </data>
+  <data name="VerticalAxislabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 355</value>
+  </data>
+  <data name="VerticalAxislabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="VerticalAxislabel1.Text" xml:space="preserve">
+    <value>Diámetro Vertical</value>
+  </data>
+  <data name="WatertextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 469</value>
+  </data>
+  <data name="TangxintextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 389</value>
+  </data>
+  <data name="BrowntextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 349</value>
+  </data>
+  <data name="SkintextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 309</value>
+  </data>
+  <data name="HollowtextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 269</value>
+  </data>
+  <data name="Waterlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 476</value>
+  </data>
+  <data name="Waterlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="Waterlabel1.Text" xml:space="preserve">
+    <value>Agua</value>
+  </data>
+  <data name="Tangxinlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 396</value>
+  </data>
+  <data name="Tangxinlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 16</value>
+  </data>
+  <data name="Tangxinlabel1.Text" xml:space="preserve">
+    <value>Cristalizado</value>
+  </data>
+  <data name="Brownlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 354</value>
+  </data>
+  <data name="Brownlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 16</value>
+  </data>
+  <data name="Brownlabel1.Text" xml:space="preserve">
+    <value>Color Interno</value>
+  </data>
+  <data name="Skinlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 316</value>
+  </data>
+  <data name="Skinlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="Skinlabel1.Text" xml:space="preserve">
+    <value>Materia Seca</value>
+  </data>
+  <data name="Hollowlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 274</value>
+  </data>
+  <data name="Hollowlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="Hollowlabel1.Text" xml:space="preserve">
+    <value>Dureza</value>
+  </data>
+  <data name="RotNumtextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 68</value>
+  </data>
+  <data name="RotAreatextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 29</value>
+  </data>
+  <data name="BruiseAreatextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 470</value>
+  </data>
+  <data name="BruiseNumtextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 510</value>
+  </data>
+  <data name="RotNumlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 73</value>
+  </data>
+  <data name="RotNumlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="RotNumlabel1.Text" xml:space="preserve">
+    <value>Número de descomposición</value>
+  </data>
+  <data name="RotArealabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 36</value>
+  </data>
+  <data name="RotArealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 16</value>
+  </data>
+  <data name="RotArealabel1.Text" xml:space="preserve">
+    <value>Área de descomposición</value>
+  </data>
+  <data name="BruiseNumlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 515</value>
+  </data>
+  <data name="BruiseNumlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 16</value>
+  </data>
+  <data name="BruiseNumlabel1.Text" xml:space="preserve">
+    <value>Número de Golpe</value>
+  </data>
+  <data name="BruiseArealabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 477</value>
+  </data>
+  <data name="BruiseArealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 16</value>
+  </data>
+  <data name="BruiseArealabel1.Text" xml:space="preserve">
+    <value>Área de Golpe</value>
+  </data>
+  <data name="AciditytextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 229</value>
+  </data>
+  <data name="Aciditylabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 236</value>
+  </data>
+  <data name="Aciditylabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="Aciditylabel1.Text" xml:space="preserve">
+    <value>Acidez</value>
+  </data>
+  <data name="GradetextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 509</value>
+  </data>
+  <data name="Gradelabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 514</value>
+  </data>
+  <data name="Gradelabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="Gradelabel1.Text" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="WeighttextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 109</value>
+  </data>
+  <data name="Weightlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 114</value>
+  </data>
+  <data name="Weightlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 16</value>
+  </data>
+  <data name="Weightlabel1.Text" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="SugartextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 189</value>
+  </data>
+  <data name="Sugarlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 194</value>
+  </data>
+  <data name="Sugarlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="Sugarlabel1.Text" xml:space="preserve">
+    <value>Azúcar</value>
+  </data>
+  <data name="RigiditytextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 429</value>
+  </data>
+  <data name="Rigiditylabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 434</value>
+  </data>
+  <data name="Rigiditylabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="Rigiditylabel1.Text" xml:space="preserve">
+    <value>Dureza</value>
+  </data>
+  <data name="DensitytextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 149</value>
+  </data>
+  <data name="Densitylabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 156</value>
+  </data>
+  <data name="Densitylabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="Densitylabel1.Text" xml:space="preserve">
+    <value>Densidad</value>
+  </data>
+  <data name="VolumetextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 110</value>
+  </data>
+  <data name="Volumelabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 115</value>
+  </data>
+  <data name="Volumelabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="Volumelabel1.Text" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="FlawNumtextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 309</value>
+  </data>
+  <data name="FlawNumlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 316</value>
+  </data>
+  <data name="FlawNumlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 16</value>
+  </data>
+  <data name="FlawNumlabel1.Text" xml:space="preserve">
+    <value>Número Defecto</value>
+  </data>
+  <data name="FlawAreatextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 269</value>
+  </data>
+  <data name="FlawArealabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 274</value>
+  </data>
+  <data name="FlawArealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 16</value>
+  </data>
+  <data name="FlawArealabel1.Text" xml:space="preserve">
+    <value>Área Defecto</value>
+  </data>
+  <data name="AreatextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 70</value>
+  </data>
+  <data name="Arealabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 77</value>
+  </data>
+  <data name="Arealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="Arealabel1.Text" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="ColorRate2textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 230</value>
+  </data>
+  <data name="ColorRate2label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 237</value>
+  </data>
+  <data name="ColorRate2label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="ColorRate2label1.Text" xml:space="preserve">
+    <value>Color 3</value>
+  </data>
+  <data name="ColorRate1textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 190</value>
+  </data>
+  <data name="ColorRate1label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 195</value>
+  </data>
+  <data name="ColorRate1label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="ColorRate1label1.Text" xml:space="preserve">
+    <value>Color 2</value>
+  </data>
+  <data name="ColorRate0textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 150</value>
+  </data>
+  <data name="ColorRate0label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 157</value>
+  </data>
+  <data name="ColorRate0label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="ColorRate0label1.Text" xml:space="preserve">
+    <value>Color 1</value>
+  </data>
+  <data name="MinDRatiotextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 429</value>
+  </data>
+  <data name="MinDRatiolabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 434</value>
+  </data>
+  <data name="MinDRatiolabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 16</value>
+  </data>
+  <data name="MinDRatiolabel.Text" xml:space="preserve">
+    <value>Elongación Oblato</value>
+  </data>
+  <data name="DiameterRatiotextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 387</value>
+  </data>
+  <data name="DiameterRatiolabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 392</value>
+  </data>
+  <data name="DiameterRatiolabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="DiameterRatiolabel1.Text" xml:space="preserve">
+    <value>Elongación</value>
+  </data>
+  <data name="DiametertextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 30</value>
+  </data>
+  <data name="Diameterlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 35</value>
+  </data>
+  <data name="Diameterlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="Diameterlabel1.Text" xml:space="preserve">
+    <value>Diámetro</value>
+  </data>
+  <data name="IPMlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 28</value>
+  </data>
+  <data name="IPMlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="IPMlabel.Text" xml:space="preserve">
+    <value> Línea</value>
+  </data>
+  <data name="ChannelcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="Quitbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 621</value>
+  </data>
+  <data name="Quitbutton.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Información Fruta</value>
+  </data>
+</root>

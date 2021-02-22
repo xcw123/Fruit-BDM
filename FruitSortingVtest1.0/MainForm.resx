@@ -1,0 +1,3211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="splitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainer1.Panel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun-ExtB, 10.5pt</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitContainer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainer2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="splitContainer2.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="splitContainer2.Panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>上传测试</value>
+  </data>
+  <data name="button1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SampleExitLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SampleExitLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SampleExitLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 106</value>
+  </data>
+  <data name="SampleExitLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="SampleExitLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="SampleExitLabel.Text" xml:space="preserve">
+    <value>抽检口</value>
+  </data>
+  <data name="SampleExitLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SampleExitLabel.Name" xml:space="preserve">
+    <value>SampleExitLabel</value>
+  </data>
+  <data name="&gt;&gt;SampleExitLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SampleExitLabel.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SampleExitLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 21</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 16</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.Text" xml:space="preserve">
+    <value>加工未完成不能打印</value>
+  </data>
+  <data name="LblProOffAndCannotPrint.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblProOffAndCannotPrint.Name" xml:space="preserve">
+    <value>LblProOffAndCannotPrint</value>
+  </data>
+  <data name="&gt;&gt;LblProOffAndCannotPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblProOffAndCannotPrint.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LblProOffAndCannotPrint.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblProOffAndPrint.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblProOffAndPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblProOffAndPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 5</value>
+  </data>
+  <data name="LblProOffAndPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 16</value>
+  </data>
+  <data name="LblProOffAndPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LblProOffAndPrint.Text" xml:space="preserve">
+    <value>加工已完成可以打印</value>
+  </data>
+  <data name="LblProOffAndPrint.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblProOffAndPrint.Name" xml:space="preserve">
+    <value>LblProOffAndPrint</value>
+  </data>
+  <data name="&gt;&gt;LblProOffAndPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblProOffAndPrint.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LblProOffAndPrint.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="VelChangelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="VelChangelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VelChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 26.25pt, style=Bold</value>
+  </data>
+  <data name="VelChangelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VelChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 20</value>
+  </data>
+  <data name="VelChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 46</value>
+  </data>
+  <data name="VelChangelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="VelChangelabel.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;VelChangelabel.Name" xml:space="preserve">
+    <value>VelChangelabel</value>
+  </data>
+  <data name="&gt;&gt;VelChangelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VelChangelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;VelChangelabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="VelUnitlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="VelUnitlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VelUnitlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="VelUnitlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VelUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 30</value>
+  </data>
+  <data name="VelUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 26</value>
+  </data>
+  <data name="VelUnitlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="VelUnitlabel.Text" xml:space="preserve">
+    <value>个/分钟</value>
+  </data>
+  <data name="&gt;&gt;VelUnitlabel.Name" xml:space="preserve">
+    <value>VelUnitlabel</value>
+  </data>
+  <data name="&gt;&gt;VelUnitlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VelUnitlabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;VelUnitlabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BatchNumlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="BatchNumlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BatchNumlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="BatchNumlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BatchNumlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 8</value>
+  </data>
+  <data name="BatchNumlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="BatchNumlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BatchNumlabel.Text" xml:space="preserve">
+    <value>本批个数</value>
+  </data>
+  <data name="&gt;&gt;BatchNumlabel.Name" xml:space="preserve">
+    <value>BatchNumlabel</value>
+  </data>
+  <data name="&gt;&gt;BatchNumlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BatchNumlabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;BatchNumlabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BatchNumChangelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="BatchNumChangelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BatchNumChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="BatchNumChangelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BatchNumChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, 8</value>
+  </data>
+  <data name="BatchNumChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 26</value>
+  </data>
+  <data name="BatchNumChangelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BatchNumChangelabel.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BatchNumChangelabel.Name" xml:space="preserve">
+    <value>BatchNumChangelabel</value>
+  </data>
+  <data name="&gt;&gt;BatchNumChangelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BatchNumChangelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;BatchNumChangelabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="StartTimeChangelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="StartTimeChangelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StartTimeChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 15.75pt, style=Bold</value>
+  </data>
+  <data name="StartTimeChangelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StartTimeChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 50</value>
+  </data>
+  <data name="StartTimeChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="StartTimeChangelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;StartTimeChangelabel.Name" xml:space="preserve">
+    <value>StartTimeChangelabel</value>
+  </data>
+  <data name="&gt;&gt;StartTimeChangelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartTimeChangelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;StartTimeChangelabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BatchNumUnitlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="BatchNumUnitlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BatchNumUnitlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="BatchNumUnitlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BatchNumUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 8</value>
+  </data>
+  <data name="BatchNumUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 26</value>
+  </data>
+  <data name="BatchNumUnitlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BatchNumUnitlabel.Text" xml:space="preserve">
+    <value>个</value>
+  </data>
+  <data name="&gt;&gt;BatchNumUnitlabel.Name" xml:space="preserve">
+    <value>BatchNumUnitlabel</value>
+  </data>
+  <data name="&gt;&gt;BatchNumUnitlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BatchNumUnitlabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;BatchNumUnitlabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SeparationEfficiencylabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SeparationEfficiencylabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SeparationEfficiencylabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="SeparationEfficiencylabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SeparationEfficiencylabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 8</value>
+  </data>
+  <data name="SeparationEfficiencylabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="SeparationEfficiencylabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="SeparationEfficiencylabel.Text" xml:space="preserve">
+    <value>分选效率</value>
+  </data>
+  <data name="&gt;&gt;SeparationEfficiencylabel.Name" xml:space="preserve">
+    <value>SeparationEfficiencylabel</value>
+  </data>
+  <data name="&gt;&gt;SeparationEfficiencylabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeparationEfficiencylabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;SeparationEfficiencylabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SeparationProgramelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SeparationProgramelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SeparationProgramelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="SeparationProgramelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SeparationProgramelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 51</value>
+  </data>
+  <data name="SeparationProgramelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="SeparationProgramelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="SeparationProgramelabel.Text" xml:space="preserve">
+    <value>分选程序</value>
+  </data>
+  <data name="&gt;&gt;SeparationProgramelabel.Name" xml:space="preserve">
+    <value>SeparationProgramelabel</value>
+  </data>
+  <data name="&gt;&gt;SeparationProgramelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeparationProgramelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;SeparationProgramelabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>877, 8</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 26</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="SeparationEfficiencyChangelabel.Text" xml:space="preserve">
+    <value>0.0%</value>
+  </data>
+  <data name="&gt;&gt;SeparationEfficiencyChangelabel.Name" xml:space="preserve">
+    <value>SeparationEfficiencyChangelabel</value>
+  </data>
+  <data name="&gt;&gt;SeparationEfficiencyChangelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeparationEfficiencyChangelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;SeparationEfficiencyChangelabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>872, 53</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 22</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="SeparationProgrameChangelabel.Text" xml:space="preserve">
+    <value>(未保存)</value>
+  </data>
+  <data name="&gt;&gt;SeparationProgrameChangelabel.Name" xml:space="preserve">
+    <value>SeparationProgrameChangelabel</value>
+  </data>
+  <data name="&gt;&gt;SeparationProgrameChangelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeparationProgrameChangelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;SeparationProgrameChangelabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="SeparationVellabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SeparationVellabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SeparationVellabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="SeparationVellabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SeparationVellabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 30</value>
+  </data>
+  <data name="SeparationVellabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="SeparationVellabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SeparationVellabel.Text" xml:space="preserve">
+    <value>分选速度</value>
+  </data>
+  <data name="SeparationVellabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;SeparationVellabel.Name" xml:space="preserve">
+    <value>SeparationVellabel</value>
+  </data>
+  <data name="&gt;&gt;SeparationVellabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeparationVellabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;SeparationVellabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="WeightCountlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="WeightCountlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WeightCountlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="WeightCountlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WeightCountlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1023, 8</value>
+  </data>
+  <data name="WeightCountlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="WeightCountlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="WeightCountlabel.Text" xml:space="preserve">
+    <value>本批重量</value>
+  </data>
+  <data name="&gt;&gt;WeightCountlabel.Name" xml:space="preserve">
+    <value>WeightCountlabel</value>
+  </data>
+  <data name="&gt;&gt;WeightCountlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeightCountlabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;WeightCountlabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="AverWeightCountlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="AverWeightCountlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AverWeightCountlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="AverWeightCountlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AverWeightCountlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1023, 51</value>
+  </data>
+  <data name="AverWeightCountlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="AverWeightCountlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="AverWeightCountlabel.Text" xml:space="preserve">
+    <value>平均重量</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountlabel.Name" xml:space="preserve">
+    <value>AverWeightCountlabel</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountlabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountlabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1188, 8</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 26</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="WeightCountlabelChangelabel.Text" xml:space="preserve">
+    <value>0.000</value>
+  </data>
+  <data name="&gt;&gt;WeightCountlabelChangelabel.Name" xml:space="preserve">
+    <value>WeightCountlabelChangelabel</value>
+  </data>
+  <data name="&gt;&gt;WeightCountlabelChangelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeightCountlabelChangelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;WeightCountlabelChangelabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="AverWeightCountChangelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="AverWeightCountChangelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AverWeightCountChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="AverWeightCountChangelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AverWeightCountChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1200, 51</value>
+  </data>
+  <data name="AverWeightCountChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 26</value>
+  </data>
+  <data name="AverWeightCountChangelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="AverWeightCountChangelabel.Text" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountChangelabel.Name" xml:space="preserve">
+    <value>AverWeightCountChangelabel</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountChangelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountChangelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountChangelabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="WeightCountUnitlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="WeightCountUnitlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WeightCountUnitlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="WeightCountUnitlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WeightCountUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1303, 8</value>
+  </data>
+  <data name="WeightCountUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 26</value>
+  </data>
+  <data name="WeightCountUnitlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="WeightCountUnitlabel.Text" xml:space="preserve">
+    <value>吨</value>
+  </data>
+  <data name="&gt;&gt;WeightCountUnitlabel.Name" xml:space="preserve">
+    <value>WeightCountUnitlabel</value>
+  </data>
+  <data name="&gt;&gt;WeightCountUnitlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeightCountUnitlabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;WeightCountUnitlabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="RealWeightCountlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="RealWeightCountlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RealWeightCountlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="RealWeightCountlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RealWeightCountlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1400, 8</value>
+  </data>
+  <data name="RealWeightCountlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="RealWeightCountlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="RealWeightCountlabel.Text" xml:space="preserve">
+    <value>实时产量</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountlabel.Name" xml:space="preserve">
+    <value>RealWeightCountlabel</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountlabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountlabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="RealWeightCountChangelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="RealWeightCountChangelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RealWeightCountChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="RealWeightCountChangelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RealWeightCountChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1572, 8</value>
+  </data>
+  <data name="RealWeightCountChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 26</value>
+  </data>
+  <data name="RealWeightCountChangelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="RealWeightCountChangelabel.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountChangelabel.Name" xml:space="preserve">
+    <value>RealWeightCountChangelabel</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountChangelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountChangelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountChangelabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1303, 51</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 26</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="AverWeightCountUnitlabel.Text" xml:space="preserve">
+    <value>克</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountUnitlabel.Name" xml:space="preserve">
+    <value>AverWeightCountUnitlabel</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountUnitlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountUnitlabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;AverWeightCountUnitlabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1674, 8</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 26</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="RealWeightCountUnitlabel.Text" xml:space="preserve">
+    <value>吨/时</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountUnitlabel.Name" xml:space="preserve">
+    <value>RealWeightCountUnitlabel</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountUnitlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountUnitlabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;RealWeightCountUnitlabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="StartTimelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="StartTimelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StartTimelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="StartTimelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StartTimelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 51</value>
+  </data>
+  <data name="StartTimelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="StartTimelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="StartTimelabel.Text" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="&gt;&gt;StartTimelabel.Name" xml:space="preserve">
+    <value>StartTimelabel</value>
+  </data>
+  <data name="&gt;&gt;StartTimelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartTimelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;StartTimelabel.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Intervallabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Intervallabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Intervallabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Intervallabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Intervallabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1400, 51</value>
+  </data>
+  <data name="Intervallabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="Intervallabel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Intervallabel.Text" xml:space="preserve">
+    <value>间隔速度</value>
+  </data>
+  <data name="&gt;&gt;Intervallabel.Name" xml:space="preserve">
+    <value>Intervallabel</value>
+  </data>
+  <data name="&gt;&gt;Intervallabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Intervallabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;Intervallabel.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="IntervalChangelabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="IntervalChangelabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IntervalChangelabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="IntervalChangelabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IntervalChangelabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1587, 51</value>
+  </data>
+  <data name="IntervalChangelabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 26</value>
+  </data>
+  <data name="IntervalChangelabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="IntervalChangelabel.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;IntervalChangelabel.Name" xml:space="preserve">
+    <value>IntervalChangelabel</value>
+  </data>
+  <data name="&gt;&gt;IntervalChangelabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IntervalChangelabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;IntervalChangelabel.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="IntervalUnitlabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="IntervalUnitlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IntervalUnitlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 14.25pt, style=Bold</value>
+  </data>
+  <data name="IntervalUnitlabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IntervalUnitlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1679, 51</value>
+  </data>
+  <data name="IntervalUnitlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 26</value>
+  </data>
+  <data name="IntervalUnitlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="IntervalUnitlabel.Text" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="&gt;&gt;IntervalUnitlabel.Name" xml:space="preserve">
+    <value>IntervalUnitlabel</value>
+  </data>
+  <data name="&gt;&gt;IntervalUnitlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IntervalUnitlabel.Parent" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;IntervalUnitlabel.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 309</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1750, 87</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;StatisticInfotableLayoutPanel.Name" xml:space="preserve">
+    <value>StatisticInfotableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;StatisticInfotableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticInfotableLayoutPanel.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;StatisticInfotableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="StatisticInfotableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="VelChangelabel" Row="0" RowSpan="2" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="VelUnitlabel" Row="0" RowSpan="2" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="BatchNumlabel" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="BatchNumChangelabel" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="StartTimeChangelabel" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="BatchNumUnitlabel" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="SeparationEfficiencylabel" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="SeparationProgramelabel" Row="1" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="SeparationEfficiencyChangelabel" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="SeparationProgrameChangelabel" Row="1" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="SeparationVellabel" Row="0" RowSpan="2" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="WeightCountlabel" Row="0" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="AverWeightCountlabel" Row="1" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="WeightCountlabelChangelabel" Row="0" RowSpan="1" Column="9" ColumnSpan="1" /&gt;&lt;Control Name="AverWeightCountChangelabel" Row="1" RowSpan="1" Column="9" ColumnSpan="1" /&gt;&lt;Control Name="WeightCountUnitlabel" Row="0" RowSpan="1" Column="10" ColumnSpan="1" /&gt;&lt;Control Name="RealWeightCountlabel" Row="0" RowSpan="1" Column="11" ColumnSpan="1" /&gt;&lt;Control Name="RealWeightCountChangelabel" Row="0" RowSpan="1" Column="12" ColumnSpan="1" /&gt;&lt;Control Name="AverWeightCountUnitlabel" Row="1" RowSpan="1" Column="10" ColumnSpan="1" /&gt;&lt;Control Name="RealWeightCountUnitlabel" Row="0" RowSpan="1" Column="13" ColumnSpan="1" /&gt;&lt;Control Name="StartTimelabel" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="Intervallabel" Row="1" RowSpan="1" Column="11" ColumnSpan="1" /&gt;&lt;Control Name="IntervalChangelabel" Row="1" RowSpan="1" Column="12" ColumnSpan="1" /&gt;&lt;Control Name="IntervalUnitlabel" Row="1" RowSpan="1" Column="13" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,110,Absolute,146,Absolute,95,Absolute,150,Absolute,116,Absolute,100,Absolute,120,Absolute,140,Absolute,180,Absolute,127,Absolute,70,Absolute,180,Absolute,130,Absolute,80,Absolute,24,Absolute,1030" /&gt;&lt;Rows Styles="Percent,100,Absolute,45" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Name" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitContainer3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainer3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="StopSortinglabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StopSortinglabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StopSortinglabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 196</value>
+  </data>
+  <data name="StopSortinglabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 16</value>
+  </data>
+  <data name="StopSortinglabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="StopSortinglabel.Text" xml:space="preserve">
+    <value>准备分选...</value>
+  </data>
+  <data name="StopSortinglabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;StopSortinglabel.Name" xml:space="preserve">
+    <value>StopSortinglabel</value>
+  </data>
+  <data name="&gt;&gt;StopSortinglabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StopSortinglabel.Parent" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;StopSortinglabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StandardSettinglabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="StandardSettinglabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StandardSettinglabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 196</value>
+  </data>
+  <data name="StandardSettinglabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="StandardSettinglabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="StandardSettinglabel.Text" xml:space="preserve">
+    <value>基准整定中...</value>
+  </data>
+  <data name="StandardSettinglabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;StandardSettinglabel.Name" xml:space="preserve">
+    <value>StandardSettinglabel</value>
+  </data>
+  <data name="&gt;&gt;StandardSettinglabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StandardSettinglabel.Parent" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;StandardSettinglabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NoramlSortinglabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NoramlSortinglabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NoramlSortinglabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 196</value>
+  </data>
+  <data name="NoramlSortinglabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="NoramlSortinglabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NoramlSortinglabel.Text" xml:space="preserve">
+    <value>正常分选</value>
+  </data>
+  <data name="NoramlSortinglabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;NoramlSortinglabel.Name" xml:space="preserve">
+    <value>NoramlSortinglabel</value>
+  </data>
+  <data name="&gt;&gt;NoramlSortinglabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NoramlSortinglabel.Parent" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;NoramlSortinglabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.Text" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="GradedataGridViewTopLeftHeadCelllabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GradedataGridViewTopLeftHeadCelllabel.Name" xml:space="preserve">
+    <value>GradedataGridViewTopLeftHeadCelllabel</value>
+  </data>
+  <data name="&gt;&gt;GradedataGridViewTopLeftHeadCelllabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradedataGridViewTopLeftHeadCelllabel.Parent" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;GradedataGridViewTopLeftHeadCelllabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GradedataGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GradedataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="GradedataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GradedataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>529, 228</value>
+  </data>
+  <data name="GradedataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GradedataGridView.Name" xml:space="preserve">
+    <value>GradedataGridView</value>
+  </data>
+  <data name="&gt;&gt;GradedataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradedataGridView.Parent" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;GradedataGridView.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.Name" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GradeSizelistViewName.Text" xml:space="preserve">
+    <value>等级名称</value>
+  </data>
+  <data name="GradeSizelistViewSize.Text" xml:space="preserve">
+    <value>尺寸</value>
+  </data>
+  <data name="GradeSizelistViewWeightSum.Text" xml:space="preserve">
+    <value>等级重量</value>
+  </data>
+  <data name="GradeSizelistViewWeightPercent.Text" xml:space="preserve">
+    <value>重量百分比</value>
+  </data>
+  <data name="GradeSizelistViewWeightPercent.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="GradeSizelistViewBoxNumber.Text" xml:space="preserve">
+    <value>箱数</value>
+  </data>
+  <data name="GradeSizelistViewTargetNumber.Text" xml:space="preserve">
+    <value>装箱量（个）</value>
+  </data>
+  <data name="GradeSizelistViewTargetNumber.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="GradeSizelistViewLabel.Text" xml:space="preserve">
+    <value>贴标</value>
+  </data>
+  <data name="GradeSizelistViewWeight.Text" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="GradeSizelistViewNum.Text" xml:space="preserve">
+    <value>等级个数</value>
+  </data>
+  <data name="GradeSizelistViewTargetWeight.Text" xml:space="preserve">
+    <value>装箱量（克）</value>
+  </data>
+  <data name="GradeSizelistViewTargetWeight.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="GradeSizelistViewWeightPerBox.Text" xml:space="preserve">
+    <value>每箱重</value>
+  </data>
+  <data name="GradeSizelistViewNumPercent.Text" xml:space="preserve">
+    <value>个数百分比</value>
+  </data>
+  <data name="GradeSizelistViewNumPercent.Width" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="GradeSizelistViewBoxPercent.Text" xml:space="preserve">
+    <value>箱数百分比</value>
+  </data>
+  <data name="GradeSizelistViewBoxPercent.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="GradeSizelistViewEx.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GradeSizelistViewEx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="GradeSizelistViewEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="GradeSizelistViewEx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GradeSizelistViewEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>985, 228</value>
+  </data>
+  <data name="GradeSizelistViewEx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewEx.Name" xml:space="preserve">
+    <value>GradeSizelistViewEx</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewEx.Type" xml:space="preserve">
+    <value>ListViewEx.ListViewEx, ListViewEx, Version=1.0.5976.17502, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewEx.Parent" xml:space="preserve">
+    <value>splitContainer3.Panel2</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewEx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.Name" xml:space="preserve">
+    <value>splitContainer3.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1523, 230</value>
+  </data>
+  <data name="splitContainer3.SplitterDistance" type="System.Int32, mscorlib">
+    <value>531</value>
+  </data>
+  <data name="splitContainer3.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="splitContainer3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Name" xml:space="preserve">
+    <value>splitContainer3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Name" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1523, 630</value>
+  </data>
+  <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>395</value>
+  </data>
+  <data name="splitContainer2.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="splitContainer2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Name" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1523, 698</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="splitContainer1.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="MainstatusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>356, 17</value>
+  </metadata>
+  <data name="SystemtoolStripStatusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SystemtoolStripStatusLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="SystemtoolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="SystemtoolStripStatusLabel.Text" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="SystemtoolStripStatusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="CuptoolStripStatusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CuptoolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 22</value>
+  </data>
+  <data name="CuptoolStripStatusLabel.Text" xml:space="preserve">
+    <value>果杯:</value>
+  </data>
+  <data name="CuptoolStripStatusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="IPMtoolStripStatusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="IPMtoolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 22</value>
+  </data>
+  <data name="IPMtoolStripStatusLabel.Text" xml:space="preserve">
+    <value>IPM:</value>
+  </data>
+  <data name="IPMtoolStripStatusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="MainstatusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 723</value>
+  </data>
+  <data name="MainstatusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 22, 0</value>
+  </data>
+  <data name="MainstatusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1523, 27</value>
+  </data>
+  <data name="MainstatusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MainstatusStrip.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;MainstatusStrip.Name" xml:space="preserve">
+    <value>MainstatusStrip</value>
+  </data>
+  <data name="&gt;&gt;MainstatusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainstatusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainstatusStrip.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="MainmenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>778, 17</value>
+  </metadata>
+  <data name="加载配置toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="加载配置toolStripMenuItem.Text" xml:space="preserve">
+    <value>加载配置</value>
+  </data>
+  <data name="保存配置toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="保存配置toolStripMenuItem.Text" xml:space="preserve">
+    <value>保存配置</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 6</value>
+  </data>
+  <data name="退出XToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="退出XToolStripMenuItem.Text" xml:space="preserve">
+    <value>退出(X)</value>
+  </data>
+  <data name="文件FToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="文件FToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 21</value>
+  </data>
+  <data name="文件FToolStripMenuItem.Text" xml:space="preserve">
+    <value>文件(F)</value>
+  </data>
+  <data name="等级设定toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="等级设定toolStripMenuItem.Text" xml:space="preserve">
+    <value>等级设定</value>
+  </data>
+  <data name="工程设置toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="工程设置toolStripMenuItem.Text" xml:space="preserve">
+    <value>工程设置</value>
+  </data>
+  <data name="恢复设置toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="恢复设置toolStripMenuItem.Text" xml:space="preserve">
+    <value>恢复设置</value>
+  </data>
+  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 6</value>
+  </data>
+  <data name="备份设置toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="备份设置toolStripMenuItem.Text" xml:space="preserve">
+    <value>备份设置</value>
+  </data>
+  <data name="设置SToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="设置SToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 21</value>
+  </data>
+  <data name="设置SToolStripMenuItem.Text" xml:space="preserve">
+    <value>设置(S)</value>
+  </data>
+  <data name="电磁阀测试toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="电磁阀测试toolStripMenuItem.Text" xml:space="preserve">
+    <value>电磁阀测试</value>
+  </data>
+  <data name="电机使能ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="电机使能ToolStripMenuItem.Text" xml:space="preserve">
+    <value>电机使能</value>
+  </data>
+  <data name="toolStripMenuItem16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 6</value>
+  </data>
+  <data name="出口清空toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="出口清空toolStripMenuItem.Text" xml:space="preserve">
+    <value>出口清空</value>
+  </data>
+  <data name="数据清零toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="数据清零toolStripMenuItem.Text" xml:space="preserve">
+    <value>数据清零</value>
+  </data>
+  <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 6</value>
+  </data>
+  <data name="结束加工toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="结束加工toolStripMenuItem.Text" xml:space="preserve">
+    <value>结束加工</value>
+  </data>
+  <data name="toolStripMenuItem18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 6</value>
+  </data>
+  <data name="复位果杯toolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="复位果杯toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="复位果杯toolStripMenuItem.Text" xml:space="preserve">
+    <value>复位果杯</value>
+  </data>
+  <data name="测试果杯toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="测试果杯toolStripMenuItem.Text" xml:space="preserve">
+    <value>测试果杯</value>
+  </data>
+  <data name="toolStripMenuItem20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 6</value>
+  </data>
+  <data name="固定窗口toolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="固定窗口toolStripMenuItem.Text" xml:space="preserve">
+    <value>固定窗口</value>
+  </data>
+  <data name="WIFI功能ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="WIFI功能ToolStripMenuItem.Text" xml:space="preserve">
+    <value>WIFI功能</value>
+  </data>
+  <data name="关闭IPMToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="关闭IPMToolStripMenuItem.Text" xml:space="preserve">
+    <value>关闭IPM</value>
+  </data>
+  <data name="数据恢复ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="数据恢复ToolStripMenuItem.Text" xml:space="preserve">
+    <value>数据恢复</value>
+  </data>
+  <data name="工具TToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="工具TToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 21</value>
+  </data>
+  <data name="工具TToolStripMenuItem.Text" xml:space="preserve">
+    <value>工具(T)</value>
+  </data>
+  <data name="用户手册ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="用户手册ToolStripMenuItem.Text" xml:space="preserve">
+    <value>用户手册</value>
+  </data>
+  <data name="语言切换ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="语言切换ToolStripMenuItem.Text" xml:space="preserve">
+    <value>语言切换</value>
+  </data>
+  <data name="toolStripMenuItem23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 6</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="帮助HToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="帮助HToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
+  </data>
+  <data name="帮助HToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助(H)</value>
+  </data>
+  <data name="MainmenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MainmenuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 2, 0, 2</value>
+  </data>
+  <data name="MainmenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1523, 25</value>
+  </data>
+  <data name="MainmenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="MainmenuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MainmenuStrip.Name" xml:space="preserve">
+    <value>MainmenuStrip</value>
+  </data>
+  <data name="&gt;&gt;MainmenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainmenuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainmenuStrip.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="MaintoolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>921, 17</value>
+  </metadata>
+  <data name="QaulitytoolStripButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="QaulitytoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="QaulitytoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="QaulitytoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="QaulitytoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 72</value>
+  </data>
+  <data name="QaulitytoolStripButton.Text" xml:space="preserve">
+    <value>品质设置</value>
+  </data>
+  <data name="QaulitytoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="GradetoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="GradetoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="GradetoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="GradetoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 72</value>
+  </data>
+  <data name="GradetoolStripButton.Text" xml:space="preserve">
+    <value>等级设定</value>
+  </data>
+  <data name="GradetoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="FruitInfotoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="FruitInfotoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="FruitInfotoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="FruitInfotoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 72</value>
+  </data>
+  <data name="FruitInfotoolStripButton.Text" xml:space="preserve">
+    <value>水果信息</value>
+  </data>
+  <data name="FruitInfotoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="LoadtoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="LoadtoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LoadtoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="LoadtoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 72</value>
+  </data>
+  <data name="LoadtoolStripButton.Text" xml:space="preserve">
+    <value>载入程序</value>
+  </data>
+  <data name="LoadtoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="SavetoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="SavetoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SavetoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="SavetoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 72</value>
+  </data>
+  <data name="SavetoolStripButton.Text" xml:space="preserve">
+    <value>保存程序</value>
+  </data>
+  <data name="SavetoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="SeparationLogtoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="SeparationLogtoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SeparationLogtoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="SeparationLogtoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 72</value>
+  </data>
+  <data name="SeparationLogtoolStripButton.Text" xml:space="preserve">
+    <value>分选日志</value>
+  </data>
+  <data name="SeparationLogtoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="ProcessInfotoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="ProcessInfotoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ProcessInfotoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="ProcessInfotoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 72</value>
+  </data>
+  <data name="ProcessInfotoolStripButton.Text" xml:space="preserve">
+    <value>加工信息</value>
+  </data>
+  <data name="ProcessInfotoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="StatisticInfotoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="StatisticInfotoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="StatisticInfotoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="StatisticInfotoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 72</value>
+  </data>
+  <data name="StatisticInfotoolStripButton.Text" xml:space="preserve">
+    <value>统计信息</value>
+  </data>
+  <data name="StatisticInfotoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="EndProcesstoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="EndProcesstoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="EndProcesstoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="EndProcesstoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 72</value>
+  </data>
+  <data name="EndProcesstoolStripButton.Text" xml:space="preserve">
+    <value>结束加工</value>
+  </data>
+  <data name="EndProcesstoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="PrinttoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="PrinttoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="PrinttoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="PrinttoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 72</value>
+  </data>
+  <data name="PrinttoolStripButton.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="PrinttoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="QualitytoolStripButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 10.5pt</value>
+  </data>
+  <data name="QualitytoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="QualitytoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="QualitytoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 72</value>
+  </data>
+  <data name="QualitytoolStripButton.Text" xml:space="preserve">
+    <value>内部品质</value>
+  </data>
+  <data name="QualitytoolStripButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="QualitytoolStripButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TimetoolStripLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 39.75pt</value>
+  </data>
+  <data name="TimetoolStripLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 72</value>
+  </data>
+  <data name="TimetoolStripLabel.Text" xml:space="preserve">
+    <value>00:00:00</value>
+  </data>
+  <data name="ClientInfoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ClientInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="ClientInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 69</value>
+  </data>
+  <data name="ClientInfoLabel.Text" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="ClientInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="LvMoonLogotoolStripButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LvMoonLogotoolStripButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="LvMoonLogotoolStripButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LvMoonLogotoolStripButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="LvMoonLogotoolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 60</value>
+  </data>
+  <data name="MaintoolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="MaintoolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1523, 75</value>
+  </data>
+  <data name="MaintoolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="MaintoolStrip.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;MaintoolStrip.Name" xml:space="preserve">
+    <value>MaintoolStrip</value>
+  </data>
+  <data name="&gt;&gt;MaintoolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MaintoolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MaintoolStrip.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="ExitcontextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1054, 17</value>
+  </metadata>
+  <data name="启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="启动ToolStripMenuItem.Text" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="暂停ToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="暂停ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="暂停ToolStripMenuItem.Text" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="打开ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="打开ToolStripMenuItem.Text" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="清空ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="清空ToolStripMenuItem.Text" xml:space="preserve">
+    <value>清空</value>
+  </data>
+  <data name="ExitcontextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 92</value>
+  </data>
+  <data name="&gt;&gt;ExitcontextMenuStrip.Name" xml:space="preserve">
+    <value>ExitcontextMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;ExitcontextMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="MainCurrenttimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>621, 17</value>
+  </metadata>
+  <metadata name="Staticstimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>500, 17</value>
+  </metadata>
+  <metadata name="LabelcontextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>167, 17</value>
+  </metadata>
+  <data name="LabelcontextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="&gt;&gt;LabelcontextMenuStrip.Name" xml:space="preserve">
+    <value>LabelcontextMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;LabelcontextMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="ExitGradetoolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1233, 17</value>
+  </metadata>
+  <data name="ContextMenuPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="ContextMenuPrint.Text" xml:space="preserve">
+    <value>加工未完成不能打印</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="printPreviewDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>142, 55</value>
+  </metadata>
+  <data name="printPreviewDialog1.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="printPreviewDialog1.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="printPreviewDialog1.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>384, 280</value>
+  </data>
+  <data name="printPreviewDialog1.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="printPreviewDialog1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAICAQAAAAAADoAgAAZgAAABAQEAAAAAAAKAEAAE4DAAAgIAAAAQAIAKgIAAB2BAAAEBAAAAEA
+        CABoBQAAHg0AACAgAAABACAAqBAAAIYSAAAQEAAAAQAgAGgEAAAuIwAAKAAAACAAAABAAAAAAQAEAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAgACAAAAAgACAAICAAACAgIAAwMDAAAAA
+        /wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIoiI
+        iIiIiIiIiIiIiIiIiIiCIigiIiIozMzMzMzMyCIogiIoIiIiKM7m5ubm5sgiKIIiKCIiIijObm5ubm7I
+        IiiCIigiIiIozubm5ubmyCIogiIoIiIiKM5ubm5ubsgiKIIiKCIiIijO5ubm5ubIIiiIiIiIiIiIzm5u
+        bm5uyCIogRERERERGM7u7u7u7sgiKIHZWVlZWRjMzMzMzMzIIiiB1ZWVlZUYiIiIiIiIiIiIgdlZWVlZ
+        GDMzMzMzMzMzOIHVlZWVlRg/uLi4uLi4uDiB2VlZWVkYP7uLi4uLi4s4gdWVlZWVGD+4uLi4uLi4OIHZ
+        WVlZWRg/u4uLi4uLiziB1ZWVlZUYP7i4uLi4uLg4gdlZWVlZGD+7i4uLi4uLOIHVlZWVlRg/uLi4uLi4
+        uDiB3d3d3d0YP7uLi4uLi4s4gRERERERGD+4uLi4uLi4OIiIiIiIiIg/u4uLi4uLiziCIiIiIiIoP7i4
+        uLi4uLg4giIiIiIiKD+7i4uLi4uLOIIiIiIiIig/uLi4uLi4uDiCIiIiIiIoP7u7u7u7u7s4giIiIiIi
+        KD//////////OIIiIiIiIigzMzMzMzMzMziIiIiIiIiIiIiIiIiIiIiIIiIiIiIiIiIiIiIiIiIiIv//
+        ////////AAAAAHv4AA57+AAOe/gADnv4AA57+AAOe/gADgAAAA4AAAAOAAAADgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/4AAB/+AAAf/gAAH/4AAB/+AAAf/gAAAAA
+        AAD/////KAAAABAAAAAgAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACA
+        gACAAAAAgACAAICAAACAgIAAwMDAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAiIiIiIiIiIoiI
+        iIiIiIiIgigijMzMyCiCKCKM5mbIKIiIiIzu7sgogRERjMzMyCiB2ZGIiIiIiIHZkYMzMzM4gdmRg/u7
+        uziB3dGD+7u7OIEREYP7u7s4iIiIg/u7uziCIiKD+7u7OIIiIoP///84giIigzMzMziIiIiIiIiIiP//
+        KCIAACjObALm5mwCIigAAoiIAAKIzgAAbm4AACIoAAAREQAAGM4AAO7uAAAiKHwAWVl8ABjMfADMzAAA
+        IigoAAAAIAAAAEAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAICAgADA3MAA8MqmAKo/KgD/PyoAAF8qAFVfKgCqXyoA/18qAAB/KgBVfyoAqn8qAP9/
+        KgAAnyoAVZ8qAKqfKgD/nyoAAL8qAFW/KgCqvyoA/78qAADfKgBV3yoAqt8qAP/fKgAA/yoAVf8qAKr/
+        KgD//yoAAABVAFUAVQCqAFUA/wBVAAAfVQBVH1UAqh9VAP8fVQAAP1UAVT9VAKo/VQD/P1UAAF9VAFVf
+        VQCqX1UA/19VAAB/VQBVf1UAqn9VAP9/VQAAn1UAVZ9VAKqfVQD/n1UAAL9VAFW/VQCqv1UA/79VAADf
+        VQBV31UAqt9VAP/fVQAA/1UAVf9VAKr/VQD//1UAAAB/AFUAfwCqAH8A/wB/AAAffwBVH38Aqh9/AP8f
+        fwAAP38AVT9/AKo/fwD/P38AAF9/AFVffwCqX38A/19/AAB/fwBVf38Aqn9/AP9/fwAAn38AVZ9/AKqf
+        fwD/n38AAL9/AFW/fwCqv38A/79/AADffwBV338Aqt9/AP/ffwAA/38AVf9/AKr/fwD//38AAACqAFUA
+        qgCqAKoA/wCqAAAfqgBVH6oAqh+qAP8fqgAAP6oAVT+qAKo/qgD/P6oAAF+qAFVfqgCqX6oA/1+qAAB/
+        qgBVf6oAqn+qAP9/qgAAn6oAVZ+qAKqfqgD/n6oAAL+qAFW/qgCqv6oA/7+qAADfqgBV36oAqt+qAP/f
+        qgAA/6oAVf+qAKr/qgD//6oAAADUAFUA1ACqANQA/wDUAAAf1ABVH9QAqh/UAP8f1AAAP9QAVT/UAKo/
+        1AD/P9QAAF/UAFVf1ACqX9QA/1/UAAB/1ABVf9QAqn/UAP9/1AAAn9QAVZ/UAKqf1AD/n9QAAL/UAFW/
+        1ACqv9QA/7/UAADf1ABV39QAqt/UAP/f1AAA/9QAVf/UAKr/1AD//9QAVQD/AKoA/wAAH/8AVR//AKof
+        /wD/H/8AAD//AFU//wCqP/8A/z//AABf/wBVX/8Aql//AP9f/wAAf/8AVX//AKp//wD/f/8AAJ//AFWf
+        /wCqn/8A/5//AAC//wBVv/8Aqr//AP+//wAA3/8AVd//AKrf/wD/3/8AVf//AKr//wD/zMwA/8z/AP//
+        MwD//2YA//+ZAP//zAAAfwAAVX8AAKp/AAD/fwAAAJ8AAFWfAACqnwAA/58AAAC/AABVvwAAqr8AAP+/
+        AAAA3wAAVd8AAKrfAAD/3wAAVf8AAKr/AAAAACoAVQAqAKoAKgD/ACoAAB8qAFUfKgCqHyoA/x8qAAA/
+        KgBVPyoA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAAAAAAD//wAA////AP39/f39/f39/f39/f39
+        /f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+        /f39/f39/f39/f39/f39/f39/f39/f39qoYIqoYIhqoIqgiqCaoIqgiqhqqGhoYIhoYIqv39/f0I/f39
+        /ar9/f39/YY2Ng4yDg4ODgoOCgoKCgqG/f39/Yb9/f39CP39/f39qjY7Ozs3Nzc3NjMSMjIOCqr9/f39
+        qv39/f2G/f39/f0IN19fOzs3Nzc3NjcODg4KCP39/f0I/f39/ar9/f39/ao6X19fXzs7Ozc3NzY3NgqG
+        /f39/Yb9/f39CP39/f39hl9jY19jX187Ozs7Nzc3Dqr9/f39qv39/f2G/f39/f0IOodjh19jX19fXztf
+        OzcOCP39/f0ICAmqCAiqCKoICapfCYdjh2ODY19fXzs7Ow6q/f39/QhITEwoSCUoKSQoqmMJCYcJCWNj
+        Y2NfY19fNgj9/f39qkyZmZmYmJRwlCmqX19fXl9fX186WzY3Njc2gv39/f0JcJ2dmZmZlJmUJAmqCaoJ
+        hggIqggICKoIqggI/f39/YZwnp2dnZmZmJVMqnx8fHx8fFR8VHhUVFRUVKr9/f39CHChoZ2dnZ2ZmUwJ
+        fKSkxqSkxqSkpKSkpKBUCP39/f2qcKLDoqGdnZ2ZTKp8ysakxqSkxqSkxqSkpFSq/f39/QiUpqbDoqHE
+        nZ1Mq3ykqMakyqSkxqSkpKSkVAj9/f39hpTIyKbHoqGhoXAIfMrLpMqkxqSkxqTGpKRUqv39/f0IlMym
+        yKbIpcShcAh8y6jKpMqkxsqkpKSkxlQI/f39/aqUzMzMyKbIpqJwqnzLy8qpxsqkpMakxqSkeAj9/f39
+        CJSUlJSUlJSUlJQJgMupy8qpysqkyqSkxqRUqv39/f2GCKoIqgiqCKoIhgigrcvPqcuoy8qkxsqkxnyG
+        /f39/ar9/f39/f39/f39qnzPz6nLy8uoyqnKpKTKVAj9/f39CP39/f39/f39/f0IfNDPz8+py8upyqjG
+        yqR8hv39/f2G/f39/f39/f39/Qik0K7P0M+ty8vLy6jKpXyq/f39/ar9/f39/f39/f39CHzQ09Ctz8/P
+        qcupy6jKeAj9/f39CP39/f39/f39/f2qoNPQ0NPQ0M/Qz8vLy6l8CP39/f2G/f39/f39/f39/QmkfKR8
+        oHx8fHx8fHx8fHyG/f39/aoIqgiqCKoIqgiqCKoIqgiqCKoIqgiqCKoIqgj9/f39/f39/f39/f39/f39
+        /f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f3/////////////
+        ///AAAAD3vgAA974AAPe+AAD3vgAA974AAPe+AADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AA
+        AAPAAAADwAAAA8AAAAPAAAADwAAAA9/4AAPf+AAD3/gAA9/4AAPf+AAD3/gAA8AAAAP//////////ygA
+        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
+        ff//p3f//6Jw//+eav//mWT//pRf//qQWv/0i1b/7IVS/+V/Tv+gWC7/wr/B/wAAAAAAAAAAAAAAAAAA
+        AADCv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8AAAAAAAAAAAAAAAAAAAAAAAAAAMK/wf/apnP//7+d//+7
+        mP//uJL//7WM//+whv//rH///6d4//+jcf//n2v//5ll//+VYP/6kVv/9YxY/6diN//Cv8H/AAAAAAAA
+        AAAAAAAAAAAAAMK/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/96t
+        eP//wqL//8Gi//+/nv//vJn//7mT//+2jv//sYj//66A//+pev//pHP//6Bt//+bZ///l2L/r20//8K/
+        wf8AAAAAAAAAAAAAAAAAAAAAwr/B/xYXev8XF3b/GBVx/xkUbf8ZFGr/GhNm/xoSY/8bEV//HBFd/xwQ
+        W//Cv8H/4K96///Cov//wqL//8Ki///Cov//wJ///72b//+6lf//t4///7KJ//+ugv//qnv//6V0//+h
+        bv+3d0n/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/FRqE/0dN1v8/RNL/Nz3Q/y40zv8nLcz/ISfK/xwh
+        yf8WHMf/GxJh/8K/wf/gr3r/4K96/+Cvev/gr3r/3614/9yqdf/apnL/16Nw/9Sea//Rmmj/zZZk/8qR
+        X//GjFz/w4dW/7+CUv/Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8SHZD/WF3a/05U1/9FS9X/PUPS/zU7
+        0P8uM83/JyzL/yAmyf8aFGn/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/
+        wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/xAfnP9obt7/YGTc/1Zb
+        2f9NU9f/RUrU/ztB0v80OdD/LDHO/xgWcv/Cv8H/Dn+n/w18pP8MeqH/DHie/wt1m/8Kc5j/CXGV/wlv
+        k/8JbJD/CGqN/wdpi/8HZ4j/BmWH/wZkhf8GYoP/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/DiKp/3l+
+        4/9vdeH/Zmze/11i2/9UWtn/S1HW/0NI1P86P9H/Fhh9/8K/wf8Ogar/Barp/wGo6P8Apef/AKPm/wCi
+        5P8An+L/AJ7h/wCd3/8AnN7/AJnc/wCY2/8AmNn/AJbX/wZjhP/Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/
+        wf8MJbX/iI7n/4CF5v93fOP/bnPg/2Vr3f9bYdv/UljY/0lP1v8UGoj/wr/B/w+Erf8Lrur/Bqvq/wOo
+        6f8Apuf/AKTm/wCi5f8AoOT/AJ/i/wCd4f8AnN//AJrd/wCZ2/8AmNr/BmWH/8K/wf8AAAAAAAAAAAAA
+        AAAAAAAAwr/B/wkowP+WnOz/jpTq/4aL6P9+hOX/dXri/2xx4P9jaN3/WV/b/xEek//Cv8H/EIaw/xay
+        7P8Or+z/Cavr/wWq6v8Bp+j/AKbn/wCj5f8AoeT/AJ/j/wCe4f8AnOD/AJve/wCa3f8HZ4n/wr/B/wAA
+        AAAAAAAAAAAAAAAAAADCv8H/CCrK/6Ko7/+coe7/lZrr/42T6f+Fiub/fIHl/3N54v9rcN//ECGg/8K/
+        wf8QiLP/I7nu/xq07f8Ssez/C63r/war6v8Cqen/AKbo/wCk5v8AouX/AKHk/wCf4f8AneH/AJzf/who
+        i//Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8GLNP/q7Hy/6as8P+hpu//mp/u/5OY6/+LkOj/g4nm/3qA
+        5P8NI6z/wr/B/xCKtv8xvvD/J7rv/x627f8Vsuz/Dq/s/wmr6/8Equn/Aafo/wCl5/8Ao+X/AKHk/wCf
+        4v8AnuH/CGqO/8K/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/wUu2/+vtPP/r7Tz/6qv8v+mq/D/oKXv/5me
+        7f+Sl+v/io/p/wsmt//Cv8H/Eo24/0HF8f82wfD/LLzv/yK47v8atO3/EbHs/wut6/8Gq+r/A6np/wCm
+        6P8Apeb/AKLl/wCh5P8IbJD/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/BC/h/wQv3/8FL9z/BS3Z/wYt
+        1v8GLNL/ByvP/wgqy/8IKcb/CSnC/8K/wf8Sjrv/Uszy/0fH8f87w/H/Mb7v/ye67/8et+7/FbPt/w6v
+        6/8IrOv/BKnp/wGo6P8Apef/AKPl/wluk//Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf/Cv8H/wr/B/8K/
+        wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/xKRvf9j0/P/WM/z/0zK8f9BxfH/N8Hw/yy8
+        7/8iuO7/GbTt/xGx7P8Lruv/Bqrq/wOo6f8Apuf/CnGV/8K/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCv8H/E5LA/3Ta8/9q1fP/XtHz/1LM
+        8v9Hx/H/O8Pw/zG+7/8nu+//Hrbt/xay7f8Or+v/CKzq/wSq6f8Kc5j/wr/B/wAAAAAAAAAAAAAAAAAA
+        AADCv8H/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMK/wf8UlMH/hOD1/3rc
+        9f9v2PP/ZNTy/1jO8v9NyvH/Qsbx/zbB8P8svO//I7ju/xm07f8SsOz/C67r/wt2m//Cv8H/AAAAAAAA
+        AAAAAAAAAAAAAMK/wf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwr/B/xSW
+        w/+T5vb/iuL1/3/e9P912vT/adbz/13R8/9SzPL/R8jx/zzD8P8xvvD/J7rv/x627v8Vsuz/C3ie/8K/
+        wf8AAAAAAAAAAAAAAAAAAAAAwr/B/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADCv8H/FJbG/57r9/+X6Pb/juT1/4Th9f963fX/b9j0/2PT8/9Yz/L/TMrx/0HF8f83wO//LLzv/yK4
+        7v8MeqH/wr/B/wAAAAAAAAAAAAAAAAAAAADCv8H/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAMK/wf8VmMf/qO/3/6Lt9/+b6vb/kub2/4rj9f9/3vX/dNrz/2rV8/9d0fP/Uszy/0fI
+        8f88w/D/Mr7v/w19pP/Cv8H/AAAAAAAAAAAAAAAAAAAAAMK/wf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAwr/B/xWZyP8UmMf/FZfF/xSVw/8TlML/E5K//xOQvf8Sjrv/EYy4/xGK
+        tv8QiLL/D4Ww/w+Erf8Pgar/Dn+n/8K/wf8AAAAAAAAAAAAAAAAAAAAAwr/B/8K/wf/Cv8H/wr/B/8K/
+        wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/
+        wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/8K/wf/Cv8H/wr/B/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /////////////8AAAAPe+AAD3vgAA974AAPe+AAD3vgAA974AAPAAAADwAAAA8AAAAPAAAADwAAAA8AA
+        AAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAD3/gAA9/4AAPf+AAD3/gAA9/4AAPf+AADwAAAA///
+        ////////KAAAABAAAAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDA/8DA
+        wP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP8AAAAAAAAAAMDA
+        wP8AAAAAAAAAAMDAwP8AAAAAwMDA/8F2R/+9bj//umc6/7diNf+3YjX/wMDA/wAAAADAwMD/AAAAAAAA
+        AADAwMD/AAAAAAAAAADAwMD/AAAAAMDAwP/RkmD//7aP//+ldP/8kl3/vW0//8DAwP8AAAAAwMDA/wAA
+        AAAAAAAAwMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/3ap2///Cov//to7//6V0/8uJWP/AwMD/AAAAAMDA
+        wP8AAAAAAAAAAMDAwP8THI7/FBqF/xYYfP8XFnP/wMDA/+Cvev/gr3r/4K96/92qdv/ao3D/wMDA/wAA
+        AADAwMD/AAAAAAAAAADAwMD/ECCd/2Fn3P8zOc//FRmC/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DA
+        wP/AwMD/wMDA/wAAAAAAAAAAwMDA/w0krP+Pler/YWbd/xIcj//AwMD/DHmf/wpzmP8Ib5L/B2uO/wdq
+        jf8Gao3/B2qN/8DAwP8AAAAAAAAAAMDAwP8KJrv/r7Tz/5CU6v8PIJ//wMDA/w+Dq/87y/z/Kcb8/xrD
+        /P8QwPv/EMD7/wdqjf/AwMD/AAAAAAAAAADAwMD/CCrI/woowP8LJrf/DSSu/8DAwP8Sjbj/Zdb9/0/Q
+        /P88y/v/Kcf7/xrC+/8IbZD/wMDA/wAAAAAAAAAAwMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/FpfG/43h
+        /f962/3/Zdb8/0/Q/P87zPz/CXSZ/8DAwP8AAAAAAAAAAMDAwP8AAAAAAAAAAAAAAAAAAAAAwMDA/xif
+        z/+u6f7/n+X9/47h/f953P3/ZNb9/w19pP/AwMD/AAAAAAAAAADAwMD/AAAAAAAAAAAAAAAAAAAAAMDA
+        wP8apNX/uez+/7ns/v+u6f7/oOX9/43h/f8Rh7H/wMDA/wAAAAAAAAAAwMDA/wAAAAAAAAAAAAAAAAAA
+        AADAwMD/GqTV/xqk1f8apNX/GaHR/xecy/8WmMb/FJK+/8DAwP8AAAAAAAAAAMDAwP/AwMD/wMDA/8DA
+        wP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAgAEAALQF
+        wf+0BQAAgAUAAIAFAACAAQAAgAHB/4ABAACAAQAAgAEAALwBAAC8AQAAvAHB/4ABbP///5H/
+</value>
+  </data>
+  <data name="printPreviewDialog1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;printPreviewDialog1.Name" xml:space="preserve">
+    <value>printPreviewDialog1</value>
+  </data>
+  <data name="&gt;&gt;printPreviewDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PrintPreviewDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 16</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.Text" xml:space="preserve">
+    <value>客户名称：</value>
+  </data>
+  <data name="ClientInfoLabelCustomer.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelCustomer.Name" xml:space="preserve">
+    <value>ClientInfoLabelCustomer</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelCustomer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelCustomer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ClientInfoLabelGrower.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientInfoLabelGrower.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ClientInfoLabelGrower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>742, 16</value>
+  </data>
+  <data name="ClientInfoLabelGrower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="ClientInfoLabelGrower.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ClientInfoLabelGrower.Text" xml:space="preserve">
+    <value>农场名称：</value>
+  </data>
+  <data name="ClientInfoLabelGrower.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelGrower.Name" xml:space="preserve">
+    <value>ClientInfoLabelGrower</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelGrower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelGrower.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelGrower.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ClientInfoLabelVariety.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ClientInfoLabelVariety.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ClientInfoLabelVariety.Location" type="System.Drawing.Point, System.Drawing">
+    <value>825, 16</value>
+  </data>
+  <data name="ClientInfoLabelVariety.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="ClientInfoLabelVariety.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ClientInfoLabelVariety.Text" xml:space="preserve">
+    <value>水果品种：</value>
+  </data>
+  <data name="ClientInfoLabelVariety.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelVariety.Name" xml:space="preserve">
+    <value>ClientInfoLabelVariety</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelVariety.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelVariety.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabelVariety.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="printDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 55</value>
+  </metadata>
+  <metadata name="printDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>313, 55</value>
+  </metadata>
+  <metadata name="printDocument2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>462, 55</value>
+  </metadata>
+  <metadata name="printDocument3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>611, 55</value>
+  </metadata>
+  <metadata name="printDocument4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>760, 55</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>102</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1523, 750</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAMDAAAAEAIACoJQAAJgAAABAQAAABACAAaAQAAM4lAAAoAAAAMAAAAGAAAAABACAAAAAAAIAl
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGCotAU+IjwhYipAbZIyRPW6L
+        j2dwhYeMaXZ3pVdeX7NBRka6LTAwux8iIroYGxu3FRgYsBUXGKgYGxufHCAglSMnKIkrMDF8OD0+bkpR
+        UV9hZ2hQdXx9QIWMjDGPlJUkk5iZGJabmw6Xm5sHg4aGAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEp6
+        gANbipANZYyRJmyJjU1YfYWVO2x6zSNfcOkUV2r1DlRo+wxRZv4MTWH+C0hb/QtAUPkMNUHwDisz5BMj
+        J9UaIiPGIywtuzI8Pa5IUlOfYWpsjneBgnqGj5BljpaXTpOamjmVmpsll5qbFJeamgmGiYkCAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA7iZ0eNoidixqCn+YTfp7+E3yb/xN5l/4RdZL+EHGM/g9sh/4PaIL+DmN7/w5d
+        df4NV23+DFFm/gtMX/4LQlH7EjQ+8CAxNOMzQUPaS1lbz2VzdMF6h4ivhpGTl46XmHuSmppclZqbPZaa
+        myGXmpoMhYeHAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAFIGiDRaPsooXj7T2F5G2/heTuP4Xkrf+FpC0/xaOsv4Wi67+Foiq/hWE
+        pf4UgKD+E3yb/xJ3lP4RcY3+D2uG/g5lfv4NXnb+DVhu/w5QZP0dRVDwOk5Q3lRnadlsfoDPfYyOv4eU
+        lqeOmJqHkZmaYpSamzqWmpoZlpmZBjU2NgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXk7c4F5W73heYv/4XmsH+GZ7F/hqgyf4aocn+GaDJ/xif
+        x/4YncX+F5vC/heYvv4Xlbr+FpG2/xeNsP4Wiav+FoWl/hV/nv4Tepf+EnWQ/xJviv4RaYP+Gl5y8TFf
+        attNbnXIb4SHrH2PkZuGlJaDi5aXYpCXmD6Tl5gelJaWDJOTkwaCgoIEbm5uA1paWgI4ODgBCwsLAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiXvVcYm8L3GaHJ/xihyv4Yosr+GqXO/hup
+        0/4brNb+HKzX/xyr1v4bqtX+G6nT/hqn0P4Zpc7+GKLK/xifxv4YnML+GZq+/hqYuv4albX+GZKw/xiQ
+        q/4WjKf+FYSh/hJ3lP4PZX//HVxu6WF2eYp0gYJwf4eIW4eMjEKNj48tkpKTIJaWlhmZmZkVmJiYEZqa
+        mgyampoIj4+PBCQkJAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGZ3EUhihyfsap8//GqfQ/xmm
+        z/8Zp9H/G6vW/x2v2v8dsd7/HrLf/x6z3/8etOD/HrLe/x2x3f8dr9v/HK/Z/xyt1/8crNX/HavS/x2q
+        0P8dqc3/HanJ/x6qxv8eq8T/HKnA/xmfuf8Wi6v/EXKO/yxZZslbYGCKbnFxe31+fmmIiIhXkJCQSpWV
+        lT+YmJg0mZmZKZqamh2bm5sSmpqaCWVlZQQAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAZpM4uGabQ9CCx
+        2/4kt+D+Jrnj/ya55P4jt+P+ILXh/h604f4etuT+Hrfm/x+45v4fuOb+H7jl/h645f4duOT+Hbfj/x63
+        4v4fuOL+Ibjg/iK43v4jud3+I7rc/yO82v4kvtj+JMDV/iG+0f4cssf/F5W0/hZyjPZNUVKvZ2dnn3l5
+        eY6GhoZ8jo6OapWVlVqYmJhLmZmZOZqamiibm5sYmpqaC2trawQAAAABAAAAAAAAAAAAAAAAAAAAACCh
+        wQYpwebRO9f4/lTd/P6C5f7+n+r+/6jt/v6c6/7+e+H+/lvX/f44zPn+Lsb0/yjB7/4hvOv+ILvp/h+8
+        6f4fvOn+H7zp/x+96v4fv+n+IsLp/iPE6f4lxuj+KMfn/yrJ5v4ry+X+Kszj/inM3/4lxtj/HrXJ/heU
+        sv4oY3veW2JqoHl5eYKGhoZwj4+PX5WVlU+YmJhAmZmZMJqamiGbm5sTmpqaCWJiYgMAAAABAAAAAAAA
+        AAAAAAAAAAAAADzf+X5R5Pv+r+/+/sn0/v7P9f7+0fX+/+n7/v7z/f7+v/P+/snz/v7b9/7+xfH+/5Xl
+        /f5d2Pz+NMv3/irG8f4jwOv+IcDs/yDC7f4hxe7+I8nu/ibN7/4p0O/+K9Lv/y7T7v4w1O3+MNTr/i7S
+        5/4qzeH/JcLW/h6swv4Wiab+DVCM+zdah7x8gopTkJCQNJWVlSqYmJghmZmZGJqamhCampoJlJSUBCAg
+        IAEAAAAAAAAAAAAAAAAAAAAANLvODUPn/PS59P7+5vn+/sLz/v5h4v3+Ptv9/1vk/v6K6/7+ZN/+/j3U
+        /v451P7+R9f9/3rh/f7I8/7+3vf+/prp/f5S2vv+NM/1/yfJ8P4iy+/+JtHx/irV8v4u2fP+MNvz/zLb
+        8/4y2/L+M9nw/jLW7f4u0ef/J8bd/iK2zv4anbb+E3qb/g9Wn/4WVp7wWnWVbY2QlQ2YmJgJmZmZB5SU
+        lARmZmYCGhoaAQAAAAAAAAAAAAAAAAAAAAAAAAAAOtHnO1Lp/P7l+f7++P3+/pTx/v5D4P3+Pdz9/0nh
+        /v5N4f7+a+r+/k3n/v5D4/7+ROP+/17r/v5X6v7+qO7+/oHt/v649P7+sfD+/2fm/P493Pf+Mdn0/i/d
+        9f404fb+N+P3/zfi9v414PX+M9zz/jLY8P4w0ev/Ksjj/iK51v4cpsP+Fo2p/hNvnf4UX6//EViq/h9c
+        pKMyZqMKIjBBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOc/nPlnn/P/T9f//sPL+/3Lr
+        /v9f5/7/Q+j+/07q//9u8P7/bu/+/2Xs/v9N7f7/c/L//3bz//9c8v//ffD+/0fp//9I7v//Vev//5Hx
+        /v+r8v7/Y+r8/0nm+f885/j/POn4/zro+P845Pf/NN/1/zDY8v8t0e7/Ksjo/yO83P8crM3/GJi4/xOA
+        nv8WbLP/F2i7/xVjt/8UX7PBElioDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANLzVGEvi
+        /f3L9P7+ceb+/l7t/v5f7P7+auv+/2Ls/v5+8/7+cO/+/nzx/v5i8P7+c/X+/3n2/v5S9P7+W/b+/nP4
+        /v5d9f7+XfT+/0zx/v5O6v7+ne37/nPn+P5Y5vz+S+v6/z3r+f445/j+NOH2/i/Z8/4q0O//J8fq/iS9
+        4v4csdX+GJ/D/hWMrv4UeKf/HHPJ/hxwxf4Za8H+FWG6whJXqggAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAD7c/cy38P7+g+r+/lbz/v5b7f7+YO3//33w/v5r8P7+dvP+/mvx/v5l8v7+YPb+/132
+        /v5x+f7+d/n+/m76/v5s+v7+ePr+/3D6/v5b9v7+Q+b5/iHe/v7C8v7+duT9/0zk+/456Pj+MeH2/izY
+        9P4o0PD/Jcfs/iK/5v4dtN3+GabO/haWu/4ThKX/IH7L/h960P4cdc3+F2rF/hVjv6EAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEbb+2eL6f7+uPT+/oP0/v539P7+aPH//2rv/v5w7/7+cPL+/mTw
+        /f5i8v3+YfX9/1rz/f5n8/3+Y/b+/knz/v5U8/7+a/j+/2/4/f5H9f7+Ufb+/nLt/v5Y7P7+h+z+/5zp
+        /f5O3Pv+NN/2/ijX8/4lzvH/Isbt/iC/6f4et+H+GqzW/higxv4Vj7P/HIO+/iGA2P4gfdb+HHXP/hls
+        yf4UY8NbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADy72QdZ4P3d7Pv+/uT9/v6r9/7+V/H+/2bu
+        /v5w8P7+bvD9/mPx/f5M8f3+bPL9/3Xy/f5o8f3+X/D9/m3y/f5h7/3+cPL9/3v0/f5a9v3+a/b+/lP0
+        /v5B8v7+TfD+/3Pu/v6+8v7+W9v8/i/U9P4jy/D/IMXt/h+/6/4dueX+HLHc/hmm0P4Xmb//GYq3/iWL
+        4f4lh97+IH7Y/h110f4WZsfqE1+7EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABU3fpMo/H+/tj5
+        /v5d6P7+aun+/17t/v5Z7P3+YO38/mDv/P5d7vz+Ye78/2Tu/P5q8P3+TPD9/mTw/f5U7/3+gvL9/2Dx
+        /f5e8P3+bvL9/k7z/f5i9f3+avX+/1Xx/v5W7f7+wPT+/m7g/f4tzfL/IMLu/h6+6/4duuf+HLTh/hqs
+        1/4ZoMj/FpG2/ieS4/4nj+P+Ioff/h992f4YbM7/FWTHhgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAASdf7nL/w/v9m4P7/Ptn9/1Hj/f9W6/3/Re79/2Lv/f9Q7Pz/Yu38/2ju/P9v7/z/a+79/27v
+        /f9w7v3/ce79/1Lv/f9w7Pz/Wev8/13t/P9i8f3/bfT9/1H0/v9h8P7/Xe3+/8T3/v+E6f3/NtL0/x+/
+        6/8du+n/HLbk/xux3P8aps//F5i+/yOU3v8pl+n/JI/l/ySH3/8cdtb/F2jL7xReuQwAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAO7rjCkzN+dXQ9P7+VNz9/zjb/f5H3f3+UOv9/lLt/P5h7/z+Ye38/1jr
+        /P5e7Pz+Xev8/lno/P6G8f3+s/T9/2vq/f6J7v3+ROv8/k7r/P5X6/z+SPH9/2Lx/f5i7/3+ee3+/rHz
+        /v76/v//m/X+/i3K8f4du+n+HLfm/huy3/4bqtX/GJ7F/iOZ3P4qne3+Jpbp/iSO5f4dft3/GG3R/hRk
+        ymAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1ORARp30+Be0Pn+2vf+/0/Y/P4+1/z+N+T9/lbt
+        /f5h8Pz+V+39/1ns/P5h7vz+TO79/mTr/P6L7v3+6/v+//X8/v7I9/7+eOr8/lrp/P5U6vz+Z/D9/1Dz
+        /f5f7/3+Ye/+/lbt/v5p8f7/zvf+/nXj/v4kwe3+HLjm/hu04f4brdj/GKHK/iOd3f4qofD+KJ3u/iSV
+        6v4iieT/GnbZ/hVnzbIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGm/CJxp51/4kk+b+atb6/8/0
+        /v5d2fr+Mtj1/k/t/P5L7/3+Vu/9/13u/P5i7vz+evD9/nXv/f527v3+l/P+/+f7/v73/f7+sfL+/ljn
+        /P486vz+Vez8/07w/P5y8Pz+evD9/mjv/v5f7P7/VeL+/tH2/v5a2fz+ILro/hu04v4brtr/GaTO/iOi
+        4P4tqPT+KqPy/iab7/4kkun/G3/g/hdt1PATWqgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4LaXSKK
+        4v4llOn+KKHu/2TU+v7I8fn+BuX+/kHs/v5S8P3+UvH9/1/x/f5l8P3+afD9/l3u/P5X7/3+Y+39/5ny
+        /f6a8f3+j/D9/mvq/f5V6Pz+cfD9/23x/f5v8P3+bfD9/lTv/v5Z7f7/QeD+/l7i/v7M9P7+O833/huy
+        4v4artz/GaXQ/iSl5P4op/b+JqT0/iih8v4lme//H4rn/hl43f4Zcs8mAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAH4fehCKT6P4jm+3+JaDx/yen8/5Szfr+zvX+/nnr/v5P7f7+ZvT+/3r2/v5o8/3+avH9/oXz
+        /f5w8f3+bOz9/1jr/P517/3+Xe38/mPt/f5R6vz+Wer8/2Xu/P5r8Pz+ae/9/mTu/f5e7P7/RuX+/k7h
+        /v6K5f7+m+j+/ia96/4ZrNz/GKPQ/iSm6v4pqvf+J6f2/iek9P4poPL/JJPu/huA4/4bfN5KAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAH4vhniOY6/8loPH/JqT0/yao9v8jqff/PcT6/8Lx/v+t9P7/U+/+/0rz
+        /v9t9v3/evb9/2ry/f908P3/Y+/9/2/x/f928P3/Vur8/0nv/f9i7v3/V+/9/2jv/P9m7vz/Vu79/3Pv
+        /f+B8f7/a+3+/3bq/v+L5v7/3Pf+/0zS+f8Yqdz/FqHR/yas8v8pqfj/KKf3/yqo9/8npPX/Jpzy/x6K
+        6v8cgeNgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIzirCWa7v4qpPT+Kaf2/yap9/4nrPj+Ja75/jTA
+        +/6O5/3+yPf+/2fw/v5f8/7+UPP+/mTz/f5z7v3+Wu79/2Tv/P5r8P3+Tu79/mPu/f5l7/3+YO38/13s
+        /P5t8P3+ZvH9/mLx/f5f7f3/Z+7+/kzt/v5N4/7+hej+/pLm/f4ktOf/Fp/U/imx+f4rqvn+Kqj4/iuq
+        +P4lpvf/J6H0/iCR7v4eiehqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIY3jqied8P4qp/f+Kaz4/yyw
+        +f4ir/r+JLL6/ia1+/4vvvz+Wdv9/8H2/v6L7/7+Z/P+/rr7/v6J9P7+YfT+/2f0/f5x8f3+VO78/mXu
+        /P5r7vz+Zu78/2fu/P5k7vz+Zu79/mPu/f5h7v7/Re/+/mTu/v507/7+YOb+/r/x/v4uwfH/G6Tf/i60
+        +/4trfr+Lav5/i2s+f4srvj/KKb2/iGX8f4hkOxmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIZDmmieg
+        8f4prPj+KLD5/yu1+v4itPv+H7X7/iO4/P4hvP3+KMP9/zHP/f6K7/7+6/3+/vz+/v5n8f7+Xe/9/2Hw
+        /f5z8f3+afD8/mju/f5Z6/z+W+z8/2Lt/P5o7fz+Wev9/mrw/f508P7/YO/+/m3u/v5p8P7+Yen+/tD1
+        /v45y/j/H67s/i+3/P4vsfv+La76/i6v+v4us/r/Kaz4/iCd8v4hlu5WAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAH5LpfCWj8/4orvn+Lbb7/ye3+/4fuPz+Hrr8/izB/f4lwv3+IMP9/yTG/f4qy/7+Rdz9/pr1
+        /v6y9/7+XOn+/0zo/f5W7f3+Vuv9/k/p/P5o6f3+Qe38/1bq/P5e6/3+Wer9/knu/v5h7f7/Vez+/lfv
+        /v6N8v7+xvn+/tT2/v45zPr/Hrz5/ia8/f4tt/z+KbX7/iu2+/4rtfr/JK/4/iWm8v4mm+s4AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAIZjrTiOk8/8rsvn/KLj7/yW8/P8gvfz/IcH9/zzL/f80yv3/JcX9/y/I
+        /v8oyP7/H8v+/x/S/v854f7/jPH+/8H3/v+X8P7/X+j9/0vk/f+V7v7/Wer9/1jq/f9M6P3/Qun9/2Hq
+        /v9Z6/7/We3//1Hv//9g7f7/1vr//6ns/v84zv7/KcX+/yPE/f8yw/3/Kr78/ye6/P8st/v/Iq/4/ySn
+        8PwijtMPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHojOFCKk8vsttPr+Lbz8/ye//P4mw/3+J8f9/i7L
+        /f4pyf3+Ksj+/zHK/v4wy/7+Kc/+/iLU/v4e1/7+KN7+/zbe/P5s5/z+svD+/sj2/v7Z+v7+wPf+/1jj
+        /f494/3+Seb9/krm/v5y5/7/b+7+/nnw/v668/7+yvT+/k7Y/v4yy/7/Nsv+/ibH/v4qxP3+KcH8/iO8
+        /P4muPv/IrH4/h+m8NIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACWp9MIntfr+J738/zHG
+        /f4exP3+Icj9/iXL/v4wzf7+M83+/ynL/v4kzP7+Ndb+/hzW/v4a2f7+Itv+/zXc/f453v7+NNf9/jjW
+        /f545f3+oOv9/8Hx/v7F8/7+v/P+/rvy/v7F8/7/0/b+/sP0/v6W7v7+Sdz+/i3N/v4ox/7/L8r+/inJ
+        /v4sx/7+KsT9/ijB/f4ku/v/Jrb3/iKq8IgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACWt
+        9mImuPr+LsP8/y3J/f4kyf3+Hcv+/iXP/v4jzv7+LM/+/yjO/f4x0/7+Pdv+/jbf/v4s4f7+J+D+/x3c
+        /v4w2/7+LdX+/i7S/v431P7+KdL+/yjV/v4q1/7+P97+/lPj/v5O5f7/QuP+/kLh/f472P3+Jc3+/iLJ
+        /v4jyP7/Jsn9/ivL/v4vy/7+JsX9/jHF/f4nvvv/JLb1/iut7y0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACKb1wklufjmLMX7/yvL/f4izf7+Hs7+/jLW/v4t1P7+J9P+/ynT/v4y2f7+Mt/+/h/f
+        /v4d4f7+N+T+/zzi/v4v2f7+KtX+/i7U/v4v1P7+H9P+/xrW/v4h3P7+I97+/iHd/v4q2/7/K9b+/jjV
+        /v4x0f7+Js3+/iLL/v4pzP7/Kc3+/ibL/v4uzP3+Jsf9/i/H/P4pwPj/I7XzwAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAst/NqMMX4/y3N/P4w0v3+JtT+/kHb/v482/7+KNj+/zPc
+        /v4v3v7+L+P+/ibk/v4j5v7+Oeb+/0zk/v4y2/7+Ldj+/inU/v4k1P7+Htj+/x/c/v4b3P7+NeP+/ibf
+        /v4o2/7/ONn+/jTU/v4w0v7+Js7+/iLN/v4s0P7/N9L+/izP/f4yzv7+Msz9/jLI+v4qvfP+JLPwQQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqlsgDOb7wyjLN+P841fz/L9f+/zza
+        /v842/7/Ndz+/zzh/v9C5v7/QOj+/1Tt/v9L7f7/U+3+/17o/v8x3v7/K9r+/y/X/v8e0v7/Itn+/yjd
+        /v8m3v7/O+P+/yzh/v8p3v7/SN7+/z/Z/v8t1P7/MdX+/yvT/v8t0v7/OtP+/zHP/f81z/3/Mcv7/zbH
+        9v82ve+rAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLzsKDvJ
+        8/Iz0/r+N9j9/jnb/v463P7+Ot3+/zXh/v495v7+Uez+/kvs/v5E6/7+Sev+/0vp/v4+5P7+Md7+/iLX
+        /v4W1f7+FtX+/xnX/v4d2v7+J9/+/jXj/v5G5P7/TOP+/kXf/v473v7+Mtr+/irW/v4x0/7/NtH+/i7L
+        /f41zPz+NMj3/jO+7+g8ueoXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAADjF8lA80Pf8P9n8/jXZ/f4n1v7+Ldn+/yXc/v4o4v7+O+n+/kzv/v5E7f7+O+z+/0Lr
+        /v5O6v7+MuL+/hjY/v4R0v7+FtX+/xbU/v4a2P7+It7+/jLj/v5S5/7/SOb+/jjn/v485P7+MN7+/iPU
+        /v4oz/7/MMv+/jLI/P4ww/f+K7bu+S6y6D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHzfRjQdT6/DHT/f4j0P7+I9P+/x/W/v4h3f7+K+b+/j/u
+        /v4z7P7+Q+/+/1Hv/v5O7P7+LeT+/h7d/v4a2v7+GNn+/xXW/v4Z2P7+I9r+/izj/v4/5f7/P+r+/jTp
+        /v425f7+N+D+/inU/v4hyP3/JcL9/im++P4osu/7JqTjVwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOMn1WDfO+vcszf3+H8z+/xXN
+        /v4b2P7+KOX+/i7r/v4+7f7+bPH+/3Ds/f404f3+Mub+/i3m/v4h5P7+GeH+/x7g/v4Vx/z+Icj6/jfk
+        /v4v5P7/SOr+/kvu/v4/6P7+OOH+/inT/f4exP3/HLn5/iKu7/Yood9TAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPB
+        8TUrxPfdGsL8/xnL/v4c1/7+Meb+/l/u/v5Z8P7+V/D+/3bv/f4/1vn+H7z1/iTS+P4i5/7+H+f+/xrM
+        7/4Pkun+K834/kbn/v4x5v7/U+z+/mbz/v5B6/7+OOD9/inT/P4Zw/v/GKzx3h2Z3zUAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAsqtoMIb30kCLN/foo2v7/Oub+/0np/v9E3/z/PNb6/z3P+f8yyPf/JLLx/xiI
+        1P8Sd6D/FpCW/xR8mv8TisT/KLv0/y/H+P8q0fn/Udr5/3Tr/P9J6P7/Mt79/zXb/PwlxPWVHqHbDgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPH8Cky1vqmQ+P991Ds/v5b7f7+UuP8/1XU
+        +f5O0ff+Vtn5/mHj+v4ur+X+QNHr/yyv4f4ys+b+O9H4/k/Q9/5H1Pj/XeP7/n3y/v5A6f77NN/6qjjV
+        9iwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASsfhEE7g
+        +15X5f2laej9327q/f1y7P3+evD+/mnr/P5b4vr+cfH9/1fo/P5O4vv+We399WXq/e5e6P3ndur9zXTs
+        /H5f3/YfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAFWzxwpft8kXY8HRCGbo/DZc6/1tc+/9Z2Dl+DdP2vIvSrfKAwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAD//wAA
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1278, 700</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FruitSorting5.0</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewName.Name" xml:space="preserve">
+    <value>GradeSizelistViewName</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewSize.Name" xml:space="preserve">
+    <value>GradeSizelistViewSize</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewWeightSum.Name" xml:space="preserve">
+    <value>GradeSizelistViewWeightSum</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewWeightSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewWeightPercent.Name" xml:space="preserve">
+    <value>GradeSizelistViewWeightPercent</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewWeightPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewBoxNumber.Name" xml:space="preserve">
+    <value>GradeSizelistViewBoxNumber</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewBoxNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewTargetNumber.Name" xml:space="preserve">
+    <value>GradeSizelistViewTargetNumber</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewTargetNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewLabel.Name" xml:space="preserve">
+    <value>GradeSizelistViewLabel</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewWeight.Name" xml:space="preserve">
+    <value>GradeSizelistViewWeight</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewNum.Name" xml:space="preserve">
+    <value>GradeSizelistViewNum</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewTargetWeight.Name" xml:space="preserve">
+    <value>GradeSizelistViewTargetWeight</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewTargetWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewWeightPerBox.Name" xml:space="preserve">
+    <value>GradeSizelistViewWeightPerBox</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewWeightPerBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewNumPercent.Name" xml:space="preserve">
+    <value>GradeSizelistViewNumPercent</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewNumPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewBoxPercent.Name" xml:space="preserve">
+    <value>GradeSizelistViewBoxPercent</value>
+  </data>
+  <data name="&gt;&gt;GradeSizelistViewBoxPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SystemtoolStripStatusLabel.Name" xml:space="preserve">
+    <value>SystemtoolStripStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;SystemtoolStripStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CuptoolStripStatusLabel.Name" xml:space="preserve">
+    <value>CuptoolStripStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;CuptoolStripStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IPMtoolStripStatusLabel.Name" xml:space="preserve">
+    <value>IPMtoolStripStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;IPMtoolStripStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;文件FToolStripMenuItem.Name" xml:space="preserve">
+    <value>文件FToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;文件FToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;加载配置toolStripMenuItem.Name" xml:space="preserve">
+    <value>加载配置toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;加载配置toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;保存配置toolStripMenuItem.Name" xml:space="preserve">
+    <value>保存配置toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;保存配置toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;退出XToolStripMenuItem.Name" xml:space="preserve">
+    <value>退出XToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;退出XToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;设置SToolStripMenuItem.Name" xml:space="preserve">
+    <value>设置SToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;设置SToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;等级设定toolStripMenuItem.Name" xml:space="preserve">
+    <value>等级设定toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;等级设定toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;工程设置toolStripMenuItem.Name" xml:space="preserve">
+    <value>工程设置toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;工程设置toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;恢复设置toolStripMenuItem.Name" xml:space="preserve">
+    <value>恢复设置toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;恢复设置toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem9.Name" xml:space="preserve">
+    <value>toolStripMenuItem9</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;备份设置toolStripMenuItem.Name" xml:space="preserve">
+    <value>备份设置toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;备份设置toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;工具TToolStripMenuItem.Name" xml:space="preserve">
+    <value>工具TToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;工具TToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;电磁阀测试toolStripMenuItem.Name" xml:space="preserve">
+    <value>电磁阀测试toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;电磁阀测试toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;电机使能ToolStripMenuItem.Name" xml:space="preserve">
+    <value>电机使能ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;电机使能ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem16.Name" xml:space="preserve">
+    <value>toolStripMenuItem16</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;出口清空toolStripMenuItem.Name" xml:space="preserve">
+    <value>出口清空toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;出口清空toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;数据清零toolStripMenuItem.Name" xml:space="preserve">
+    <value>数据清零toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;数据清零toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem12.Name" xml:space="preserve">
+    <value>toolStripMenuItem12</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;结束加工toolStripMenuItem.Name" xml:space="preserve">
+    <value>结束加工toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;结束加工toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem18.Name" xml:space="preserve">
+    <value>toolStripMenuItem18</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;复位果杯toolStripMenuItem.Name" xml:space="preserve">
+    <value>复位果杯toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;复位果杯toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;测试果杯toolStripMenuItem.Name" xml:space="preserve">
+    <value>测试果杯toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;测试果杯toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem20.Name" xml:space="preserve">
+    <value>toolStripMenuItem20</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;固定窗口toolStripMenuItem.Name" xml:space="preserve">
+    <value>固定窗口toolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;固定窗口toolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WIFI功能ToolStripMenuItem.Name" xml:space="preserve">
+    <value>WIFI功能ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;WIFI功能ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;关闭IPMToolStripMenuItem.Name" xml:space="preserve">
+    <value>关闭IPMToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;关闭IPMToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;数据恢复ToolStripMenuItem.Name" xml:space="preserve">
+    <value>数据恢复ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;数据恢复ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;帮助HToolStripMenuItem.Name" xml:space="preserve">
+    <value>帮助HToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;帮助HToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;用户手册ToolStripMenuItem.Name" xml:space="preserve">
+    <value>用户手册ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;用户手册ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;语言切换ToolStripMenuItem.Name" xml:space="preserve">
+    <value>语言切换ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;语言切换ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem23.Name" xml:space="preserve">
+    <value>toolStripMenuItem23</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;关于ToolStripMenuItem.Name" xml:space="preserve">
+    <value>关于ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;关于ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QaulitytoolStripButton.Name" xml:space="preserve">
+    <value>QaulitytoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;QaulitytoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradetoolStripButton.Name" xml:space="preserve">
+    <value>GradetoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;GradetoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FruitInfotoolStripButton.Name" xml:space="preserve">
+    <value>FruitInfotoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;FruitInfotoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadtoolStripButton.Name" xml:space="preserve">
+    <value>LoadtoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;LoadtoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SavetoolStripButton.Name" xml:space="preserve">
+    <value>SavetoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;SavetoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeparationLogtoolStripButton.Name" xml:space="preserve">
+    <value>SeparationLogtoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;SeparationLogtoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProcessInfotoolStripButton.Name" xml:space="preserve">
+    <value>ProcessInfotoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;ProcessInfotoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatisticInfotoolStripButton.Name" xml:space="preserve">
+    <value>StatisticInfotoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;StatisticInfotoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EndProcesstoolStripButton.Name" xml:space="preserve">
+    <value>EndProcesstoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;EndProcesstoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrinttoolStripButton.Name" xml:space="preserve">
+    <value>PrinttoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;PrinttoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QualitytoolStripButton.Name" xml:space="preserve">
+    <value>QualitytoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;QualitytoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TimetoolStripLabel.Name" xml:space="preserve">
+    <value>TimetoolStripLabel</value>
+  </data>
+  <data name="&gt;&gt;TimetoolStripLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabel.Name" xml:space="preserve">
+    <value>ClientInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;ClientInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LvMoonLogotoolStripButton.Name" xml:space="preserve">
+    <value>LvMoonLogotoolStripButton</value>
+  </data>
+  <data name="&gt;&gt;LvMoonLogotoolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;启动ToolStripMenuItem.Name" xml:space="preserve">
+    <value>启动ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;启动ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;暂停ToolStripMenuItem.Name" xml:space="preserve">
+    <value>暂停ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;暂停ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;打开ToolStripMenuItem.Name" xml:space="preserve">
+    <value>打开ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;打开ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;清空ToolStripMenuItem.Name" xml:space="preserve">
+    <value>清空ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;清空ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainCurrenttimer.Name" xml:space="preserve">
+    <value>MainCurrenttimer</value>
+  </data>
+  <data name="&gt;&gt;MainCurrenttimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Staticstimer.Name" xml:space="preserve">
+    <value>Staticstimer</value>
+  </data>
+  <data name="&gt;&gt;Staticstimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExitGradetoolTip.Name" xml:space="preserve">
+    <value>ExitGradetoolTip</value>
+  </data>
+  <data name="&gt;&gt;ExitGradetoolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuPrint.Name" xml:space="preserve">
+    <value>ContextMenuPrint</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;printDialog1.Name" xml:space="preserve">
+    <value>printDialog1</value>
+  </data>
+  <data name="&gt;&gt;printDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PrintDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;printDocument1.Name" xml:space="preserve">
+    <value>printDocument1</value>
+  </data>
+  <data name="&gt;&gt;printDocument1.Type" xml:space="preserve">
+    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;printDocument2.Name" xml:space="preserve">
+    <value>printDocument2</value>
+  </data>
+  <data name="&gt;&gt;printDocument2.Type" xml:space="preserve">
+    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;printDocument3.Name" xml:space="preserve">
+    <value>printDocument3</value>
+  </data>
+  <data name="&gt;&gt;printDocument3.Type" xml:space="preserve">
+    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;printDocument4.Name" xml:space="preserve">
+    <value>printDocument4</value>
+  </data>
+  <data name="&gt;&gt;printDocument4.Type" xml:space="preserve">
+    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

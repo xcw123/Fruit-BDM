@@ -1,0 +1,1650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="VerticalAxistextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 349</value>
+  </data>
+  <data name="VerticalAxistextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="VerticalAxistextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="VerticalAxistextBox1.Text" xml:space="preserve">
+    <value>0.000</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="VerticalAxistextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;VerticalAxistextBox1.Name" xml:space="preserve">
+    <value>VerticalAxistextBox1</value>
+  </data>
+  <data name="&gt;&gt;VerticalAxistextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VerticalAxistextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;VerticalAxistextBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="VerticalAxislabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VerticalAxislabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 355</value>
+  </data>
+  <data name="VerticalAxislabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="VerticalAxislabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="VerticalAxislabel1.Text" xml:space="preserve">
+    <value>垂轴径</value>
+  </data>
+  <data name="&gt;&gt;VerticalAxislabel1.Name" xml:space="preserve">
+    <value>VerticalAxislabel1</value>
+  </data>
+  <data name="&gt;&gt;VerticalAxislabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VerticalAxislabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;VerticalAxislabel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="WatertextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 469</value>
+  </data>
+  <data name="WatertextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="WatertextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="WatertextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="WatertextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;WatertextBox1.Name" xml:space="preserve">
+    <value>WatertextBox1</value>
+  </data>
+  <data name="&gt;&gt;WatertextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WatertextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;WatertextBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TangxintextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 389</value>
+  </data>
+  <data name="TangxintextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="TangxintextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="TangxintextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="TangxintextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;TangxintextBox1.Name" xml:space="preserve">
+    <value>TangxintextBox1</value>
+  </data>
+  <data name="&gt;&gt;TangxintextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TangxintextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;TangxintextBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BrowntextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 349</value>
+  </data>
+  <data name="BrowntextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="BrowntextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="BrowntextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="BrowntextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;BrowntextBox1.Name" xml:space="preserve">
+    <value>BrowntextBox1</value>
+  </data>
+  <data name="&gt;&gt;BrowntextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BrowntextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;BrowntextBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SkintextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 309</value>
+  </data>
+  <data name="SkintextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="SkintextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="SkintextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="SkintextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;SkintextBox1.Name" xml:space="preserve">
+    <value>SkintextBox1</value>
+  </data>
+  <data name="&gt;&gt;SkintextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SkintextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;SkintextBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="HollowtextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 269</value>
+  </data>
+  <data name="HollowtextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="HollowtextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="HollowtextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="HollowtextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;HollowtextBox1.Name" xml:space="preserve">
+    <value>HollowtextBox1</value>
+  </data>
+  <data name="&gt;&gt;HollowtextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HollowtextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;HollowtextBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Waterlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Waterlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 476</value>
+  </data>
+  <data name="Waterlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="Waterlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="Waterlabel1.Text" xml:space="preserve">
+    <value>含水率</value>
+  </data>
+  <data name="&gt;&gt;Waterlabel1.Name" xml:space="preserve">
+    <value>Waterlabel1</value>
+  </data>
+  <data name="&gt;&gt;Waterlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Waterlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Waterlabel1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Tangxinlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Tangxinlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 396</value>
+  </data>
+  <data name="Tangxinlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Tangxinlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="Tangxinlabel1.Text" xml:space="preserve">
+    <value>糖心</value>
+  </data>
+  <data name="&gt;&gt;Tangxinlabel1.Name" xml:space="preserve">
+    <value>Tangxinlabel1</value>
+  </data>
+  <data name="&gt;&gt;Tangxinlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tangxinlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Tangxinlabel1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Brownlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Brownlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 354</value>
+  </data>
+  <data name="Brownlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Brownlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="Brownlabel1.Text" xml:space="preserve">
+    <value>褐变</value>
+  </data>
+  <data name="&gt;&gt;Brownlabel1.Name" xml:space="preserve">
+    <value>Brownlabel1</value>
+  </data>
+  <data name="&gt;&gt;Brownlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Brownlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Brownlabel1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Skinlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Skinlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 316</value>
+  </data>
+  <data name="Skinlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="Skinlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="Skinlabel1.Text" xml:space="preserve">
+    <value>干物质</value>
+  </data>
+  <data name="&gt;&gt;Skinlabel1.Name" xml:space="preserve">
+    <value>Skinlabel1</value>
+  </data>
+  <data name="&gt;&gt;Skinlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Skinlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Skinlabel1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Hollowlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hollowlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 274</value>
+  </data>
+  <data name="Hollowlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Hollowlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Hollowlabel1.Text" xml:space="preserve">
+    <value>硬度</value>
+  </data>
+  <data name="&gt;&gt;Hollowlabel1.Name" xml:space="preserve">
+    <value>Hollowlabel1</value>
+  </data>
+  <data name="&gt;&gt;Hollowlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hollowlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Hollowlabel1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="RotNumtextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 68</value>
+  </data>
+  <data name="RotNumtextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="RotNumtextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="RotNumtextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="RotNumtextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;RotNumtextBox1.Name" xml:space="preserve">
+    <value>RotNumtextBox1</value>
+  </data>
+  <data name="&gt;&gt;RotNumtextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RotNumtextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;RotNumtextBox1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="RotAreatextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 29</value>
+  </data>
+  <data name="RotAreatextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="RotAreatextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="RotAreatextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="RotAreatextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;RotAreatextBox1.Name" xml:space="preserve">
+    <value>RotAreatextBox1</value>
+  </data>
+  <data name="&gt;&gt;RotAreatextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RotAreatextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;RotAreatextBox1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="BruiseAreatextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 469</value>
+  </data>
+  <data name="BruiseAreatextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="BruiseAreatextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="BruiseAreatextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="BruiseAreatextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;BruiseAreatextBox1.Name" xml:space="preserve">
+    <value>BruiseAreatextBox1</value>
+  </data>
+  <data name="&gt;&gt;BruiseAreatextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BruiseAreatextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;BruiseAreatextBox1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BruiseNumtextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 509</value>
+  </data>
+  <data name="BruiseNumtextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="BruiseNumtextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="BruiseNumtextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="BruiseNumtextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;BruiseNumtextBox1.Name" xml:space="preserve">
+    <value>BruiseNumtextBox1</value>
+  </data>
+  <data name="&gt;&gt;BruiseNumtextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BruiseNumtextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;BruiseNumtextBox1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="RotNumlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RotNumlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 73</value>
+  </data>
+  <data name="RotNumlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="RotNumlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="RotNumlabel1.Text" xml:space="preserve">
+    <value>腐烂个数</value>
+  </data>
+  <data name="&gt;&gt;RotNumlabel1.Name" xml:space="preserve">
+    <value>RotNumlabel1</value>
+  </data>
+  <data name="&gt;&gt;RotNumlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RotNumlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;RotNumlabel1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="RotArealabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RotArealabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 36</value>
+  </data>
+  <data name="RotArealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="RotArealabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="RotArealabel1.Text" xml:space="preserve">
+    <value>腐烂面积</value>
+  </data>
+  <data name="&gt;&gt;RotArealabel1.Name" xml:space="preserve">
+    <value>RotArealabel1</value>
+  </data>
+  <data name="&gt;&gt;RotArealabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RotArealabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;RotArealabel1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="BruiseNumlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BruiseNumlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 514</value>
+  </data>
+  <data name="BruiseNumlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="BruiseNumlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="BruiseNumlabel1.Text" xml:space="preserve">
+    <value>擦伤个数</value>
+  </data>
+  <data name="&gt;&gt;BruiseNumlabel1.Name" xml:space="preserve">
+    <value>BruiseNumlabel1</value>
+  </data>
+  <data name="&gt;&gt;BruiseNumlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BruiseNumlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;BruiseNumlabel1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="BruiseArealabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BruiseArealabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BruiseArealabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 476</value>
+  </data>
+  <data name="BruiseArealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="BruiseArealabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BruiseArealabel1.Text" xml:space="preserve">
+    <value>擦伤面积</value>
+  </data>
+  <data name="&gt;&gt;BruiseArealabel1.Name" xml:space="preserve">
+    <value>BruiseArealabel1</value>
+  </data>
+  <data name="&gt;&gt;BruiseArealabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BruiseArealabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;BruiseArealabel1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="AciditytextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 229</value>
+  </data>
+  <data name="AciditytextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="AciditytextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="AciditytextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="AciditytextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;AciditytextBox1.Name" xml:space="preserve">
+    <value>AciditytextBox1</value>
+  </data>
+  <data name="&gt;&gt;AciditytextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AciditytextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;AciditytextBox1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Aciditylabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Aciditylabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Aciditylabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 236</value>
+  </data>
+  <data name="Aciditylabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Aciditylabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Aciditylabel1.Text" xml:space="preserve">
+    <value>酸度</value>
+  </data>
+  <data name="&gt;&gt;Aciditylabel1.Name" xml:space="preserve">
+    <value>Aciditylabel1</value>
+  </data>
+  <data name="&gt;&gt;Aciditylabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Aciditylabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Aciditylabel1.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="GradetextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 509</value>
+  </data>
+  <data name="GradetextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="GradetextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="GradetextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;GradetextBox1.Name" xml:space="preserve">
+    <value>GradetextBox1</value>
+  </data>
+  <data name="&gt;&gt;GradetextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradetextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;GradetextBox1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Gradelabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Gradelabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 514</value>
+  </data>
+  <data name="Gradelabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Gradelabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Gradelabel1.Text" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="&gt;&gt;Gradelabel1.Name" xml:space="preserve">
+    <value>Gradelabel1</value>
+  </data>
+  <data name="&gt;&gt;Gradelabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Gradelabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Gradelabel1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="WeighttextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 109</value>
+  </data>
+  <data name="WeighttextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="WeighttextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="WeighttextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="WeighttextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;WeighttextBox1.Name" xml:space="preserve">
+    <value>WeighttextBox1</value>
+  </data>
+  <data name="&gt;&gt;WeighttextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeighttextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;WeighttextBox1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Weightlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Weightlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 114</value>
+  </data>
+  <data name="Weightlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Weightlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="Weightlabel1.Text" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel1.Name" xml:space="preserve">
+    <value>Weightlabel1</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Weightlabel1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="SugartextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 189</value>
+  </data>
+  <data name="SugartextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="SugartextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="SugartextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="SugartextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;SugartextBox1.Name" xml:space="preserve">
+    <value>SugartextBox1</value>
+  </data>
+  <data name="&gt;&gt;SugartextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SugartextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;SugartextBox1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Sugarlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sugarlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 194</value>
+  </data>
+  <data name="Sugarlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Sugarlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Sugarlabel1.Text" xml:space="preserve">
+    <value>糖度</value>
+  </data>
+  <data name="&gt;&gt;Sugarlabel1.Name" xml:space="preserve">
+    <value>Sugarlabel1</value>
+  </data>
+  <data name="&gt;&gt;Sugarlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sugarlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Sugarlabel1.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="RigiditytextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 429</value>
+  </data>
+  <data name="RigiditytextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="RigiditytextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="RigiditytextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="RigiditytextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;RigiditytextBox1.Name" xml:space="preserve">
+    <value>RigiditytextBox1</value>
+  </data>
+  <data name="&gt;&gt;RigiditytextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RigiditytextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;RigiditytextBox1.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Rigiditylabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Rigiditylabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 434</value>
+  </data>
+  <data name="Rigiditylabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Rigiditylabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Rigiditylabel1.Text" xml:space="preserve">
+    <value>硬度</value>
+  </data>
+  <data name="&gt;&gt;Rigiditylabel1.Name" xml:space="preserve">
+    <value>Rigiditylabel1</value>
+  </data>
+  <data name="&gt;&gt;Rigiditylabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Rigiditylabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Rigiditylabel1.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="DensitytextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 149</value>
+  </data>
+  <data name="DensitytextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="DensitytextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="DensitytextBox1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="DensitytextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;DensitytextBox1.Name" xml:space="preserve">
+    <value>DensitytextBox1</value>
+  </data>
+  <data name="&gt;&gt;DensitytextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DensitytextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;DensitytextBox1.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Densitylabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Densitylabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 156</value>
+  </data>
+  <data name="Densitylabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Densitylabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Densitylabel1.Text" xml:space="preserve">
+    <value>密度</value>
+  </data>
+  <data name="&gt;&gt;Densitylabel1.Name" xml:space="preserve">
+    <value>Densitylabel1</value>
+  </data>
+  <data name="&gt;&gt;Densitylabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Densitylabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Densitylabel1.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="VolumetextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 110</value>
+  </data>
+  <data name="VolumetextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="VolumetextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="VolumetextBox1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="VolumetextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;VolumetextBox1.Name" xml:space="preserve">
+    <value>VolumetextBox1</value>
+  </data>
+  <data name="&gt;&gt;VolumetextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VolumetextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;VolumetextBox1.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Volumelabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Volumelabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 115</value>
+  </data>
+  <data name="Volumelabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Volumelabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Volumelabel1.Text" xml:space="preserve">
+    <value>体积</value>
+  </data>
+  <data name="&gt;&gt;Volumelabel1.Name" xml:space="preserve">
+    <value>Volumelabel1</value>
+  </data>
+  <data name="&gt;&gt;Volumelabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Volumelabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Volumelabel1.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="FlawNumtextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 309</value>
+  </data>
+  <data name="FlawNumtextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="FlawNumtextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="FlawNumtextBox1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FlawNumtextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;FlawNumtextBox1.Name" xml:space="preserve">
+    <value>FlawNumtextBox1</value>
+  </data>
+  <data name="&gt;&gt;FlawNumtextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawNumtextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;FlawNumtextBox1.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="FlawNumlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FlawNumlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 316</value>
+  </data>
+  <data name="FlawNumlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="FlawNumlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="FlawNumlabel1.Text" xml:space="preserve">
+    <value>瑕疵个数</value>
+  </data>
+  <data name="&gt;&gt;FlawNumlabel1.Name" xml:space="preserve">
+    <value>FlawNumlabel1</value>
+  </data>
+  <data name="&gt;&gt;FlawNumlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawNumlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;FlawNumlabel1.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="FlawAreatextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 269</value>
+  </data>
+  <data name="FlawAreatextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="FlawAreatextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="FlawAreatextBox1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FlawAreatextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;FlawAreatextBox1.Name" xml:space="preserve">
+    <value>FlawAreatextBox1</value>
+  </data>
+  <data name="&gt;&gt;FlawAreatextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawAreatextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;FlawAreatextBox1.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="FlawArealabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FlawArealabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 274</value>
+  </data>
+  <data name="FlawArealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="FlawArealabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="FlawArealabel1.Text" xml:space="preserve">
+    <value>瑕疵面积</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel1.Name" xml:space="preserve">
+    <value>FlawArealabel1</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;FlawArealabel1.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="AreatextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 70</value>
+  </data>
+  <data name="AreatextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="AreatextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="AreatextBox1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AreatextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;AreatextBox1.Name" xml:space="preserve">
+    <value>AreatextBox1</value>
+  </data>
+  <data name="&gt;&gt;AreatextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AreatextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;AreatextBox1.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="Arealabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Arealabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 77</value>
+  </data>
+  <data name="Arealabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="Arealabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Arealabel1.Text" xml:space="preserve">
+    <value>投影面积</value>
+  </data>
+  <data name="&gt;&gt;Arealabel1.Name" xml:space="preserve">
+    <value>Arealabel1</value>
+  </data>
+  <data name="&gt;&gt;Arealabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Arealabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Arealabel1.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="ColorRate2textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 230</value>
+  </data>
+  <data name="ColorRate2textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="ColorRate2textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ColorRate2textBox1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ColorRate2textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;ColorRate2textBox1.Name" xml:space="preserve">
+    <value>ColorRate2textBox1</value>
+  </data>
+  <data name="&gt;&gt;ColorRate2textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorRate2textBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;ColorRate2textBox1.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="ColorRate2label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColorRate2label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 237</value>
+  </data>
+  <data name="ColorRate2label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="ColorRate2label1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ColorRate2label1.Text" xml:space="preserve">
+    <value>颜色3比例</value>
+  </data>
+  <data name="&gt;&gt;ColorRate2label1.Name" xml:space="preserve">
+    <value>ColorRate2label1</value>
+  </data>
+  <data name="&gt;&gt;ColorRate2label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorRate2label1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;ColorRate2label1.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="ColorRate1textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 190</value>
+  </data>
+  <data name="ColorRate1textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="ColorRate1textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ColorRate1textBox1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ColorRate1textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;ColorRate1textBox1.Name" xml:space="preserve">
+    <value>ColorRate1textBox1</value>
+  </data>
+  <data name="&gt;&gt;ColorRate1textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorRate1textBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;ColorRate1textBox1.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="ColorRate1label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColorRate1label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 195</value>
+  </data>
+  <data name="ColorRate1label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="ColorRate1label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ColorRate1label1.Text" xml:space="preserve">
+    <value>颜色2比例</value>
+  </data>
+  <data name="&gt;&gt;ColorRate1label1.Name" xml:space="preserve">
+    <value>ColorRate1label1</value>
+  </data>
+  <data name="&gt;&gt;ColorRate1label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorRate1label1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;ColorRate1label1.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="ColorRate0textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 150</value>
+  </data>
+  <data name="ColorRate0textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="ColorRate0textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ColorRate0textBox1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ColorRate0textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;ColorRate0textBox1.Name" xml:space="preserve">
+    <value>ColorRate0textBox1</value>
+  </data>
+  <data name="&gt;&gt;ColorRate0textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorRate0textBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;ColorRate0textBox1.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="ColorRate0label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColorRate0label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 157</value>
+  </data>
+  <data name="ColorRate0label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="ColorRate0label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ColorRate0label1.Text" xml:space="preserve">
+    <value>颜色1比例</value>
+  </data>
+  <data name="&gt;&gt;ColorRate0label1.Name" xml:space="preserve">
+    <value>ColorRate0label1</value>
+  </data>
+  <data name="&gt;&gt;ColorRate0label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColorRate0label1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;ColorRate0label1.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="MinDRatiotextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 428</value>
+  </data>
+  <data name="MinDRatiotextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="MinDRatiotextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="MinDRatiotextBox.Text" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="MinDRatiotextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;MinDRatiotextBox.Name" xml:space="preserve">
+    <value>MinDRatiotextBox</value>
+  </data>
+  <data name="&gt;&gt;MinDRatiotextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MinDRatiotextBox.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;MinDRatiotextBox.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="MinDRatiolabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MinDRatiolabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MinDRatiolabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 433</value>
+  </data>
+  <data name="MinDRatiolabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
+  </data>
+  <data name="MinDRatiolabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MinDRatiolabel.Text" xml:space="preserve">
+    <value>扁椭型横径比</value>
+  </data>
+  <data name="&gt;&gt;MinDRatiolabel.Name" xml:space="preserve">
+    <value>MinDRatiolabel</value>
+  </data>
+  <data name="&gt;&gt;MinDRatiolabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MinDRatiolabel.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;MinDRatiolabel.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="DiameterRatiotextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 386</value>
+  </data>
+  <data name="DiameterRatiotextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="DiameterRatiotextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DiameterRatiotextBox1.Text" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="DiameterRatiotextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;DiameterRatiotextBox1.Name" xml:space="preserve">
+    <value>DiameterRatiotextBox1</value>
+  </data>
+  <data name="&gt;&gt;DiameterRatiotextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiameterRatiotextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;DiameterRatiotextBox1.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="DiameterRatiolabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DiameterRatiolabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 391</value>
+  </data>
+  <data name="DiameterRatiolabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="DiameterRatiolabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DiameterRatiolabel1.Text" xml:space="preserve">
+    <value>横径比</value>
+  </data>
+  <data name="&gt;&gt;DiameterRatiolabel1.Name" xml:space="preserve">
+    <value>DiameterRatiolabel1</value>
+  </data>
+  <data name="&gt;&gt;DiameterRatiolabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiameterRatiolabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;DiameterRatiolabel1.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="DiametertextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 30</value>
+  </data>
+  <data name="DiametertextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="DiametertextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="DiametertextBox1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DiametertextBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;DiametertextBox1.Name" xml:space="preserve">
+    <value>DiametertextBox1</value>
+  </data>
+  <data name="&gt;&gt;DiametertextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiametertextBox1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;DiametertextBox1.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="Diameterlabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Diameterlabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 35</value>
+  </data>
+  <data name="Diameterlabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="Diameterlabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Diameterlabel1.Text" xml:space="preserve">
+    <value>直径</value>
+  </data>
+  <data name="&gt;&gt;Diameterlabel1.Name" xml:space="preserve">
+    <value>Diameterlabel1</value>
+  </data>
+  <data name="&gt;&gt;Diameterlabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Diameterlabel1.Parent" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Diameterlabel1.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="Channel1groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 54</value>
+  </data>
+  <data name="Channel1groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 558</value>
+  </data>
+  <data name="Channel1groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Channel1groupBox.Name" xml:space="preserve">
+    <value>Channel1groupBox</value>
+  </data>
+  <data name="&gt;&gt;Channel1groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Channel1groupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Channel1groupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="IPMlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IPMlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 30</value>
+  </data>
+  <data name="IPMlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="IPMlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="IPMlabel.Text" xml:space="preserve">
+    <value>通道</value>
+  </data>
+  <data name="&gt;&gt;IPMlabel.Name" xml:space="preserve">
+    <value>IPMlabel</value>
+  </data>
+  <data name="&gt;&gt;IPMlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IPMlabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IPMlabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ChannelcomboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 25</value>
+  </data>
+  <data name="ChannelcomboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 24</value>
+  </data>
+  <data name="ChannelcomboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ChannelcomboBox.Name" xml:space="preserve">
+    <value>ChannelcomboBox</value>
+  </data>
+  <data name="&gt;&gt;ChannelcomboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChannelcomboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChannelcomboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Quitbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 617</value>
+  </data>
+  <data name="Quitbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 31</value>
+  </data>
+  <data name="Quitbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Quitbutton.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="&gt;&gt;Quitbutton.Name" xml:space="preserve">
+    <value>Quitbutton</value>
+  </data>
+  <data name="&gt;&gt;Quitbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Quitbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Quitbutton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>455, 662</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 8.25pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>水果信息</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FruitParamForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

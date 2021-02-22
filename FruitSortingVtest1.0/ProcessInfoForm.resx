@@ -1,0 +1,1878 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblPrintGName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblWeightTotals.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblMainReportName.Text" xml:space="preserve">
+    <value>等级名称</value>
+  </data>
+  <data name="LblPrintTotalCartons.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CboCustomerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 24</value>
+  </data>
+  <data name="LblPrintDateTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblMainReportWeights.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 603</value>
+  </data>
+  <data name="&gt;&gt;DtpEndTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblWeightTotals.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="LblEndTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblMainReportPieces.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="LblMainReportPieces.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblPrintFarmName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSelect.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="&gt;&gt;BtnDetailStatistics.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="CboFarmName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 24</value>
+  </data>
+  <data name="BtnDetailStatistics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1085, 764</value>
+  </data>
+  <data name="LblMainReportName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="LblFarmName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 28</value>
+  </data>
+  <data name="&gt;&gt;DtpEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblMainReportSize.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="LblProcessOff.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblPrintGName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblNumberTotals.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="LblPrintCustomerName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblMainReportSize.Text" xml:space="preserve">
+    <value>尺寸</value>
+  </data>
+  <data name="&gt;&gt;LblFruitName.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;LblBatchCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblStartTime.Name" xml:space="preserve">
+    <value>LblStartTime</value>
+  </data>
+  <data name="DtpStartTime.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LblBatchCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportCartonsPer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblCompletedState.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="LblMainReportSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblCompletedState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblWeightTotals.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;BtnSelect.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportCartons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblPrintDateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 16</value>
+  </data>
+  <data name="&gt;&gt;LblNumberTotals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblBatchNumber.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblNumberTotals.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblWeightTotals.Text" xml:space="preserve">
+    <value>总重量</value>
+  </data>
+  <data name="LblMainReportWeights.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblPrintGName.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LblMainReportName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1032, 567</value>
+  </data>
+  <data name="LblMainReportCartonsPer.Text" xml:space="preserve">
+    <value>箱数百分比</value>
+  </data>
+  <data name="&gt;&gt;LblBatchWeight.Name" xml:space="preserve">
+    <value>LblBatchWeight</value>
+  </data>
+  <data name="LblMainReportCartonsPer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblProcessOff.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblPrintFarmName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="DtpEndTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LblFruitName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CboFruitName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LblMainReportCartons.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPrintDateTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnReSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblFruitName.Name" xml:space="preserve">
+    <value>LblFruitName</value>
+  </data>
+  <data name="LblStartTime.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;LblBatchNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportWeightPer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LblPrintAveFruitWeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GradeExcelbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 764</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 723</value>
+  </data>
+  <data name="LblExcelEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="LblExcelStartTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPrintGName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>796, 564</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportPiecesPer.Name" xml:space="preserve">
+    <value>LblMainReportPiecesPer</value>
+  </data>
+  <data name="LblProcessOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="LblCustomerID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPrintTotalWeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BtnFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ChkStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="DtpStartTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;BtnSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportName.Name" xml:space="preserve">
+    <value>LblMainReportName</value>
+  </data>
+  <data name="LblCompletedState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="BtnReSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>937, 716</value>
+  </data>
+  <data name="LblCompletedState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 28</value>
+  </data>
+  <data name="LblPrintGName.Text" xml:space="preserve">
+    <value>克</value>
+  </data>
+  <data name="LblProcessOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CboCustomerName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblExcelEndTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblPrintTName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 564</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>客户信息管理</value>
+  </data>
+  <data name="&gt;&gt;CboCustomerName.Name" xml:space="preserve">
+    <value>CboCustomerName</value>
+  </data>
+  <data name="LblPrintTName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ExportExcelbutton.Text" xml:space="preserve">
+    <value>合并导出</value>
+  </data>
+  <data name="&gt;&gt;LblPrintFruitVarieties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblCustomerName.Text" xml:space="preserve">
+    <value>客户名称</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalCartons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblBatchNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;ChkEndTime.Name" xml:space="preserve">
+    <value>ChkEndTime</value>
+  </data>
+  <data name="&gt;&gt;LblPrintProgramName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CboCustomerName.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LblProcessOn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblCompletedState.Text" xml:space="preserve">
+    <value>加工状态</value>
+  </data>
+  <data name="&gt;&gt;ExportExcelbutton.Name" xml:space="preserve">
+    <value>ExportExcelbutton</value>
+  </data>
+  <data name="&gt;&gt;DtpEndTime.Name" xml:space="preserve">
+    <value>DtpEndTime</value>
+  </data>
+  <data name="LblMainReportSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblBatchWeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblPrintFruitVarieties.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblWeightTotals.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblPrintCustomerName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblPrintTotalCartons.Text" xml:space="preserve">
+    <value>箱数汇总：</value>
+  </data>
+  <data name="BtnSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTName.Name" xml:space="preserve">
+    <value>LblPrintTName</value>
+  </data>
+  <data name="LblExcelStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="&gt;&gt;LblCompletedState.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="LblPrintAveFruitWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="LblPrintProgramName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="LblProcessOn.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCustomerName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportWeights.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LblMainReportCartons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>346, 603</value>
+  </data>
+  <data name="LblMainReportWeightPer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblCustomerCount.Text" xml:space="preserve">
+    <value>客户数</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalPieces.Name" xml:space="preserve">
+    <value>LblPrintTotalPieces</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="BtnReSet.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblMainReportWeightPer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPrintFarmName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblExcelEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="LblMainReportCartonsPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="LblBatchWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 28</value>
+  </data>
+  <data name="DtpEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 768</value>
+  </data>
+  <data name="&gt;&gt;CboCustomerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblExcelEndTime.Text" xml:space="preserve">
+    <value>结束时间：</value>
+  </data>
+  <data name="LblPrintFruitVarieties.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;GradeExcelbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblPrintFruitVarieties.Text" xml:space="preserve">
+    <value>水果品种：</value>
+  </data>
+  <data name="&gt;&gt;LblFarmName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalPieces.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblPrintAveFruitWeight.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;LblBatchCount.Name" xml:space="preserve">
+    <value>LblBatchCount</value>
+  </data>
+  <data name="LblMainReportName.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="LblExcelEndTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>客户名称：</value>
+  </data>
+  <data name="CboFarmName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblPrintTName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblPrintGName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblProcessOff.Name" xml:space="preserve">
+    <value>LblProcessOff</value>
+  </data>
+  <data name="&gt;&gt;LblBatchNumber.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;LblPrintFruitVarieties.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 723</value>
+  </data>
+  <data name="&gt;&gt;ChkStartTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblPrintTotalPieces.Text" xml:space="preserve">
+    <value>个数汇总：</value>
+  </data>
+  <data name="LblCustomerID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblPrintDateTime.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportCartonsPer.Name" xml:space="preserve">
+    <value>LblMainReportCartonsPer</value>
+  </data>
+  <data name="ChkEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="LblPrintAveFruitWeight.Text" xml:space="preserve">
+    <value>平均果重：</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblBatchWeight.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportCartonsPer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblWeightTotals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>840, 414</value>
+  </data>
+  <data name="LblProcessOff.Text" xml:space="preserve">
+    <value>加工已完成</value>
+  </data>
+  <data name="&gt;&gt;LblPrintBatchReport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPrintBatchReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CboFruitName.Items2" xml:space="preserve">
+    <value>猕猴桃</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ExportExcelbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="CboFarmName.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LblNumberTotals.Name" xml:space="preserve">
+    <value>LblNumberTotals</value>
+  </data>
+  <data name="LblMainReportPiecesPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="&gt;&gt;LblStartTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalWeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblStartTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblPrintTotalWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 564</value>
+  </data>
+  <data name="LblStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="LblCustomerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 28</value>
+  </data>
+  <data name="CboFruitName.Items1" xml:space="preserve">
+    <value>石榴</value>
+  </data>
+  <data name="&gt;&gt;CboFruitName.Name" xml:space="preserve">
+    <value>CboFruitName</value>
+  </data>
+  <data name="CboFruitName.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LblMainReportCartons.Text" xml:space="preserve">
+    <value>箱数</value>
+  </data>
+  <data name="&gt;&gt;LblPrintProgramName.Name" xml:space="preserve">
+    <value>LblPrintProgramName</value>
+  </data>
+  <data name="&gt;&gt;DtpStartTime.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportPiecesPer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblPrintTotalWeight.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>开始日期：</value>
+  </data>
+  <data name="LblBatchNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>744, 28</value>
+  </data>
+  <data name="LblNumberTotals.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPrintDateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 564</value>
+  </data>
+  <data name="LblMainReportCartonsPer.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="LblMainReportCartonsPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 603</value>
+  </data>
+  <data name="&gt;&gt;LblWeightTotals.Name" xml:space="preserve">
+    <value>LblWeightTotals</value>
+  </data>
+  <data name="LblStartTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblMainReportWeights.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblWeightTotals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="&gt;&gt;BtnDetailStatistics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GradeExcelbutton.Text" xml:space="preserve">
+    <value>等级合并导出</value>
+  </data>
+  <data name="LblMainReportSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CboCustomerName.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="DtpEndTime.CustomFormat" xml:space="preserve">
+    <value>yyyy-MM-dd</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblNumberTotals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblPrintFruitVarieties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 564</value>
+  </data>
+  <data name="BtnReSet.Text" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="LblMainReportWeightPer.Text" xml:space="preserve">
+    <value>重量百分比</value>
+  </data>
+  <data name="LblMainReportPieces.Text" xml:space="preserve">
+    <value>等级个数</value>
+  </data>
+  <data name="&gt;&gt;LvwFruitData.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="LblMainReportWeightPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="&gt;&gt;BtnReSet.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="LblPrintProgramName.Text" xml:space="preserve">
+    <value>分选程序：</value>
+  </data>
+  <data name="&gt;&gt;LblCompletedState.Name" xml:space="preserve">
+    <value>LblCompletedState</value>
+  </data>
+  <data name="LblEndTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BtnFilter.Text" xml:space="preserve">
+    <value>导出筛选</value>
+  </data>
+  <data name="&gt;&gt;ExportExcelbutton.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;LvwFruitData.Name" xml:space="preserve">
+    <value>LvwFruitData</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CboFarmName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 719</value>
+  </data>
+  <data name="LblPrintProgramName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblPrintAveFruitWeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DtpStartTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblMainReportPiecesPer.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 28</value>
+  </data>
+  <data name="DtpEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="LblMainReportWeights.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="&gt;&gt;BtnReSet.Name" xml:space="preserve">
+    <value>BtnReSet</value>
+  </data>
+  <data name="&gt;&gt;LblPrintCustomerName.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="BtnFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>784, 764</value>
+  </data>
+  <data name="&gt;&gt;LblPrintFarmName.Name" xml:space="preserve">
+    <value>LblPrintFarmName</value>
+  </data>
+  <data name="&gt;&gt;LblPrintFruitVarieties.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="LblCustomerID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="&gt;&gt;LblBatchNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblProcessOn.Text" xml:space="preserve">
+    <value>加工进行中</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerID.Name" xml:space="preserve">
+    <value>LblCustomerID</value>
+  </data>
+  <data name="BtnStatistics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="LblPrintFruitVarieties.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportSize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblPrintAveFruitWeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblPrintFarmName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnDetailStatistics.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="LblMainReportWeights.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GradeExcelbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChkStartTime.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;LblPrintDateTime.Name" xml:space="preserve">
+    <value>LblPrintDateTime</value>
+  </data>
+  <data name="LblPrintBatchReport.Text" xml:space="preserve">
+    <value>加工报表</value>
+  </data>
+  <data name="LblFruitName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="LblProcessOn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CboFarmName.Items" xml:space="preserve">
+    <value>绿萌</value>
+  </data>
+  <data name="LblNumberTotals.Text" xml:space="preserve">
+    <value>总个数</value>
+  </data>
+  <data name="LblCustomerName.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="LblMainReportCartons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="&gt;&gt;LblExcelStartTime.Name" xml:space="preserve">
+    <value>LblExcelStartTime</value>
+  </data>
+  <data name="LblFruitName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblFarmName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalCartons.Name" xml:space="preserve">
+    <value>LblPrintTotalCartons</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportPiecesPer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;BtnSelect.Name" xml:space="preserve">
+    <value>BtnSelect</value>
+  </data>
+  <data name="LblPrintAveFruitWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>726, 564</value>
+  </data>
+  <data name="LblCustomerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalPieces.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="LblPrintFruitVarieties.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblProcessOff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="LblMainReportPiecesPer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblCompletedState.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ChkEndTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalCartons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DtpEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="DtpStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 768</value>
+  </data>
+  <data name="&gt;&gt;ExportExcelbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnStatistics.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CboFarmName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportSize.Name" xml:space="preserve">
+    <value>LblMainReportSize</value>
+  </data>
+  <data name="LblPrintTotalCartons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>657, 564</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>农场名称：</value>
+  </data>
+  <data name="&gt;&gt;LblProcessOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSelect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LblMainReportPiecesPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 603</value>
+  </data>
+  <data name="&gt;&gt;CboFruitName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblBatchWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;LblBatchCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblPrintTName.Text" xml:space="preserve">
+    <value>吨</value>
+  </data>
+  <data name="LblPrintCustomerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 564</value>
+  </data>
+  <data name="&gt;&gt;DtpEndTime.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerName.Name" xml:space="preserve">
+    <value>LblCustomerName</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.Name" xml:space="preserve">
+    <value>LblEndTime</value>
+  </data>
+  <data name="&gt;&gt;LvwFruitData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportPieces.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChkStartTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBatchWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnDetailStatistics.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LblPrintBatchReport.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="LblPrintTotalCartons.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChkEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 774</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportWeights.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPrintBatchReport.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="LblExcelEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>962, 567</value>
+  </data>
+  <data name="LblCustomerID.Text" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="LblFarmName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportCartons.Name" xml:space="preserve">
+    <value>LblMainReportCartons</value>
+  </data>
+  <data name="&gt;&gt;LblFarmName.Name" xml:space="preserve">
+    <value>LblFarmName</value>
+  </data>
+  <data name="LblExcelStartTime.Text" xml:space="preserve">
+    <value>开始时间：</value>
+  </data>
+  <data name="LblPrintProgramName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;LblPrintCustomerName.Name" xml:space="preserve">
+    <value>LblPrintCustomerName</value>
+  </data>
+  <data name="LblBatchNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="&gt;&gt;LblPrintDateTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ChkStartTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblBatchCount.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="LblFarmName.Text" xml:space="preserve">
+    <value>农场名称</value>
+  </data>
+  <data name="LblMainReportWeightPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 603</value>
+  </data>
+  <data name="LblNumberTotals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>949, 414</value>
+  </data>
+  <data name="LblCompletedState.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="LblExcelStartTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblMainReportPieces.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 603</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFilter.Name" xml:space="preserve">
+    <value>BtnFilter</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportCartons.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="LblCustomerName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblMainReportPiecesPer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblMainReportPieces.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblProcessOff.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnStatistics.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="LblExcelStartTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblStartTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 28</value>
+  </data>
+  <data name="&gt;&gt;LblProcessOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblMainReportName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblCustomerCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DtpStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="LblPrintTotalCartons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="&gt;&gt;LblCompletedState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 723</value>
+  </data>
+  <data name="BtnReSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerCount.Name" xml:space="preserve">
+    <value>LblCustomerCount</value>
+  </data>
+  <data name="&gt;&gt;GradeExcelbutton.Name" xml:space="preserve">
+    <value>GradeExcelbutton</value>
+  </data>
+  <data name="LblMainReportCartons.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;LblExcelStartTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportWeightPer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkStartTime.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;LblExcelEndTime.Name" xml:space="preserve">
+    <value>LblExcelEndTime</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblPrintBatchReport.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnStatistics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1085, 716</value>
+  </data>
+  <data name="LblCustomerCount.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;LblPrintGName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CboFruitName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 719</value>
+  </data>
+  <data name="LblPrintProgramName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>822, 567</value>
+  </data>
+  <data name="LblProcessOn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPrintTotalCartons.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="LblBatchCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>结束日期：</value>
+  </data>
+  <data name="LblPrintTotalWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ProcessInfoForm</value>
+  </data>
+  <data name="LblNumberTotals.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="LblBatchWeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 8.25pt</value>
+  </data>
+  <data name="LvwFruitData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1160, 691</value>
+  </data>
+  <data name="&gt;&gt;LblExcelEndTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblPrintTName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 16</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportWeightPer.Name" xml:space="preserve">
+    <value>LblMainReportWeightPer</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerID.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="LblPrintFarmName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ChkEndTime.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="LvwFruitData.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;LblPrintDateTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblBatchCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ExportExcelbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportSize.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalWeight.Name" xml:space="preserve">
+    <value>LblPrintTotalWeight</value>
+  </data>
+  <data name="LblPrintTotalWeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalPieces.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblPrintCustomerName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportCartons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblPrintFarmName.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;LvwFruitData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblPrintDateTime.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportPieces.Name" xml:space="preserve">
+    <value>LblMainReportPieces</value>
+  </data>
+  <data name="&gt;&gt;LblExcelStartTime.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="LblBatchWeight.Text" xml:space="preserve">
+    <value>批重量</value>
+  </data>
+  <data name="&gt;&gt;LblStartTime.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="LblPrintCustomerName.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="LblMainReportPieces.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblProcessOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 252</value>
+  </data>
+  <data name="BtnDetailStatistics.Text" xml:space="preserve">
+    <value>批量导出</value>
+  </data>
+  <data name="&gt;&gt;BtnSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblBatchCount.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblPrintFarmName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblBatchCount.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="LblBatchCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>949, 359</value>
+  </data>
+  <data name="&gt;&gt;LblPrintCustomerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblBatchWeight.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="LblPrintTName.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="LblPrintBatchReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 564</value>
+  </data>
+  <data name="&gt;&gt;LblFarmName.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;CboFruitName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="LblCustomerCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="&gt;&gt;LblBatchNumber.Name" xml:space="preserve">
+    <value>LblBatchNumber</value>
+  </data>
+  <data name="CboFruitName.Items" xml:space="preserve">
+    <value>苹果</value>
+  </data>
+  <data name="&gt;&gt;ChkEndTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblCustomerCount.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblMainReportWeights.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="LblPrintFarmName.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="LblFruitName.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="BtnReSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LblMainReportCartons.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LblMainReportWeightPer.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="LblPrintGName.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="LblPrintProgramName.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="BtnStatistics.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LblPrintTotalWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="LblExcelStartTime.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="LblFarmName.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="CboFruitName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 24</value>
+  </data>
+  <data name="LblMainReportCartonsPer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblPrintDateTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblWeightTotals.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LvwFruitData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 17</value>
+  </data>
+  <data name="LblPrintBatchReport.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportWeightPer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnDetailStatistics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>水果品种：</value>
+  </data>
+  <data name="&gt;&gt;LblProcessOn.Name" xml:space="preserve">
+    <value>LblProcessOn</value>
+  </data>
+  <data name="LblPrintAveFruitWeight.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblNumberTotals.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblMainReportName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CboFruitName.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="BtnDetailStatistics.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CboFarmName.Name" xml:space="preserve">
+    <value>CboFarmName</value>
+  </data>
+  <data name="LblBatchWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
+  </data>
+  <data name="LblPrintProgramName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;BtnDetailStatistics.Name" xml:space="preserve">
+    <value>BtnDetailStatistics</value>
+  </data>
+  <data name="LblPrintCustomerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="ChkStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 774</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LblExcelEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerName.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="LblPrintBatchReport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="LblPrintTotalCartons.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ChkEndTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GradeExcelbutton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ChkEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblProcessOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 251</value>
+  </data>
+  <data name="LblMainReportSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="&gt;&gt;LblProcessOn.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="LblFruitName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 28</value>
+  </data>
+  <data name="&gt;&gt;LblPrintFruitVarieties.Name" xml:space="preserve">
+    <value>LblPrintFruitVarieties</value>
+  </data>
+  <data name="LblPrintTotalPieces.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportWeights.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblCustomerID.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;LblPrintBatchReport.Name" xml:space="preserve">
+    <value>LblPrintBatchReport</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblExcelEndTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblStartTime.Text" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="LvwFruitData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;LblFruitName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnStatistics.Name" xml:space="preserve">
+    <value>BtnStatistics</value>
+  </data>
+  <data name="&gt;&gt;LblPrintAveFruitWeight.Name" xml:space="preserve">
+    <value>LblPrintAveFruitWeight</value>
+  </data>
+  <data name="LblPrintGName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 16</value>
+  </data>
+  <data name="GradeExcelbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;BtnReSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CboCustomerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 719</value>
+  </data>
+  <data name="LblFarmName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="LblPrintBatchReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="&gt;&gt;LblPrintProgramName.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LblMainReportPiecesPer.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblPrintGName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;BtnStatistics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblMainReportWeightPer.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblExcelEndTime.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1184, 810</value>
+  </data>
+  <data name="LblPrintCustomerName.Text" xml:space="preserve">
+    <value>客户名称：</value>
+  </data>
+  <data name="&gt;&gt;LblProcessOff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblMainReportName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CboFarmName.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;ChkStartTime.Name" xml:space="preserve">
+    <value>ChkStartTime</value>
+  </data>
+  <data name="CboCustomerName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;LblPrintCustomerName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalWeight.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTotalCartons.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="LblPrintTName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="GradeExcelbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 31</value>
+  </data>
+  <data name="CboCustomerName.Items" xml:space="preserve">
+    <value>绿萌</value>
+  </data>
+  <data name="LblPrintTotalPieces.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportCartonsPer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblPrintAveFruitWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ExportExcelbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>937, 764</value>
+  </data>
+  <data name="ChkStartTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ChkEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="LblEndTime.Text" xml:space="preserve">
+    <value>完成时间</value>
+  </data>
+  <data name="BtnStatistics.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ExportExcelbutton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblPrintTName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblExcelStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>892, 567</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportWeights.Name" xml:space="preserve">
+    <value>LblMainReportWeights</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 772</value>
+  </data>
+  <data name="&gt;&gt;ExportExcelbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblMainReportCartonsPer.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GradeExcelbutton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 772</value>
+  </data>
+  <data name="LblBatchNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPrintTotalPieces.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblPrintTotalWeight.Text" xml:space="preserve">
+    <value>重量汇总：</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="&gt;&gt;LblWeightTotals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtpStartTime.Name" xml:space="preserve">
+    <value>DtpStartTime</value>
+  </data>
+  <data name="LblPrintDateTime.Text" xml:space="preserve">
+    <value>yyyy年MM月dd日 HH:mm:ss</value>
+  </data>
+  <data name="LblMainReportSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1090, 567</value>
+  </data>
+  <data name="LblMainReportPieces.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="LblBatchCount.Text" xml:space="preserve">
+    <value>批次数</value>
+  </data>
+  <data name="&gt;&gt;CboFarmName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblPrintFruitVarieties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="&gt;&gt;LblPrintProgramName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="LblPrintTotalPieces.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="LblMainReportWeights.Text" xml:space="preserve">
+    <value>等级重量</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblNumberTotals.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblMainReportPiecesPer.Text" xml:space="preserve">
+    <value>个数百分比</value>
+  </data>
+  <data name="LblMainReportCartons.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportPiecesPer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LblPrintTotalPieces.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DtpStartTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>784, 716</value>
+  </data>
+  <data name="LblWeightTotals.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblFruitName.Text" xml:space="preserve">
+    <value>水果名称</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DtpStartTime.CustomFormat" xml:space="preserve">
+    <value>yyyy-MM-dd</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportPieces.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFilter.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="LblCustomerID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="BtnStatistics.Text" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="&gt;&gt;LblPrintGName.Name" xml:space="preserve">
+    <value>LblPrintGName</value>
+  </data>
+  <data name="&gt;&gt;LblMainReportPieces.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LblFarmName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblPrintTotalPieces.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 564</value>
+  </data>
+  <data name="LblPrintFarmName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 564</value>
+  </data>
+  <data name="LblCustomerCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblFruitName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblExcelStartTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblCustomerCount.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="LblPrintFarmName.Text" xml:space="preserve">
+    <value>农场名称：</value>
+  </data>
+  <data name="LblBatchNumber.Text" xml:space="preserve">
+    <value>批个数</value>
+  </data>
+  <data name="LblPrintAveFruitWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="LblCustomerCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>840, 359</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
